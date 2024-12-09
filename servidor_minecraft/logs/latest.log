@@ -54,3 +54,13 @@ java.lang.IllegalStateException: null
 [17:41:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
 [17:42:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
 [17:43:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
+[17:44:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
+[17:45:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
+[17:46:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
+[17:47:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
+[17:48:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
+[17:49:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
+[17:50:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
+[17:51:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
+[17:52:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
+[17:53:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
