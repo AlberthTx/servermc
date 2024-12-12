@@ -1,146 +1,104 @@
-[17:34:31] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.5+11-Ubuntu-1ubuntu120.04; Ubuntu null) on Linux 6.5.0-1025-azure (amd64)
-[17:34:31] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-57-master@b483da4 (2024-09-01T18:09:05Z) for Minecraft 1.21.1
-[17:34:32] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[17:34:32] [ServerMain/INFO]: [PluginInitializerManager] Initialized 0 plugins
-[17:34:39] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[17:34:41] [ServerMain/INFO]: Loaded 1290 recipes
-[17:34:41] [ServerMain/INFO]: Loaded 1399 advancements
-[17:34:42] [Server thread/INFO]: Starting minecraft server version 1.21.1
-[17:34:42] [Server thread/INFO]: Loading properties
-[17:34:42] [Server thread/INFO]: This server is running Paper version 1.21.1-57-master@b483da4 (2024-09-01T18:09:05Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
-[17:34:43] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[17:34:43] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[17:34:43] [Server thread/INFO]: Using 4 threads for Netty based IO
-[17:34:44] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
-[17:34:44] [Server thread/INFO]: Default game type: SURVIVAL
-[17:34:44] [Server thread/INFO]: Generating keypair
-[17:34:45] [Server thread/INFO]: Starting Minecraft server on *:25565
-[17:34:45] [Server thread/INFO]: Using epoll channel type
-[17:34:45] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[17:34:45] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[17:34:45] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[17:34:45] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[17:34:45] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[17:34:45] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[17:34:45] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[17:34:45] [Server thread/INFO]: Preparing level "world"
-[17:34:45] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[17:34:49] [Thread-0/INFO]: Stopping server
-[17:34:49] [Thread-0/INFO]: Saving players
-[17:34:49] [Thread-0/WARN]: Asynchronous Save Players! Blocking thread until it returns 
-java.lang.IllegalStateException: null
-	at io.papermc.paper.util.MCUtil.ensureMain(MCUtil.java:112) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at net.minecraft.server.players.PlayerList.saveAll(PlayerList.java:1195) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at net.minecraft.server.players.PlayerList.saveAll(PlayerList.java:1191) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at net.minecraft.server.MinecraftServer.stopServer(MinecraftServer.java:1055) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at net.minecraft.server.dedicated.DedicatedServer.stopServer(DedicatedServer.java:847) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at net.minecraft.server.MinecraftServer.close(MinecraftServer.java:1009) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at org.bukkit.craftbukkit.util.ServerShutdownThread.run(ServerShutdownThread.java:27) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-[17:34:50] [Server thread/INFO]: Time elapsed: 4997 ms
-[17:34:50] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[17:34:51] [Server thread/INFO]: Time elapsed: 426 ms
-[17:34:51] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[17:34:51] [Server thread/INFO]: Time elapsed: 229 ms
-[17:34:51] [Server thread/INFO]: [spark] Starting background profiler...
-[17:34:52] [Server thread/INFO]: Done preparing level "world" (7.035s)
-[17:34:52] [Server thread/INFO]: Running delayed init tasks
-[17:34:52] [Server thread/INFO]: Done (21.703s)! For help, type "help"
-[17:35:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[17:36:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[17:37:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[17:38:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[17:39:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[17:40:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[17:41:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[17:42:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[17:43:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[17:44:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[17:45:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[17:46:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[17:47:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[17:48:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[17:49:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[17:50:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[17:51:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[17:52:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[17:53:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[17:54:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[17:55:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[17:56:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[17:57:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[17:58:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[17:59:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[18:00:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[18:01:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[18:02:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[18:03:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[18:04:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[18:05:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[18:06:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[18:07:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[18:08:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[18:09:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[18:10:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[18:11:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[18:12:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[18:13:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[18:14:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[18:15:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[18:16:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[18:17:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[18:18:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[18:19:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[18:20:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[18:21:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[18:22:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[18:23:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[18:24:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[18:25:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[18:26:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[18:27:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[18:28:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[18:29:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[18:30:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[18:31:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[18:32:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[18:33:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[18:34:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[18:35:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[18:36:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[18:37:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[18:38:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[18:39:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[18:40:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[18:41:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[18:42:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[18:43:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[18:44:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[18:45:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[18:46:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[18:47:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[18:48:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[18:49:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[18:50:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[18:51:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[18:52:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[18:53:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[18:54:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[18:55:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[18:56:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[18:57:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[18:58:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[18:59:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[19:00:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[19:01:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[19:02:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[19:03:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[19:04:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[19:05:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[19:06:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[19:07:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[19:08:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[19:09:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[19:10:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[19:11:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[19:12:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[19:13:57] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
+[19:39:58] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[19:39:59] [main/INFO]: Found new data pack file/bukkit, loading it automatically
+[19:39:59] [main/INFO]: Found new data pack file/ija-one-block, loading it automatically
+[19:39:59] [main/INFO]: Reloading ResourceManager: Default, bukkit, ija-one-block
+[19:40:00] [Worker-Main-1/INFO]: Loaded 7 recipes
+[19:40:02] [Server thread/INFO]: Starting minecraft server version 1.16.5
+[19:40:02] [Server thread/INFO]: Loading properties
+[19:40:02] [Server thread/INFO]: This server is running Paper version git-Paper-794 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT)
+[19:40:02] [Server thread/INFO]: Debug logging is disabled
+[19:40:02] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[19:40:02] [Server thread/INFO]: Using 4 threads for Netty based IO
+[19:40:02] [Server thread/INFO]: Default game type: SURVIVAL
+[19:40:02] [Server thread/INFO]: Generating keypair
+[19:40:03] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:40:03] [Server thread/INFO]: Using epoll channel type
+[19:40:03] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[19:40:03] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[19:40:03] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[19:40:03] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[19:40:03] [Server thread/INFO]: Preparing level "world"
+[19:40:03] [Server thread/WARN]: Unable to find spawn biome
+[19:40:04] [Server thread/WARN]: Unable to find spawn biome
+[19:40:05] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:40:05] [Server thread/INFO]: Preparing spawn area: 0%
+[19:40:05] [Server thread/INFO]: Preparing spawn area: 70%
+[19:40:05] [Server thread/INFO]: Time elapsed: 548 ms
+[19:40:05] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[19:40:06] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[19:40:06] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[19:40:06] [Server thread/INFO]: Time elapsed: 656 ms
+[19:40:06] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[19:40:06] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[19:40:07] [Server thread/INFO]: Time elapsed: 745 ms
+[19:40:07] [Server thread/INFO]: Running delayed init tasks
+[19:40:07] [Server thread/INFO]: Done (5.165s)! For help, type "help"
+[19:40:07] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] ************************************************************
+[19:40:07] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * WARNING - YOU ARE RUNNING AN OUTDATED VERSION OF JAVA.
+[19:40:07] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * PAPER WILL STOP BEING COMPATIBLE WITH THIS VERSION OF
+[19:40:07] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * JAVA WHEN MINECRAFT 1.17 IS RELEASED.
+[19:40:07] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
+[19:40:07] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Please update the version of Java you use to run Paper
+[19:40:07] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * to at least Java 16. When Paper for Minecraft 1.17 is
+[19:40:07] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * released support for versions of Java before 16 will
+[19:40:07] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * be dropped.
+[19:40:07] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
+[19:40:07] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Current Java version: 11.0.25
+[19:40:07] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
+[19:40:07] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Check this forum post for more information: 
+[19:40:07] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *   https://papermc.io/java16
+[19:40:07] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] ************************************************************
+[19:40:07] [Server thread/INFO]: Timings Reset
+[19:41:26] [Server thread/INFO]: Made Yupiberth a server operator
+[19:41:31] [User Authenticator #1/INFO]: UUID of player Yupiberth is 153dcc10-2328-354d-b2a4-630895425d7b
+[19:41:31] [Server thread/INFO]: Yupiberth joined the game
+[19:41:31] [Server thread/INFO]: Yupiberth[/127.194.137.192:47507] logged in with entity id 940 at ([world]88.5, 0.0, 216.5)
+[19:41:35] [Server thread/WARN]: Yupiberth moved too quickly! 0.0,-66.4803609575716,0.0
+[19:41:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5134ms or 102 ticks behind
+[19:41:41] [Server thread/INFO]: Yupiberth fell from a high place
+[19:41:49] [Server thread/INFO]: Yupiberth issued server command: /trigger ija-a4-trigger set 1
+[19:41:52] [Server thread/INFO]: Yupiberth issued server command: /trigger ija-a4-trigger set 11
+[19:41:56] [Server thread/INFO]: Yupiberth issued server command: /trigger ija-a4-trigger set 1
+[19:41:57] [Server thread/INFO]: Yupiberth issued server command: /trigger ija-a4-trigger set 1
+[19:41:58] [Server thread/INFO]: Yupiberth issued server command: /trigger ija-a4-trigger set 1
+[19:41:58] [Server thread/INFO]: Yupiberth issued server command: /trigger ija-a4-trigger set 14
+[19:41:59] [Server thread/INFO]: Yupiberth issued server command: /trigger ija-a4-trigger set 14
+[19:41:59] [User Authenticator #1/INFO]: UUID of player AltDeEnma is 4cb66614-63eb-3e64-8488-2912c1dcff4f
+[19:41:59] [Server thread/INFO]: AltDeEnma joined the game
+[19:42:00] [Server thread/INFO]: AltDeEnma[/127.182.203.24:53799] logged in with entity id 1784 at ([world]0.5, 61.0, 0.5)
+[19:42:02] [Server thread/INFO]: Yupiberth issued server command: /trigger ija-a4-trigger set 1
+[19:42:05] [Server thread/INFO]: Yupiberth issued server command: /trigger ija-a4-trigger set 12
+[19:42:09] [Server thread/INFO]: Yupiberth issued server command: /trigger ija-a4-trigger set 1
+[19:42:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 27767ms or 555 ticks behind
+[19:43:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 25930ms or 518 ticks behind
+[19:44:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 25751ms or 515 ticks behind
+[19:45:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 24892ms or 497 ticks behind
+[19:46:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 25249ms or 504 ticks behind
+[19:47:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 29098ms or 581 ticks behind
+[19:47:46] [Server thread/INFO]: Made AltDeEnma a server operator
+[19:48:05] [Server thread/INFO]: Yupiberth fell out of the world
+[19:48:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 38666ms or 773 ticks behind
+[19:49:05] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[19:49:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 35889ms or 717 ticks behind
+[19:49:37] [Server thread/INFO]: AltDeEnma issued server command: /ping
+[19:50:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 32545ms or 650 ticks behind
+[19:50:46] [Server thread/INFO]: Stopping the server
+[19:50:46] [Server thread/INFO]: Stopping server
+[19:50:46] [Server thread/INFO]: Saving players
+[19:50:46] [Server thread/INFO]: AltDeEnma lost connection: Server closed
+[19:50:46] [Server thread/INFO]: AltDeEnma left the game
+[19:50:46] [Server thread/INFO]: Yupiberth lost connection: Server closed
+[19:50:46] [Server thread/INFO]: Yupiberth left the game
+[19:50:46] [Server thread/INFO]: Saving worlds
+[19:50:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[19:50:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[19:50:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[19:50:47] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19:50:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[19:50:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19:50:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[19:50:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19:50:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19:50:48] [Server thread/INFO]: Flushing Chunk IO
+[19:50:48] [Server thread/INFO]: Closing Thread Pool
+[19:50:48] [Server thread/INFO]: Closing Server
