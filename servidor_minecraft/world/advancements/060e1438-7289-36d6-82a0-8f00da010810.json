@@ -265,7 +265,8 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
-      "cooked_beef": "2024-12-13 19:35:46 +0000"
+      "cooked_beef": "2024-12-13 19:35:46 +0000",
+      "apple": "2024-12-14 02:01:45 +0000"
     },
     "done": false
   },
@@ -753,6 +754,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:pillager": "2024-12-14 02:02:38 +0000",
       "minecraft:skeleton": "2024-12-13 21:14:48 +0000"
     },
     "done": false
