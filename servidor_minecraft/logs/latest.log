@@ -1131,3 +1131,22 @@
 [19:43:59] [Server thread/INFO]: KotaruMa lost connection: Timed out
 [19:43:59] [Server thread/INFO]: KotaruMa left the game
 [19:43:59] [Server thread/WARN]: handleDisconnection() called twice
+[19:49:28] [Server thread/INFO]: Stopping the server
+[19:49:28] [Server thread/INFO]: Stopping server
+[19:49:28] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.5.0
+[19:49:28] [Server thread/INFO]: [SimpleTpa] Disabling SimpleTpa v7.3
+[19:49:28] [Server thread/INFO]: [SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9
+[19:49:28] [Server thread/INFO]: [SimpleTpa] Simple Tpa has been disabled on version 7.3
+[19:49:28] [Server thread/INFO]: Saving players
+[19:49:28] [Server thread/INFO]: awitaa lost connection: Server closed
+[19:49:28] [Server thread/INFO]: awitaa left the game
+[19:49:28] [Server thread/INFO]: Saving worlds
+[19:49:28] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
+[19:49:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[19:49:28] [Server thread/INFO]: Saving chunks for level 'world_nether'/minecraft:the_nether
+[19:49:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19:49:28] [Server thread/INFO]: Saving chunks for level 'world_the_end'/minecraft:the_end
+[19:49:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19:49:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[19:49:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19:49:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
