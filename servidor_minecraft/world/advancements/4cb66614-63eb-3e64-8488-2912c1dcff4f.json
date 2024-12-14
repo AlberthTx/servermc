@@ -161,6 +161,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/bread": {
+    "criteria": {
+      "has_wheat": "2024-12-14 03:00:16 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/diorite_slab_from_diorite_stonecutting": {
     "criteria": {
       "has_diorite": "2024-12-13 17:50:37 +0000"
@@ -387,8 +393,12 @@
       "sweet_berries": "2024-12-14 01:39:05 +0000",
       "cooked_beef": "2024-12-13 18:01:50 +0000",
       "baked_potato": "2024-12-13 18:17:31 +0000",
+      "beef": "2024-12-14 02:29:43 +0000",
       "porkchop": "2024-12-13 18:01:53 +0000",
-      "rotten_flesh": "2024-12-13 17:57:23 +0000"
+      "apple": "2024-12-14 02:21:54 +0000",
+      "bread": "2024-12-14 03:00:31 +0000",
+      "rotten_flesh": "2024-12-13 17:57:23 +0000",
+      "golden_carrot": "2024-12-14 03:00:49 +0000"
     },
     "done": false
   },
@@ -413,6 +423,12 @@
   "minecraft:recipes/misc/bucket": {
     "criteria": {
       "has_iron_ingot": "2024-12-13 18:14:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/trapped_chest": {
+    "criteria": {
+      "has_tripwire_hook": "2024-12-14 02:24:50 +0000"
     },
     "done": true
   },
@@ -1064,6 +1080,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/anvil": {
+    "criteria": {
+      "has_the_recipe": "2024-12-14 02:35:12 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/light_blue_stained_glass": {
     "criteria": {
       "has_glass": "2024-12-13 21:03:07 +0000"
@@ -1693,6 +1715,12 @@
   "minecraft:recipes/building_blocks/brown_stained_glass": {
     "criteria": {
       "has_glass": "2024-12-13 21:03:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/plant_seed": {
+    "criteria": {
+      "wheat": "2024-12-14 03:00:21 +0000"
     },
     "done": true
   },
