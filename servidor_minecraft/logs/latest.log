@@ -324,3 +324,9 @@
 [04:05:17] [Async Chat Thread - #10/INFO]: <awitaa> dea
 [04:05:27] [Server thread/INFO]: awitaa lost connection: Disconnected
 [04:05:27] [Server thread/INFO]: awitaa left the game
+[04:16:36] [Server thread/WARN]: AltDeEnma was kicked for floating too long!
+[04:16:36] [Server thread/INFO]: AltDeEnma lost connection: Flying is not enabled on this server
+[04:16:36] [Server thread/INFO]: AltDeEnma left the game
+[04:16:36] [Server thread/WARN]: handleDisconnection() called twice
+[04:16:42] [User Authenticator #4/INFO]: UUID of player AltDeEnma is 4cb66614-63eb-3e64-8488-2912c1dcff4f
+[04:16:42] [Server thread/INFO]: AltDeEnma[/127.126.144.92:41423] logged in with entity id 11410 at ([world]-689.700000025332, 60.0000002, -257.700000025332)
