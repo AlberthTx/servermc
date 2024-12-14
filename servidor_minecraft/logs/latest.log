@@ -262,3 +262,33 @@
 [15:50:06] [Server thread/INFO]: awaaa has made the advancement [Getting an Upgrade]
 [15:52:11] [Server thread/INFO]: Yupiberth lost connection: Disconnected
 [15:52:11] [Server thread/INFO]: Yupiberth left the game
+[15:54:00] [User Authenticator #5/INFO]: UUID of player KotaruMa is c0750b00-36f4-323f-bdab-d5860f1f8211
+[15:54:00] [Server thread/INFO]: KotaruMa[/127.234.240.122:43041] logged in with entity id 5991 at ([world]-721.8293260897003, 63.0, -229.15794482249638)
+[15:54:23] [Async Chat Thread - #3/INFO]: <awitaa> mardita sea regrese a la era de piedra
+[15:54:30] [Async Chat Thread - #3/INFO]: <awitaa> ya sem e acabo el diamante y el todo
+[15:54:45] [Server thread/WARN]: KotaruMa was kicked due to keepalive timeout!
+[15:54:45] [Server thread/INFO]: KotaruMa lost connection: Timed out
+[15:54:45] [Server thread/INFO]: KotaruMa left the game
+[15:54:45] [Server thread/WARN]: handleDisconnection() called twice
+[15:58:32] [User Authenticator #6/INFO]: UUID of player KotaruMa is c0750b00-36f4-323f-bdab-d5860f1f8211
+[15:58:32] [Server thread/INFO]: KotaruMa[/127.234.240.122:40377] logged in with entity id 7140 at ([world]-721.8293260897003, 63.0, -229.15794482249638)
+[15:58:34] [User Authenticator #6/INFO]: UUID of player Yupiberth is 153dcc10-2328-354d-b2a4-630895425d7b
+[15:58:34] [Server thread/INFO]: Yupiberth[/127.194.137.192:59021] logged in with entity id 7353 at ([world]-698.4023751816158, 63.0, -236.23643242650093)
+[15:59:05] [Async Chat Thread - #4/INFO]: <Yupiberth> maaaaaaaaaaaa
+[15:59:09] [Server thread/INFO]: KotaruMa lost connection: Disconnected
+[15:59:09] [Server thread/INFO]: KotaruMa left the game
+[15:59:12] [Async Chat Thread - #4/INFO]: <Yupiberth> xD
+[15:59:47] [Server thread/INFO]: awitaa was blown up by Creeper
+[16:00:33] [Async Chat Thread - #5/INFO]: <awaaa> q peo estos picos no duran nada
+[16:00:50] [Async Chat Thread - #5/INFO]: <Yupiberth> mrc igual estan mis picos
+[16:00:56] [Async Chat Thread - #5/INFO]: <Yupiberth> se rompen pinga de rapido
+[16:01:03] [Async Chat Thread - #5/INFO]: <awaaa> osea claro estos aplanando y todo pero
+[16:01:09] [Async Chat Thread - #5/INFO]: <awaaa> nah igual sin picos de piedra
+[16:01:13] [Async Chat Thread - #5/INFO]: <awaaa> son picos de piedra
+[16:01:16] [Async Chat Thread - #5/INFO]: <awaaa> lo mas barato que puedo hacer
+[16:01:49] [Server thread/WARN]: Yupiberth was kicked due to keepalive timeout!
+[16:01:49] [Server thread/INFO]: Yupiberth lost connection: Timed out
+[16:01:49] [Server thread/INFO]: Yupiberth left the game
+[16:01:49] [Server thread/WARN]: handleDisconnection() called twice
+[16:02:13] [User Authenticator #7/INFO]: UUID of player Yupiberth is 153dcc10-2328-354d-b2a4-630895425d7b
+[16:02:13] [Server thread/INFO]: Yupiberth[/127.194.137.192:37385] logged in with entity id 8033 at ([world]-696.2266614242603, 63.0, -260.64621438107764)
