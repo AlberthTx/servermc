@@ -748,6 +748,7 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:pillager": "2024-12-13 21:10:47 +0000",
+      "minecraft:skeleton": "2024-12-14 02:16:02 +0000",
       "minecraft:zombie": "2024-12-13 18:21:50 +0000"
     },
     "done": false
@@ -1019,6 +1020,12 @@
   "minecraft:recipes/redstone/light_weighted_pressure_plate": {
     "criteria": {
       "has_gold_ingot": "2024-12-13 20:23:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/deflect_arrow": {
+    "criteria": {
+      "deflected_projectile": "2024-12-14 02:15:54 +0000"
     },
     "done": true
   },
