@@ -232,3 +232,33 @@
 [15:29:37] [Async Chat Thread - #0/INFO]: <Comanpoya> No
 [15:29:43] [User Authenticator #2/INFO]: UUID of player Yupiberth is 153dcc10-2328-354d-b2a4-630895425d7b
 [15:29:43] [Server thread/INFO]: Yupiberth[/127.194.137.192:48477] logged in with entity id 1079 at ([world]-697.0398035307354, 63.28647961603036, -243.26477515160332)
+[15:41:46] [User Authenticator #3/INFO]: UUID of player MLGdoritos is 86a7d1c1-db4b-38bb-9943-8f5f94a3a2ef
+[15:41:46] [Server thread/INFO]: MLGdoritos[/127.57.93.60:33641] logged in with entity id 2923 at ([world]-295.2815274055161, 64.0, -78.1719811655699)
+[15:41:51] [User Authenticator #3/INFO]: UUID of player awaaa is f1b839c0-d1ef-3862-8fcb-fbb003313421
+[15:41:51] [Server thread/INFO]: awaaa[/127.57.93.60:43655] logged in with entity id 2970 at ([world]-258.42497850706496, 68.0, -83.30000001192093)
+[15:42:48] [Async Chat Thread - #1/INFO]: <Comanpoya> bueno a seguir aplananando
+[15:42:57] [Async Chat Thread - #1/INFO]: <Yupiberth> CONSIGUE ORO CARAJO
+[15:42:59] [Async Chat Thread - #1/INFO]: <Yupiberth> pli
+[15:43:00] [Async Chat Thread - #1/INFO]: <Comanpoya> NO
+[15:47:30] [User Authenticator #4/INFO]: UUID of player KotaruMa is c0750b00-36f4-323f-bdab-d5860f1f8211
+[15:47:30] [Server thread/INFO]: KotaruMa[/127.234.240.122:49029] logged in with entity id 4352 at ([world]-721.8293260897003, 64.00133597911214, -229.15794482249638)
+[15:47:37] [Server thread/WARN]: KotaruMa was kicked for floating too long!
+[15:47:37] [Server thread/INFO]: KotaruMa lost connection: Flying is not enabled on this server
+[15:47:37] [Server thread/INFO]: KotaruMa left the game
+[15:47:37] [Server thread/WARN]: handleDisconnection() called twice
+[15:48:06] [Server thread/INFO]: Expected whitespace to end one argument, but found trailing data
+[15:48:06] [Server thread/INFO]: ...piberth 25l<--[HERE]
+[15:48:12] [Server thread/INFO]: Gave 25 experience points to Yupiberth
+[15:48:21] [User Authenticator #4/INFO]: UUID of player KotaruMa is c0750b00-36f4-323f-bdab-d5860f1f8211
+[15:48:21] [Server thread/INFO]: KotaruMa[/127.234.240.122:34575] logged in with entity id 4547 at ([world]-721.8293260897003, 63.55383808212872, -229.15794482249638)
+[15:48:40] [Server thread/INFO]: Gave 100 experience points to Yupiberth
+[15:49:06] [Server thread/WARN]: KotaruMa was kicked due to keepalive timeout!
+[15:49:06] [Server thread/INFO]: KotaruMa lost connection: Timed out
+[15:49:06] [Server thread/INFO]: KotaruMa left the game
+[15:49:06] [Server thread/WARN]: handleDisconnection() called twice
+[15:49:06] [Async Chat Thread - #2/INFO]: <Yupiberth> MAAAAAAAAAAAAAAAAAAAAAAAAA
+[15:49:08] [Async Chat Thread - #2/INFO]: <Yupiberth> mielda
+[15:49:10] [Async Chat Thread - #2/INFO]: <Yupiberth> cantb
+[15:50:06] [Server thread/INFO]: awaaa has made the advancement [Getting an Upgrade]
+[15:52:11] [Server thread/INFO]: Yupiberth lost connection: Disconnected
+[15:52:11] [Server thread/INFO]: Yupiberth left the game
