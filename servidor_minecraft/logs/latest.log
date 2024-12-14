@@ -292,3 +292,6 @@
 [16:01:49] [Server thread/WARN]: handleDisconnection() called twice
 [16:02:13] [User Authenticator #7/INFO]: UUID of player Yupiberth is 153dcc10-2328-354d-b2a4-630895425d7b
 [16:02:13] [Server thread/INFO]: Yupiberth[/127.194.137.192:37385] logged in with entity id 8033 at ([world]-696.2266614242603, 63.0, -260.64621438107764)
+[16:07:23] [User Authenticator #8/INFO]: UUID of player KotaruMa is c0750b00-36f4-323f-bdab-d5860f1f8211
+[16:07:24] [Server thread/INFO]: KotaruMa[/127.234.240.122:33903] logged in with entity id 9338 at ([world]-696.7530048120591, 62.9375, -244.01836531503952)
+[16:07:41] [Server thread/INFO]: awaaa has made the advancement [Monster Hunter]
