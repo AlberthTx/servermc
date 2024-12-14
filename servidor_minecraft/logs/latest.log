@@ -1,483 +1,236 @@
-[01:33:52] [Server thread/INFO]: Starting minecraft server version 1.14.4
-[01:33:52] [Server thread/INFO]: Loading properties
-[01:33:53] [Server thread/INFO]: This server is running Paper version git-Paper-245 (MC: 1.14.4) (Implementing API version 1.14.4-R0.1-SNAPSHOT)
-[01:33:53] [Server thread/INFO]: Debug logging is disabled
-[01:33:53] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[01:33:53] [Server thread/INFO]: Using 4 threads for Netty based IO
-[01:33:53] [Server thread/INFO]: Default game type: SURVIVAL
-[01:33:53] [Server thread/INFO]: Generating keypair
-[01:33:54] [Server thread/INFO]: Starting Minecraft server on *:25565
-[01:33:54] [Server thread/INFO]: Using epoll channel type
-[01:34:00] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v7.3
-[01:34:00] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v15.5.0
-[01:34:00] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[01:34:00] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.5.0
-[01:34:01] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1mYou must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.[0;39m
-[01:34:02] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mRunning on Minecraft [33;1m1.14.4[32;1m.[0;39m
-[01:34:02] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mUsing paper join listener![0;39m
-[01:34:02] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1m[33;1mYou are running an outdated Java version, please update it to at least Java 21 (your version is 11).[0;39m
-[01:34:02] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1m[33;1mSkinsRestorer no longer officially supports this version of Java, you are currently using an unsupported compatibility build.[0;39m
-[01:34:02] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1m[33;1mYou can still use the plugin, but you may encounter issues that are not present in newer versions of Java.[0;39m
-[01:34:02] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[01:34:02] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[01:34:02] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[01:34:02] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[01:34:02] [Server thread/INFO]: Preparing level "world"
-[01:34:03] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
-[01:34:17] [Server thread/INFO]: Loaded 6 recipes
-[01:34:17] [Server thread/INFO]: -------- World Settings For [world] --------
-[01:34:17] [Server thread/INFO]: Experience Merge Radius: 3.0
-[01:34:17] [Server thread/INFO]: Mob Spawn Range: 8
-[01:34:17] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[01:34:17] [Server thread/INFO]: Cane Growth Modifier: 100%
-[01:34:17] [Server thread/INFO]: Melon Growth Modifier: 100%
-[01:34:17] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[01:34:17] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[01:34:17] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[01:34:17] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[01:34:17] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[01:34:17] [Server thread/INFO]: Potato Growth Modifier: 100%
-[01:34:17] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[01:34:17] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[01:34:17] [Server thread/INFO]: Vine Growth Modifier: 100%
-[01:34:17] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[01:34:17] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[01:34:17] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[01:34:17] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[01:34:17] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[01:34:17] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[01:34:17] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[01:34:17] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[01:34:17] [Server thread/INFO]: Max TNT Explosions: 100
-[01:34:17] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[01:34:17] [Server thread/INFO]: View Distance: 10
-[01:34:17] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[01:34:17] [Server thread/INFO]: Item Merge Radius: 2.5
-[01:34:17] [Server thread/INFO]: Item Despawn Rate: 6000
-[01:34:17] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[01:34:17] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[01:34:17] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[01:34:18] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[01:34:18] [Server thread/INFO]: Experience Merge Radius: 3.0
-[01:34:18] [Server thread/INFO]: Mob Spawn Range: 8
-[01:34:18] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[01:34:18] [Server thread/INFO]: Cane Growth Modifier: 100%
-[01:34:18] [Server thread/INFO]: Melon Growth Modifier: 100%
-[01:34:18] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[01:34:18] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[01:34:18] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[01:34:18] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[01:34:18] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[01:34:18] [Server thread/INFO]: Potato Growth Modifier: 100%
-[01:34:18] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[01:34:18] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[01:34:18] [Server thread/INFO]: Vine Growth Modifier: 100%
-[01:34:18] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[01:34:18] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[01:34:18] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[01:34:18] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[01:34:18] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[01:34:18] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[01:34:18] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[01:34:18] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[01:34:18] [Server thread/INFO]: Max TNT Explosions: 100
-[01:34:18] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[01:34:18] [Server thread/INFO]: View Distance: 10
-[01:34:18] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[01:34:18] [Server thread/INFO]: Item Merge Radius: 2.5
-[01:34:18] [Server thread/INFO]: Item Despawn Rate: 6000
-[01:34:18] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[01:34:18] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[01:34:18] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[01:34:18] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[01:34:18] [Server thread/INFO]: Experience Merge Radius: 3.0
-[01:34:18] [Server thread/INFO]: Mob Spawn Range: 8
-[01:34:18] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[01:34:18] [Server thread/INFO]: Cane Growth Modifier: 100%
-[01:34:18] [Server thread/INFO]: Melon Growth Modifier: 100%
-[01:34:18] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[01:34:18] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[01:34:18] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[01:34:18] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[01:34:18] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[01:34:18] [Server thread/INFO]: Potato Growth Modifier: 100%
-[01:34:18] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[01:34:18] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[01:34:18] [Server thread/INFO]: Vine Growth Modifier: 100%
-[01:34:18] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[01:34:18] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[01:34:18] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[01:34:18] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[01:34:18] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[01:34:18] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[01:34:18] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[01:34:18] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[01:34:18] [Server thread/INFO]: Max TNT Explosions: 100
-[01:34:18] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[01:34:18] [Server thread/INFO]: View Distance: 10
-[01:34:18] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[01:34:18] [Server thread/INFO]: Item Merge Radius: 2.5
-[01:34:18] [Server thread/INFO]: Item Despawn Rate: 6000
-[01:34:18] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[01:34:18] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[01:34:18] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[01:34:18] [Server thread/INFO]: Preparing start region for dimension 'world'/minecraft:overworld
-[01:34:18] [Server thread/INFO]: Preparing spawn area: 0%
-[01:34:18] [Server thread/INFO]: Preparing spawn area: 1%
-[01:34:19] [Server thread/INFO]: Preparing spawn area: 28%
-[01:34:19] [Server thread/INFO]: Preparing spawn area: 86%
-[01:34:22] [Server-Worker-2/INFO]: Preparing spawn area: 100%
-[01:34:22] [Server thread/INFO]: Preparing spawn area: 100%
-[01:34:22] [Server thread/INFO]: Preparing spawn area: 100%
-[01:34:22] [Server thread/INFO]: Preparing spawn area: 100%
-[01:34:22] [Server-Worker-2/INFO]: Preparing spawn area: 100%
-[01:34:22] [Server thread/INFO]: Loaded 441 spawn chunks for world world
-[01:34:22] [Server thread/INFO]: Time elapsed: 4468 ms
-[01:34:22] [Server thread/INFO]: Preparing start region for dimension 'world_nether'/minecraft:the_nether
-[01:34:22] [Server thread/INFO]: Preparing spawn area: 0%
-[01:34:23] [Server thread/INFO]: Preparing spawn area: 58%
-[01:34:23] [Server-Worker-1/INFO]: Preparing spawn area: 100%
-[01:34:24] [Server-Worker-2/INFO]: Preparing spawn area: 100%
-[01:34:24] [Server-Worker-1/INFO]: Preparing spawn area: 100%
-[01:34:25] [Server-Worker-1/INFO]: Preparing spawn area: 100%
-[01:34:25] [Server-Worker-2/INFO]: Preparing spawn area: 100%
-[01:34:26] [Server-Worker-1/INFO]: Preparing spawn area: 100%
-[01:34:26] [Server-Worker-2/INFO]: Preparing spawn area: 100%
-[01:34:26] [Server thread/INFO]: Loaded 441 spawn chunks for world world_nether
-[01:34:26] [Server thread/INFO]: Time elapsed: 4150 ms
-[01:34:26] [Server thread/INFO]: Preparing start region for dimension 'world_the_end'/minecraft:the_end
-[01:34:26] [Server thread/INFO]: Preparing spawn area: 0%
-[01:34:27] [Server-Worker-2/INFO]: Preparing spawn area: 100%
-[01:34:27] [Server-Worker-1/INFO]: Preparing spawn area: 100%
-[01:34:28] [Server-Worker-2/INFO]: Preparing spawn area: 100%
-[01:34:28] [Server thread/INFO]: Loaded 441 spawn chunks for world world_the_end
-[01:34:28] [Server thread/INFO]: Time elapsed: 1573 ms
-[01:34:28] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v7.3
-[01:34:28] [Server thread/INFO]: [SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9
-[01:34:28] [Server thread/INFO]: [SimpleTpa] Simple Tpa has been enabled on version 7.3
-[01:34:28] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
-[01:34:28] [Server thread/INFO]: Done (25.627s)! For help, type "help"
-[01:34:28] [Server thread/INFO]: Timings Reset
-[01:34:29] [Craft Scheduler Thread - 7/INFO]: [SimpleTpa] There is a new update available.
-[01:34:29] [Craft Scheduler Thread - 7/INFO]: [SimpleTpa] There is a new update available:
-[01:34:29] [Craft Scheduler Thread - 7/INFO]: [SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/
-[01:34:29] [Craft Scheduler Thread - 5/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
-[01:34:29] [Craft Scheduler Thread - 5/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
-[01:34:29] [Craft Scheduler Thread - 5/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m
-[01:34:29] [Craft Scheduler Thread - 5/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m
-[01:34:29] [Craft Scheduler Thread - 5/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |  [34;1m[4m[21mStandalone Mode[0;39m[32;1m |[0;39m
-[01:34:29] [Craft Scheduler Thread - 5/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
-[01:34:29] [Craft Scheduler Thread - 5/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
-[01:34:29] [Craft Scheduler Thread - 5/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Version: [32;1m15.5.0[0;39m
-[01:34:29] [Craft Scheduler Thread - 5/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Commit: [32;1mad418e4[0;39m
-[01:34:29] [Craft Scheduler Thread - 5/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
-[01:34:29] [Craft Scheduler Thread - 5/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
-[01:34:29] [Craft Scheduler Thread - 5/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[34;1mDo you have issues? Read our troubleshooting guide: [33;1mhttps://skinsrestorer.net/docs/troubleshooting[0;39m
-[01:34:29] [Craft Scheduler Thread - 5/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[34;1mWant to support SkinsRestorer? Consider donating: [33;1mhttps://skinsrestorer.net/donate[0;39m
-[01:34:30] [User Authenticator #1/INFO]: UUID of player KotaruMa is c0750b00-36f4-323f-bdab-d5860f1f8211
-[01:34:31] [Server thread/INFO]: KotaruMa[/127.234.240.122:45837] logged in with entity id 209 at ([world]-701.700000025332, 65.0000002, -229.70000002533197)
-[01:36:17] [User Authenticator #2/INFO]: UUID of player AltDeEnma is 4cb66614-63eb-3e64-8488-2912c1dcff4f
-[01:36:17] [Server thread/INFO]: AltDeEnma[/127.43.153.51:49755] logged in with entity id 423 at ([world]-718.0920472533846, 63.0, -251.36521434386827)
-[01:42:35] [User Authenticator #3/INFO]: UUID of player awaaa is f1b839c0-d1ef-3862-8fcb-fbb003313421
-[01:42:35] [Server thread/INFO]: awaaa[/127.57.93.60:54149] logged in with entity id 826 at ([world]-278.2450780297429, 77.0, -65.18686013644839)
-[01:42:46] [Async Chat Thread - #0/INFO]: <awaaa> coño esta no ea
-[01:42:48] [Async Chat Thread - #0/INFO]: <awaaa> era
-[01:42:53] [Async Chat Thread - #0/INFO]: <awaaa> no vale
-[01:43:18] [Async Chat Thread - #0/INFO]: <awaaa> desde que me quemaron la yupihouse
-[01:43:23] [Async Chat Thread - #0/INFO]: <awaaa> no are nadap ara ustedes
-[01:43:24] [Server thread/INFO]: awaaa lost connection: Disconnected
-[01:43:24] [Server thread/INFO]: awaaa left the game
-[01:43:32] [User Authenticator #3/INFO]: UUID of player MLGdoritos is 86a7d1c1-db4b-38bb-9943-8f5f94a3a2ef
-[01:43:32] [Server thread/INFO]: MLGdoritos[/127.57.93.60:37889] logged in with entity id 1064 at ([world]-277.3811021942, 69.0, -93.17627345983355)
-[01:44:02] [Async Chat Thread - #0/INFO]: <MLGdoritos> me revele
-[01:44:03] [Server thread/INFO]: MLGdoritos lost connection: Disconnected
-[01:44:03] [Server thread/INFO]: MLGdoritos left the game
-[01:44:07] [User Authenticator #3/INFO]: UUID of player Comanpoya is 060e1438-7289-36d6-82a0-8f00da010810
-[01:44:07] [Server thread/INFO]: Comanpoya[/127.57.93.60:57325] logged in with entity id 1144 at ([world]-300.4974145321878, 68.83999997377396, -117.56026025589897)
-[01:44:27] [Async Chat Thread - #0/INFO]: <Comanpoya> joder me revelo?
-[01:44:33] [Server thread/INFO]: Comanpoya lost connection: Disconnected
-[01:44:33] [Server thread/INFO]: Comanpoya left the game
-[01:45:09] [User Authenticator #4/INFO]: UUID of player MLGdoritos is 86a7d1c1-db4b-38bb-9943-8f5f94a3a2ef
-[01:45:09] [Server thread/INFO]: MLGdoritos[/127.57.93.60:42919] logged in with entity id 1241 at ([world]-277.3811021942, 69.0, -93.17627345983355)
-[01:45:15] [Async Chat Thread - #0/INFO]: <MLGdoritos> mierda esta no era
-[01:45:16] [Server thread/INFO]: MLGdoritos lost connection: Disconnected
-[01:45:16] [Server thread/INFO]: MLGdoritos left the game
-[01:55:38] [Async Chat Thread - #1/INFO]: <AltDeEnma> q paso ma
-[01:58:27] [Async Chat Thread - #2/INFO]: <AltDeEnma> hey
-[01:58:28] [Async Chat Thread - #2/INFO]: <AltDeEnma> ma
-[01:58:30] [Async Chat Thread - #2/INFO]: <AltDeEnma> voy a comer
-[01:58:36] [Async Chat Thread - #2/INFO]: <AltDeEnma> ando afk por un momento
-[01:59:22] [User Authenticator #5/INFO]: UUID of player Comanpoya is 060e1438-7289-36d6-82a0-8f00da010810
-[01:59:22] [Server thread/INFO]: Comanpoya[/127.57.93.60:37495] logged in with entity id 2499 at ([world]-300.4974145321878, 68.0, -117.56026025589897)
-[01:59:42] [Async Chat Thread - #3/INFO]: <Comanpoya> coño cual cuenta e la guena
-[01:59:45] [Server thread/INFO]: Comanpoya lost connection: Disconnected
-[01:59:45] [Server thread/INFO]: Comanpoya left the game
-[01:59:47] [User Authenticator #5/INFO]: UUID of player awitaa is cd512d06-6559-340e-a718-8d07cf578c77
-[01:59:47] [Server thread/INFO]: awitaa[/127.57.93.60:44929] logged in with entity id 2595 at ([world]-283.89473315765014, 77.0, -72.61049701505969)
-[02:00:05] [Async Chat Thread - #3/INFO]: <awitaa> esta era
-[02:00:14] [User Authenticator #5/INFO]: UUID of player Comanpoya is 060e1438-7289-36d6-82a0-8f00da010810
-[02:00:14] [Server thread/INFO]: Comanpoya[/127.57.93.60:42985] logged in with entity id 2689 at ([world]-300.4974145321878, 68.0, -117.56026025589897)
-[02:00:20] [Async Chat Thread - #3/INFO]: <awitaa> voy a hacer la yupihouse 2
-[02:00:23] [Async Chat Thread - #3/INFO]: <awitaa> 2 veces mas grande
-[02:00:26] [Async Chat Thread - #3/INFO]: <awitaa> 2 veces mas larga
-[02:00:29] [Async Chat Thread - #3/INFO]: <awitaa> 2 veces mas matona
-[02:00:44] [User Authenticator #5/INFO]: UUID of player awaaa is f1b839c0-d1ef-3862-8fcb-fbb003313421
-[02:00:44] [Server thread/INFO]: awaaa[/127.57.93.60:48275] logged in with entity id 2769 at ([world]-280.2274915655447, 77.0, -64.53076168058011)
-[02:02:03] [Async Chat Thread - #4/INFO]: <KotaruMa> eenma
-[02:02:25] [Async Chat Thread - #4/INFO]: <awitaa> tengo hambre.. de venganza
-[02:02:28] [Async Chat Thread - #4/INFO]: <Comanpoya> dea
-[02:02:30] [Async Chat Thread - #4/INFO]: <AltDeEnma> muack
-[02:02:42] [Async Chat Thread - #4/INFO]: <Comanpoya> el real tierruo
-[02:02:50] [User Authenticator #6/INFO]: UUID of player MLGdoritos is 86a7d1c1-db4b-38bb-9943-8f5f94a3a2ef
-[02:02:50] [Server thread/INFO]: MLGdoritos[/127.57.93.60:35053] logged in with entity id 3182 at ([world]-276.96027453107604, 69.0, -93.24375665662485)
-[02:02:58] [Server thread/INFO]: Comanpoya lost connection: Disconnected
-[02:02:58] [Server thread/INFO]: Comanpoya left the game
-[02:02:58] [Server thread/INFO]: awaaa lost connection: Disconnected
-[02:02:58] [Server thread/INFO]: awaaa left the game
-[02:03:05] [Async Chat Thread - #4/INFO]: <AltDeEnma> a domrir
-[02:03:05] [Async Chat Thread - #4/INFO]: <AltDeEnma> sfsdf{sa
-[02:03:06] [Async Chat Thread - #4/INFO]: <AltDeEnma> sdf
-[02:03:06] [Async Chat Thread - #4/INFO]: <AltDeEnma> fsda
-[02:03:06] [Server thread/WARN]: AltDeEnma was kicked for floating too long!
-[02:03:06] [Server thread/INFO]: AltDeEnma lost connection: Flying is not enabled on this server
-[02:03:06] [Server thread/INFO]: AltDeEnma left the game
-[02:03:06] [Server thread/WARN]: handleDisconnection() called twice
-[02:03:08] [Async Chat Thread - #4/INFO]: <awitaa> mardita sea
-[02:03:09] [User Authenticator #6/INFO]: UUID of player AltDeEnma is 4cb66614-63eb-3e64-8488-2912c1dcff4f
-[02:03:09] [Server thread/INFO]: AltDeEnma[/127.126.144.92:49355] logged in with entity id 3222 at ([world]-687.700000025332, 60.5625002, -263.700000025332)
-[02:03:21] [Server thread/INFO]: KotaruMa has made the advancement [A Seedy Place]
-[02:03:43] [Async Chat Thread - #4/INFO]: <AltDeEnma> DUERMANAAA
-[02:03:44] [Async Chat Thread - #4/INFO]: <AltDeEnma> }A
-[02:03:44] [Async Chat Thread - #4/INFO]: <AltDeEnma> A
-[02:03:44] [Async Chat Thread - #4/INFO]: <AltDeEnma> A
-[02:03:44] [Async Chat Thread - #4/INFO]: <AltDeEnma> AA
-[02:03:47] [Server thread/INFO]: MLGdoritos lost connection: Disconnected
-[02:03:47] [Server thread/INFO]: MLGdoritos left the game
-[02:03:51] [Async Chat Thread - #4/INFO]: <awitaa> yupicoide
-[02:03:55] [User Authenticator #6/INFO]: UUID of player MLGdoritos is 86a7d1c1-db4b-38bb-9943-8f5f94a3a2ef
-[02:03:55] [Server thread/INFO]: MLGdoritos[/127.57.93.60:54659] logged in with entity id 3287 at ([world]-276.96027453107604, 69.0, -93.24375665662485)
-[02:04:09] [User Authenticator #6/INFO]: UUID of player Yupiberth is 153dcc10-2328-354d-b2a4-630895425d7b
-[02:04:09] [Server thread/INFO]: Yupiberth[/127.194.137.192:49607] logged in with entity id 3321 at ([world]-586.636585390718, 44.0, -416.69043418000257)
-[02:04:15] [Async Chat Thread - #4/INFO]: <Yupiberth> JOJOAMIGOS
-[02:04:20] [Async Chat Thread - #4/INFO]: <MLGdoritos> autista
-[02:04:30] [Async Chat Thread - #4/INFO]: <Yupiberth> MERECEN UN PREMIO A LOS QUE MEJORES DUERMEN VIEJO
-[02:04:38] [Async Chat Thread - #4/INFO]: <KotaruMa> HAJHJASAHJAd+ç
-[02:04:46] [Async Chat Thread - #4/INFO]: <Yupiberth> estoy buscando telarañas mrc
-[02:04:53] [Async Chat Thread - #4/INFO]: <Yupiberth> ya esta cargando el tlf pa prender mic
-[02:05:03] [Async Chat Thread - #4/INFO]: <awitaa> tienes 14? prende mic
-[02:05:11] [Async Chat Thread - #4/INFO]: <Yupiberth> esta cargando
-[02:05:21] [User Authenticator #7/INFO]: UUID of player awaaa is f1b839c0-d1ef-3862-8fcb-fbb003313421
-[02:05:21] [Server thread/INFO]: awaaa[/127.57.93.60:49575] logged in with entity id 3739 at ([world]-254.78796902767476, 68.0, -78.40870381337213)
-[02:05:26] [User Authenticator #7/INFO]: UUID of player Comanpoya is 060e1438-7289-36d6-82a0-8f00da010810
-[02:05:26] [Server thread/INFO]: Comanpoya[/127.57.93.60:55823] logged in with entity id 3756 at ([world]-299.33358609977853, 77.0, -102.56381297975261)
-[02:05:27] [Async Chat Thread - #4/INFO]: <awitaa> muy maton
-[02:05:47] [Async Chat Thread - #4/INFO]: <awaaa> yo ese
-[02:06:16] [Async Chat Thread - #4/INFO]: <awitaa> ponle de nombre cupcake
-[02:06:20] [Async Chat Thread - #4/INFO]: <Yupiberth> entonces dejo de buscar telarañas llave
-[02:06:25] [Server thread/INFO]: Yupiberth issued server command: /tpa AltDeEnma
-[02:06:29] [Server thread/INFO]: AltDeEnma issued server command: /tpaccept
-[02:06:35] [Async Chat Thread - #4/INFO]: <awitaa> UY
-[02:06:41] [Async Chat Thread - #4/INFO]: <awitaa> fresita
-[02:06:42] [Async Chat Thread - #4/INFO]: <Yupiberth> lo llamamos putin llave
-[02:06:43] [Async Chat Thread - #4/INFO]: <awitaa> el real perro mortal
-[02:06:45] [Async Chat Thread - #4/INFO]: <awitaa> no mano
-[02:06:53] [Async Chat Thread - #4/INFO]: <awitaa> el devorador de mundos es mas inofensivo que fresita
-[02:06:59] [Async Chat Thread - #4/INFO]: <awitaa> EL BRAZINO
-[02:06:59] [Async Chat Thread - #4/INFO]: <Yupiberth> no
-[02:07:01] [Async Chat Thread - #4/INFO]: <KotaruMa> hJAKJAKJSAKJSA
-[02:07:03] [Async Chat Thread - #4/INFO]: <Yupiberth> tu me dijiste que tenias
-[02:07:06] [Async Chat Thread - #4/INFO]: <Yupiberth> por eso me vine
-[02:07:08] [Async Chat Thread - #4/INFO]: <Yupiberth> aya
-[02:07:11] [Async Chat Thread - #4/INFO]: <awitaa> eres o te haces
-[02:07:23] [Async Chat Thread - #4/INFO]: <Yupiberth> dame chance pa buscar un beta en gugli, pa motivarme
-[02:07:34] [Async Chat Thread - #4/INFO]: <MLGdoritos> linga guli
-[02:08:06] [Async Chat Thread - #4/INFO]: <awitaa> en algun momento tendre el terreno listo para la yupicasa 2
-[02:09:05] [Async Chat Thread - #4/INFO]: <awitaa> no vale
-[02:09:06] [Async Chat Thread - #4/INFO]: <awitaa> y no invitan
-[02:09:08] [Async Chat Thread - #4/INFO]: <awitaa> dea
-[02:09:45] [Async Chat Thread - #4/INFO]: <awitaa> grua
-[02:10:14] [Async Chat Thread - #4/INFO]: <awitaa> yupicoide
-[02:10:18] [Async Chat Thread - #4/INFO]: <awitaa> voy a hacer el yupicoide
-[02:10:35] [Async Chat Thread - #4/INFO]: <awitaa> los voy a llevar a todos al yupicoide por quemar la yupihouse
-[02:10:46] [Async Chat Thread - #4/INFO]: <awitaa> cadena perpeuta
-[02:10:48] [Async Chat Thread - #4/INFO]: <awitaa> o fusilamien
-[02:10:48] [Async Chat Thread - #4/INFO]: <KotaruMa> te voy a meter el yupi yupi entonces
-[02:11:11] [Async Chat Thread - #4/INFO]: <awitaa> noo mi yupi
-[02:11:11] [Async Chat Thread - #4/INFO]: <awitaa> dea
-[02:11:24] [Async Chat Thread - #4/INFO]: <Comanpoya> lo machetaeron
-[02:11:30] [Async Chat Thread - #4/INFO]: <awitaa> es lost media
-[02:11:35] [Async Chat Thread - #4/INFO]: <awitaa> lol superman :Eyes:
-[02:11:43] [Async Chat Thread - #4/INFO]: <KotaruMa> pene
-[02:13:35] [Server thread/INFO]: AltDeEnma issued server command: /tpa KotaruMa
-[02:13:38] [Server thread/INFO]: KotaruMa issued server command: /tpacceot
-[02:13:45] [Server thread/INFO]: KotaruMa issued server command: /tpaccept
-[02:13:55] [Async Chat Thread - #5/INFO]: <awitaa> este grupo es muy pajuo
-[02:14:27] [Async Chat Thread - #5/INFO]: <awitaa> mira yo saco a mis 3 cuentas
-[02:14:34] [Async Chat Thread - #5/INFO]: <awitaa> no
-[02:14:53] [Async Chat Thread - #5/INFO]: <awitaa> aver si consigo aplanar esta mierda
-[02:14:57] [Async Chat Thread - #5/INFO]: <awitaa> para hoy
-[02:15:02] [Async Chat Thread - #5/INFO]: <awitaa> las nalgas de tu vieja sera
-[02:15:13] [Async Chat Thread - #5/INFO]: <KotaruMa> las de dau
-[02:15:54] [Server thread/INFO]: KotaruMa has made the advancement [Not Today, Thank You]
-[02:16:03] [Async Chat Thread - #5/INFO]: <Comanpoya> me voy a hacer una cagazon insana
-[02:16:04] [Server thread/INFO]: Comanpoya lost connection: Disconnected
-[02:16:04] [Server thread/INFO]: Comanpoya left the game
-[02:16:05] [Server thread/INFO]: MLGdoritos lost connection: Disconnected
-[02:16:05] [Server thread/INFO]: MLGdoritos left the game
-[02:16:07] [Server thread/INFO]: awitaa lost connection: Disconnected
-[02:16:07] [Server thread/INFO]: awitaa left the game
-[02:16:08] [Server thread/INFO]: awaaa lost connection: Disconnected
-[02:16:08] [Server thread/INFO]: awaaa left the game
-[02:16:12] [Async Chat Thread - #5/INFO]: <Yupiberth> volvi mano
-[02:16:15] [Async Chat Thread - #5/INFO]: <Yupiberth> ya me hice la paja
-[02:16:27] [Async Chat Thread - #5/INFO]: <Yupiberth> fino mano, con uno de milf
-[02:16:29] [Async Chat Thread - #5/INFO]: <Yupiberth> estaba bueno
-[02:16:58] [Async Chat Thread - #5/INFO]: <Yupiberth> pero cada dia me preparo pal 24 de diciembre, hoy dure 6min haciendome la pja
-[02:17:05] [Async Chat Thread - #5/INFO]: <Yupiberth> osea que voy a durar 6min mano
-[02:17:07] [Async Chat Thread - #5/INFO]: <Yupiberth> un duro
-[02:17:40] [Async Chat Thread - #5/INFO]: <Yupiberth> recibi el año haciendome la pja
-[02:17:44] [Async Chat Thread - #5/INFO]: <Yupiberth> como los campeones
-[02:18:00] [Async Chat Thread - #5/INFO]: <Yupiberth> AY PAPA
-[02:18:06] [Async Chat Thread - #5/INFO]: <KotaruMa> guevooo
-[02:18:28] [Async Chat Thread - #5/INFO]: <Yupiberth> manoooooooooo
-[02:18:52] [Async Chat Thread - #5/INFO]: <Yupiberth> YAESTA
-[02:19:24] [Async Chat Thread - #5/INFO]: <AltDeEnma> duerman
-[02:19:25] [Async Chat Thread - #5/INFO]: <AltDeEnma> duerman
-[02:19:27] [Async Chat Thread - #5/INFO]: <AltDeEnma> duerman
-[02:25:32] [Async Chat Thread - #6/INFO]: <Yupiberth> when tu papá es gafo
-[02:25:47] [Async Chat Thread - #6/INFO]: <Yupiberth> when tu papá es neneiv
-[02:25:55] [Async Chat Thread - #6/INFO]: <Yupiberth> JAJJAJJAJAJAJJAJAJJA
-[02:29:17] [User Authenticator #8/INFO]: UUID of player awitaa is cd512d06-6559-340e-a718-8d07cf578c77
-[02:29:17] [Server thread/INFO]: awitaa[/127.57.93.60:40257] logged in with entity id 9519 at ([world]-275.66136988290646, 74.0, -64.38504819680384)
-[02:29:28] [Async Chat Thread - #7/INFO]: <awitaa> glup deidad
-[02:29:33] [Async Chat Thread - #7/INFO]: <awitaa> glup manzana verde es god
-[02:29:38] [Async Chat Thread - #7/INFO]: <awitaa> glup normal god
-[02:29:44] [Async Chat Thread - #7/INFO]: <awitaa> glup god deidad
-[02:30:05] [User Authenticator #8/INFO]: UUID of player awaaa is f1b839c0-d1ef-3862-8fcb-fbb003313421
-[02:30:05] [Server thread/INFO]: awaaa[/127.57.93.60:58787] logged in with entity id 9914 at ([world]-282.5692488737668, 68.0, -58.66569298983573)
-[02:30:14] [User Authenticator #8/INFO]: UUID of player MLGdoritos is 86a7d1c1-db4b-38bb-9943-8f5f94a3a2ef
-[02:30:14] [Server thread/INFO]: MLGdoritos[/127.57.93.60:48811] logged in with entity id 9964 at ([world]-265.5443847801371, 69.0, -62.57500979756086)
-[02:30:24] [User Authenticator #8/INFO]: UUID of player Comanpoya is 060e1438-7289-36d6-82a0-8f00da010810
-[02:30:24] [Server thread/INFO]: Comanpoya[/127.57.93.60:54857] logged in with entity id 10085 at ([world]-287.64232039645526, 78.0, -86.05799870188982)
-[02:30:41] [Async Chat Thread - #7/INFO]: <awitaa> el guebo de guayaba
-[02:30:45] [Async Chat Thread - #7/INFO]: <awitaa> uf
-[02:30:50] [Async Chat Thread - #7/INFO]: <awitaa> panelada good
-[02:31:19] [Async Chat Thread - #7/INFO]: <awitaa> estan sabroso que deberia ser ilegal
-[02:31:47] [Async Chat Thread - #7/INFO]: <awitaa> condones sabor panelada
-[02:31:57] [Async Chat Thread - #7/INFO]: <awitaa> con sabor
-[02:31:59] [Async Chat Thread - #7/INFO]: <awitaa> en general
-[02:32:08] [Async Chat Thread - #7/INFO]: <awitaa> coño pero si vas a hacer glugluglu el condon es opcionalw
-[02:33:05] [Async Chat Thread - #7/INFO]: <awitaa> comprar dormir
-[02:33:20] [Async Chat Thread - #7/INFO]: <awitaa> el 19 inician los descuentos de invierno de steam
-[02:33:28] [Async Chat Thread - #7/INFO]: <awitaa> droga sexo
-[02:33:34] [Async Chat Thread - #7/INFO]: <awitaa> cerveza
-[02:33:41] [Async Chat Thread - #7/INFO]: <awitaa> marihuana
-[02:33:45] [Async Chat Thread - #7/INFO]: <awitaa> sexo anal
-[02:33:48] [Async Chat Thread - #7/INFO]: <awitaa> sexo gay
-[02:33:49] [Async Chat Thread - #7/INFO]: <awitaa> dea
-[02:34:11] [Async Chat Thread - #7/INFO]: <awitaa> ando mal de comida en esta mierda
-[02:34:22] [Async Chat Thread - #7/INFO]: <awitaa> nadie anda bien en esta mierda
-[02:35:00] [Async Chat Thread - #7/INFO]: <awitaa> Yupi
-[02:35:02] [Async Chat Thread - #7/INFO]: <awitaa> bno hay yupi
-[02:35:26] [Async Chat Thread - #7/INFO]: <awitaa> todos nos preocupamos
-[02:35:33] [Async Chat Thread - #7/INFO]: <awitaa> yoees
-[02:35:34] [Async Chat Thread - #7/INFO]: <awitaa> yoese
-[02:35:47] [Async Chat Thread - #7/INFO]: <Yupiberth> NO YUPI NO PARTY
-[02:35:57] [Async Chat Thread - #7/INFO]: <awitaa> no yupi no life
-[02:36:37] [Server thread/INFO]: Comanpoya lost connection: Disconnected
-[02:36:37] [Server thread/INFO]: Comanpoya left the game
-[02:36:39] [Server thread/INFO]: MLGdoritos lost connection: Disconnected
-[02:36:39] [Server thread/INFO]: MLGdoritos left the game
-[02:36:40] [Server thread/INFO]: awaaa lost connection: Disconnected
-[02:36:40] [Server thread/INFO]: awaaa left the game
-[02:36:48] [Async Chat Thread - #7/INFO]: <awitaa> Duelman par de mamaguebo
-[02:36:58] [Async Chat Thread - #7/INFO]: <awitaa> tunometecabrasarambiche
-[02:37:00] [Async Chat Thread - #7/INFO]: <awitaa> SALTE PUE
-[02:37:01] [Async Chat Thread - #7/INFO]: <awitaa> dea
-[02:37:06] [Server thread/INFO]: KotaruMa issued server command: /tpaccept AltDeEnma
-[02:37:09] [Server thread/INFO]: Yupiberth lost connection: Disconnected
-[02:37:09] [Server thread/INFO]: Yupiberth left the game
-[02:37:10] [Async Chat Thread - #7/INFO]: <awitaa> Yupicoide
-[02:37:13] [Async Chat Thread - #7/INFO]: <awitaa> eres medio gafo no
-[02:37:15] [Async Chat Thread - #7/INFO]: <awitaa> dea
-[02:37:18] [User Authenticator #9/INFO]: UUID of player Yupiberth is 153dcc10-2328-354d-b2a4-630895425d7b
-[02:37:19] [Server thread/INFO]: Yupiberth[/127.194.137.192:60971] logged in with entity id 13106 at ([world]-1003.3000000119209, 23.0, 53.69999998807907)
-[02:37:27] [Async Chat Thread - #7/INFO]: <awitaa> ay
-[02:37:42] [Async Chat Thread - #7/INFO]: <awitaa> tu eres medio marico no?
-[02:37:47] [User Authenticator #9/INFO]: UUID of player awaaa is f1b839c0-d1ef-3862-8fcb-fbb003313421
-[02:37:47] [Server thread/INFO]: awaaa[/127.57.93.60:43121] logged in with entity id 13350 at ([world]-274.40045288221165, 68.0, -67.83478533503458)
-[02:38:03] [User Authenticator #9/INFO]: UUID of player MLGdoritos is 86a7d1c1-db4b-38bb-9943-8f5f94a3a2ef
-[02:38:03] [Server thread/INFO]: MLGdoritos[/127.57.93.60:54735] logged in with entity id 13464 at ([world]-269.2780981177037, 69.0, -82.6521861474924)
-[02:38:14] [User Authenticator #9/INFO]: UUID of player Comanpoya is 060e1438-7289-36d6-82a0-8f00da010810
-[02:38:15] [Server thread/INFO]: Comanpoya[/127.57.93.60:59083] logged in with entity id 13557 at ([world]-283.7896246251035, 68.0, -77.71819599791647)
-[02:39:17] [Server thread/INFO]: Comanpoya was blown up by Creeper
-[02:39:22] [Server thread/INFO]: Comanpoya issued server command: /back
-[02:39:29] [Async Chat Thread - #8/INFO]: <Comanpoya> eres manco como yair
-[02:39:54] [Async Chat Thread - #8/INFO]: <Comanpoya> esta mariquera no mina
-[02:40:29] [Async Chat Thread - #8/INFO]: <Comanpoya> se cae
-[02:40:57] [Async Chat Thread - #8/INFO]: <MLGdoritos> MIERDA
-[02:41:20] [Async Chat Thread - #8/INFO]: <awitaa> marico los techos se estan matando en el gato
-[02:41:41] [Async Chat Thread - #8/INFO]: <awaaa> y yo escuchando canser severo
-[02:44:16] [Async Chat Thread - #9/INFO]: <awitaa> matonismo
-[02:45:28] [Async Chat Thread - #10/INFO]: <awitaa> hechale bola
-[02:45:29] [Async Chat Thread - #10/INFO]: <awitaa> dea
-[02:45:49] [Async Chat Thread - #10/INFO]: <awitaa> 999 iq
-[02:46:43] [Async Chat Thread - #10/INFO]: <awitaa> lo humillo por ser pobre pero no imaginaras lo que paso
-[02:48:26] [Async Chat Thread - #11/INFO]: <awitaa> eventualmente
-[02:48:29] [Async Chat Thread - #11/INFO]: <awitaa> aplanare esto
-[02:49:06] [Async Chat Thread - #11/INFO]: <awitaa> ooh yeah
-[02:49:07] [Async Chat Thread - #11/INFO]: <awitaa> diamantes
-[02:49:47] [Async Chat Thread - #11/INFO]: <awitaa> ponia la musica en 144p
-[02:50:03] [Async Chat Thread - #11/INFO]: <awitaa> no
-[02:50:06] [Async Chat Thread - #11/INFO]: <awitaa> sera lost media
-[02:50:20] [Async Chat Thread - #11/INFO]: <awitaa> la naturaleza del almacenamiento hara que se pierda con el tiempo
-[02:50:28] [Async Chat Thread - #11/INFO]: <awitaa> los discos duros se dañan
-[02:50:37] [Async Chat Thread - #11/INFO]: <awitaa> los ssds se mueren
-[02:51:22] [Async Chat Thread - #11/INFO]: <awitaa> me atrapaste
-[02:51:23] [Async Chat Thread - #11/INFO]: <awitaa> es cine
-[02:51:40] [Async Chat Thread - #11/INFO]: <awitaa> ay vale
-[02:52:06] [Server thread/INFO]: Yupiberth issued server command: /tpa AltDeEnma
-[02:52:09] [Server thread/INFO]: AltDeEnma issued server command: /tpaccept
-[02:52:15] [Server thread/WARN]: KotaruMa moved too quickly! -1.836214951538409,0.0,9.861076321290483
-[02:53:07] [Async Chat Thread - #12/INFO]: <awitaa> thug hunter
-[02:53:25] [Server thread/WARN]: KotaruMa was kicked due to keepalive timeout!
-[02:53:25] [Server thread/INFO]: KotaruMa lost connection: Timed out
-[02:53:25] [Server thread/INFO]: KotaruMa left the game
-[02:53:25] [Server thread/WARN]: handleDisconnection() called twice
-[02:53:49] [Async Chat Thread - #12/INFO]: <awitaa> mikecrack es un genio de los negocios
-[02:54:18] [User Authenticator #10/INFO]: UUID of player KotaruMa is c0750b00-36f4-323f-bdab-d5860f1f8211
-[02:54:18] [Server thread/INFO]: KotaruMa[/127.234.240.122:59001] logged in with entity id 19987 at ([world]-714.6573009664718, 63.0, -238.47809008929428)
-[02:55:01] [Async Chat Thread - #13/INFO]: <awitaa> yo aprendi a usar un pc a prueba y error
-[02:55:02] [Async Chat Thread - #13/INFO]: <awitaa> dea
-[02:55:26] [Async Chat Thread - #13/INFO]: <awitaa> when flipas
-[02:56:14] [Async Chat Thread - #13/INFO]: <awitaa> creeper vs zombi
-[02:57:09] [Async Chat Thread - #13/INFO]: <awitaa> coño ni me acuerdo yo
-[02:57:18] [Async Chat Thread - #13/INFO]: <awitaa> creo q 2016 o una mierda asi
-[02:59:22] [Async Chat Thread - #14/INFO]: <awitaa> tu ere loco
-[03:00:08] [Async Chat Thread - #14/INFO]: <awitaa> yo cuando tenga chamba lo primero que hare sera comprar una grafica que se ve criminalosa
-[03:00:21] [Server thread/INFO]: AltDeEnma has made the advancement [A Seedy Place]
-[03:00:26] [Async Chat Thread - #14/INFO]: <awitaa> las gtx founder son bella
-[03:00:38] [Async Chat Thread - #14/INFO]: <awitaa> hambre de yupi
-[03:01:16] [Async Chat Thread - #14/INFO]: <awitaa> y yo sigo aplanando esta mierda
-[03:05:10] [Async Chat Thread - #15/INFO]: <MLGdoritos> real
-[03:06:52] [Async Chat Thread - #16/INFO]: <awitaa> mi peak fue en cuarentena
-[03:08:33] [Async Chat Thread - #17/INFO]: <awitaa> aprendi a pensar
-[03:08:55] [Async Chat Thread - #17/INFO]: <Comanpoya> tiraba esa
-[03:09:46] [Async Chat Thread - #17/INFO]: <awitaa> por ahora
-[03:09:58] [Async Chat Thread - #17/INFO]: <KotaruMa> el mio esta todo empatado AJAJAJAJA
-[03:10:04] [Async Chat Thread - #17/INFO]: <awitaa> arrecho
-[03:12:21] [Async Chat Thread - #18/INFO]: <awitaa> naguebona
-[03:12:23] [Async Chat Thread - #18/INFO]: <awitaa> eso es ilegal
-[03:13:54] [Async Chat Thread - #19/INFO]: <awitaa> XD
-[03:14:54] [Async Chat Thread - #19/INFO]: <awaaa> sigo aplanando el sitio para la yupihouse 2
-[03:15:41] [Async Chat Thread - #19/INFO]: <awitaa> 0 antenas xdxdxdxdxdxdx
-[03:15:43] [Async Chat Thread - #19/INFO]: <awitaa> eso sirve'
-[03:17:26] [Server thread/WARN]: KotaruMa was kicked due to keepalive timeout!
-[03:17:26] [Server thread/INFO]: KotaruMa lost connection: Timed out
-[03:17:26] [Server thread/INFO]: KotaruMa left the game
-[03:17:26] [Server thread/WARN]: handleDisconnection() called twice
-[03:18:02] [User Authenticator #11/INFO]: UUID of player KotaruMa is c0750b00-36f4-323f-bdab-d5860f1f8211
-[03:18:02] [Server thread/INFO]: KotaruMa[/127.234.240.122:35811] logged in with entity id 27929 at ([world]-730.2182554163902, 67.0, -236.96980272507912)
-[03:19:16] [Async Chat Thread - #20/INFO]: <awitaa> ibas aj ugar y al volver no iba ni la mitad
-[03:22:18] [Async Chat Thread - #21/INFO]: <awitaa> brani activation
-[03:24:08] [Async Chat Thread - #22/INFO]: <awaaa> horita te cachan y te meten pal helicoide de una
+[03:34:52] [Server thread/INFO]: Starting minecraft server version 1.14.4
+[03:34:52] [Server thread/INFO]: Loading properties
+[03:34:52] [Server thread/INFO]: This server is running Paper version git-Paper-245 (MC: 1.14.4) (Implementing API version 1.14.4-R0.1-SNAPSHOT)
+[03:34:55] [Server thread/INFO]: Debug logging is disabled
+[03:34:55] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[03:34:55] [Server thread/INFO]: Using 4 threads for Netty based IO
+[03:34:55] [Server thread/INFO]: Default game type: SURVIVAL
+[03:34:55] [Server thread/INFO]: Generating keypair
+[03:34:56] [Server thread/INFO]: Starting Minecraft server on *:25565
+[03:34:56] [Server thread/INFO]: Using epoll channel type
+[03:35:05] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v7.3
+[03:35:05] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v15.5.0
+[03:35:05] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[03:35:05] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.5.0
+[03:35:08] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1mYou must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.[0;39m
+[03:35:09] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mRunning on Minecraft [33;1m1.14.4[32;1m.[0;39m
+[03:35:10] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mUsing paper join listener![0;39m
+[03:35:10] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1m[33;1mYou are running an outdated Java version, please update it to at least Java 21 (your version is 11).[0;39m
+[03:35:10] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1m[33;1mSkinsRestorer no longer officially supports this version of Java, you are currently using an unsupported compatibility build.[0;39m
+[03:35:10] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1m[33;1mYou can still use the plugin, but you may encounter issues that are not present in newer versions of Java.[0;39m
+[03:35:10] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[03:35:10] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[03:35:10] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[03:35:10] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[03:35:10] [Server thread/INFO]: Preparing level "world"
+[03:35:11] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[03:35:31] [Server thread/INFO]: Loaded 6 recipes
+[03:35:31] [Server thread/INFO]: -------- World Settings For [world] --------
+[03:35:31] [Server thread/INFO]: Experience Merge Radius: 3.0
+[03:35:31] [Server thread/INFO]: Mob Spawn Range: 8
+[03:35:31] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[03:35:31] [Server thread/INFO]: Cane Growth Modifier: 100%
+[03:35:31] [Server thread/INFO]: Melon Growth Modifier: 100%
+[03:35:31] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[03:35:31] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[03:35:31] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[03:35:31] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[03:35:31] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[03:35:31] [Server thread/INFO]: Potato Growth Modifier: 100%
+[03:35:31] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[03:35:31] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[03:35:31] [Server thread/INFO]: Vine Growth Modifier: 100%
+[03:35:31] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[03:35:31] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[03:35:31] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[03:35:31] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[03:35:31] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[03:35:31] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[03:35:31] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[03:35:31] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[03:35:31] [Server thread/INFO]: Max TNT Explosions: 100
+[03:35:31] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[03:35:31] [Server thread/INFO]: View Distance: 10
+[03:35:31] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[03:35:31] [Server thread/INFO]: Item Merge Radius: 2.5
+[03:35:31] [Server thread/INFO]: Item Despawn Rate: 6000
+[03:35:31] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[03:35:31] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[03:35:31] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[03:35:32] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[03:35:32] [Server thread/INFO]: Experience Merge Radius: 3.0
+[03:35:32] [Server thread/INFO]: Mob Spawn Range: 8
+[03:35:32] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[03:35:32] [Server thread/INFO]: Cane Growth Modifier: 100%
+[03:35:32] [Server thread/INFO]: Melon Growth Modifier: 100%
+[03:35:32] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[03:35:32] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[03:35:32] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[03:35:32] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[03:35:32] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[03:35:32] [Server thread/INFO]: Potato Growth Modifier: 100%
+[03:35:32] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[03:35:32] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[03:35:32] [Server thread/INFO]: Vine Growth Modifier: 100%
+[03:35:32] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[03:35:32] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[03:35:32] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[03:35:32] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[03:35:32] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[03:35:32] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[03:35:32] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[03:35:32] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[03:35:32] [Server thread/INFO]: Max TNT Explosions: 100
+[03:35:32] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[03:35:32] [Server thread/INFO]: View Distance: 10
+[03:35:32] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[03:35:32] [Server thread/INFO]: Item Merge Radius: 2.5
+[03:35:32] [Server thread/INFO]: Item Despawn Rate: 6000
+[03:35:32] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[03:35:32] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[03:35:32] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[03:35:32] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[03:35:32] [Server thread/INFO]: Experience Merge Radius: 3.0
+[03:35:32] [Server thread/INFO]: Mob Spawn Range: 8
+[03:35:32] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[03:35:32] [Server thread/INFO]: Cane Growth Modifier: 100%
+[03:35:32] [Server thread/INFO]: Melon Growth Modifier: 100%
+[03:35:32] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[03:35:32] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[03:35:32] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[03:35:32] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[03:35:32] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[03:35:32] [Server thread/INFO]: Potato Growth Modifier: 100%
+[03:35:32] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[03:35:32] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[03:35:32] [Server thread/INFO]: Vine Growth Modifier: 100%
+[03:35:32] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[03:35:32] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[03:35:32] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[03:35:32] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[03:35:32] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[03:35:32] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[03:35:32] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[03:35:32] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[03:35:32] [Server thread/INFO]: Max TNT Explosions: 100
+[03:35:32] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[03:35:32] [Server thread/INFO]: View Distance: 10
+[03:35:32] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[03:35:32] [Server thread/INFO]: Item Merge Radius: 2.5
+[03:35:32] [Server thread/INFO]: Item Despawn Rate: 6000
+[03:35:32] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[03:35:32] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[03:35:32] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[03:35:32] [Server thread/INFO]: Preparing start region for dimension 'world'/minecraft:overworld
+[03:35:33] [Server thread/INFO]: Preparing spawn area: 0%
+[03:35:33] [Server thread/INFO]: Preparing spawn area: 0%
+[03:35:33] [Server thread/INFO]: Preparing spawn area: 0%
+[03:35:34] [Server thread/INFO]: Preparing spawn area: 14%
+[03:35:34] [Server thread/INFO]: Preparing spawn area: 42%
+[03:35:35] [Server-Worker-1/INFO]: Preparing spawn area: 86%
+[03:35:35] [Server thread/INFO]: Preparing spawn area: 100%
+[03:35:39] [Server-Worker-2/INFO]: Preparing spawn area: 100%
+[03:35:39] [Server thread/INFO]: Preparing spawn area: 100%
+[03:35:39] [Server thread/INFO]: Preparing spawn area: 100%
+[03:35:39] [Server thread/INFO]: Preparing spawn area: 100%
+[03:35:39] [Server thread/INFO]: Preparing spawn area: 100%
+[03:35:39] [Server thread/INFO]: Preparing spawn area: 100%
+[03:35:39] [Server thread/INFO]: Preparing spawn area: 100%
+[03:35:39] [Server-Worker-1/INFO]: Preparing spawn area: 100%
+[03:35:40] [Server-Worker-2/INFO]: Preparing spawn area: 100%
+[03:35:40] [Server thread/INFO]: Loaded 441 spawn chunks for world world
+[03:35:40] [Server thread/INFO]: Time elapsed: 7663 ms
+[03:35:40] [Server thread/INFO]: Preparing start region for dimension 'world_nether'/minecraft:the_nether
+[03:35:40] [Server thread/INFO]: Preparing spawn area: 0%
+[03:35:40] [Server thread/INFO]: Preparing spawn area: 26%
+[03:35:41] [Server thread/INFO]: Preparing spawn area: 75%
+[03:35:41] [Server-Worker-1/INFO]: Preparing spawn area: 100%
+[03:35:42] [Server-Worker-1/INFO]: Preparing spawn area: 100%
+[03:35:42] [Server-Worker-2/INFO]: Preparing spawn area: 100%
+[03:35:43] [Server-Worker-1/INFO]: Preparing spawn area: 100%
+[03:35:43] [Server-Worker-1/INFO]: Preparing spawn area: 100%
+[03:35:44] [Server-Worker-1/INFO]: Preparing spawn area: 100%
+[03:35:44] [Server-Worker-2/INFO]: Preparing spawn area: 100%
+[03:35:45] [Server-Worker-2/INFO]: Preparing spawn area: 100%
+[03:35:45] [Server-Worker-1/INFO]: Preparing spawn area: 100%
+[03:35:46] [Server-Worker-2/INFO]: Preparing spawn area: 100%
+[03:35:46] [Server-Worker-1/INFO]: Preparing spawn area: 100%
+[03:35:47] [Server thread/INFO]: Preparing spawn area: 100%
+[03:35:47] [Server-Worker-2/INFO]: Preparing spawn area: 100%
+[03:35:48] [Server-Worker-1/INFO]: Preparing spawn area: 100%
+[03:35:48] [Server thread/INFO]: Loaded 441 spawn chunks for world world_nether
+[03:35:48] [Server thread/INFO]: Time elapsed: 8271 ms
+[03:35:48] [Server thread/INFO]: Preparing start region for dimension 'world_the_end'/minecraft:the_end
+[03:35:48] [Server thread/INFO]: Preparing spawn area: 0%
+[03:35:49] [Server thread/INFO]: Preparing spawn area: 54%
+[03:35:49] [Server-Worker-2/INFO]: Preparing spawn area: 100%
+[03:35:50] [Server-Worker-1/INFO]: Preparing spawn area: 100%
+[03:35:50] [Server-Worker-1/INFO]: Preparing spawn area: 100%
+[03:35:50] [Server thread/INFO]: Loaded 441 spawn chunks for world world_the_end
+[03:35:50] [Server thread/INFO]: Time elapsed: 2144 ms
+[03:35:50] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v7.3
+[03:35:50] [Server thread/INFO]: [SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9
+[03:35:50] [Server thread/INFO]: [SimpleTpa] Simple Tpa has been enabled on version 7.3
+[03:35:50] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[03:35:50] [Server thread/INFO]: Done (40.059s)! For help, type "help"
+[03:35:50] [Server thread/INFO]: Timings Reset
+[03:35:52] [Craft Scheduler Thread - 7/INFO]: [SimpleTpa] There is a new update available.
+[03:35:52] [Craft Scheduler Thread - 7/INFO]: [SimpleTpa] There is a new update available:
+[03:35:52] [Craft Scheduler Thread - 7/INFO]: [SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/
+[03:35:52] [Craft Scheduler Thread - 5/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[03:35:52] [Craft Scheduler Thread - 5/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[03:35:52] [Craft Scheduler Thread - 5/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m
+[03:35:52] [Craft Scheduler Thread - 5/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m
+[03:35:52] [Craft Scheduler Thread - 5/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |  [34;1m[4m[21mStandalone Mode[0;39m[32;1m |[0;39m
+[03:35:52] [Craft Scheduler Thread - 5/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[03:35:52] [Craft Scheduler Thread - 5/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[03:35:52] [Craft Scheduler Thread - 5/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Version: [32;1m15.5.0[0;39m
+[03:35:52] [Craft Scheduler Thread - 5/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Commit: [32;1mad418e4[0;39m
+[03:35:52] [Craft Scheduler Thread - 5/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
+[03:35:52] [Craft Scheduler Thread - 5/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[03:35:52] [Craft Scheduler Thread - 5/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[34;1mDo you have issues? Read our troubleshooting guide: [33;1mhttps://skinsrestorer.net/docs/troubleshooting[0;39m
+[03:35:52] [Craft Scheduler Thread - 5/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[34;1mWant to support SkinsRestorer? Consider donating: [33;1mhttps://skinsrestorer.net/donate[0;39m
+[03:36:11] [User Authenticator #1/INFO]: UUID of player AltDeEnma is 4cb66614-63eb-3e64-8488-2912c1dcff4f
+[03:36:12] [Server thread/INFO]: AltDeEnma[/127.126.144.92:42473] logged in with entity id 227 at ([world]-700.437148445479, 64.7531999805212, -256.94999998807884)
+[03:36:17] [User Authenticator #1/INFO]: UUID of player Yupiberth is 153dcc10-2328-354d-b2a4-630895425d7b
+[03:36:18] [Server thread/INFO]: Yupiberth[/127.194.137.192:33015] logged in with entity id 466 at ([world]-687.5, 60.5625002, -263.5)
+[03:36:20] [Async Chat Thread - #0/INFO]: <AltDeEnma> AltDeEnma
+[03:36:28] [User Authenticator #1/INFO]: UUID of player awitaa is cd512d06-6559-340e-a718-8d07cf578c77
+[03:36:28] [Server thread/INFO]: awitaa[/127.57.93.60:59919] logged in with entity id 489 at ([world]-262.30000001192093, 67.0, -58.02082774554459)
+[03:36:35] [User Authenticator #1/INFO]: UUID of player awaaa is f1b839c0-d1ef-3862-8fcb-fbb003313421
+[03:36:35] [Server thread/INFO]: awaaa[/127.57.93.60:35577] logged in with entity id 618 at ([world]-288.50021093478244, 68.0, -77.2627223613539)
+[03:36:37] [User Authenticator #1/INFO]: UUID of player KotaruMa is c0750b00-36f4-323f-bdab-d5860f1f8211
+[03:36:38] [Server thread/INFO]: KotaruMa[/127.234.240.122:56421] logged in with entity id 628 at ([world]-1102.2105955086363, 64.0, -203.91385648045647)
+[03:36:39] [User Authenticator #1/INFO]: UUID of player MLGdoritos is 86a7d1c1-db4b-38bb-9943-8f5f94a3a2ef
+[03:36:39] [Server thread/INFO]: MLGdoritos[/127.57.93.60:45945] logged in with entity id 762 at ([world]-254.71595979899456, 64.0, -76.1459034499295)
+[03:37:13] [Server thread/INFO]: KotaruMa issued server command: /tpa @enma
+[03:37:22] [Server thread/WARN]: KotaruMa was kicked due to keepalive timeout!
+[03:37:22] [Server thread/INFO]: KotaruMa lost connection: Timed out
+[03:37:23] [Server thread/INFO]: KotaruMa left the game
+[03:37:23] [Server thread/WARN]: handleDisconnection() called twice
+[03:37:35] [User Authenticator #1/INFO]: UUID of player KotaruMa is c0750b00-36f4-323f-bdab-d5860f1f8211
+[03:37:35] [Server thread/INFO]: KotaruMa[/127.234.240.122:36181] logged in with entity id 954 at ([world]-1068.2199526532663, 67.00133597911214, -203.28081022257157)
+[03:37:50] [Server thread/INFO]: KotaruMa issued server command: /tpa AltDeEnma
+[03:37:55] [Server thread/INFO]: AltDeEnma issued server command: /tpaccept
+[03:37:55] [Server thread/INFO]: AltDeEnma issued server command: /tpaccept
+[03:37:55] [Server thread/INFO]: AltDeEnma issued server command: /tpaccept
+[03:38:01] [User Authenticator #1/INFO]: UUID of player Comanpoya is 060e1438-7289-36d6-82a0-8f00da010810
+[03:38:02] [Server thread/INFO]: Comanpoya[/127.57.93.60:48057] logged in with entity id 1161 at ([world]-278.94493899924066, 64.0, -48.99786389776211)
+[03:39:54] [Async Chat Thread - #1/INFO]: <awitaa> ¿?
+[03:40:15] [Async Chat Thread - #1/INFO]: <awitaa> yo me revele gafo
+[03:40:22] [Async Chat Thread - #1/INFO]: <awitaa> nah
+[03:40:25] [Async Chat Thread - #1/INFO]: <awitaa> estoy cerca
+[03:40:25] [Async Chat Thread - #1/INFO]: <awitaa> pero
+[03:40:27] [Async Chat Thread - #1/INFO]: <awitaa> lejos
+[03:40:34] [Async Chat Thread - #1/INFO]: <awitaa> a no vale
+[03:40:40] [Async Chat Thread - #1/INFO]: <awitaa> sabes quie nactiva el xray
+[03:40:45] [Async Chat Thread - #1/INFO]: <awitaa> los mai
+[03:40:45] [Async Chat Thread - #1/INFO]: <awitaa> dea
+[03:41:31] [Async Chat Thread - #1/INFO]: <awitaa> he pasado horas aplanando
+[03:43:06] [Async Chat Thread - #2/INFO]: <awitaa> ya no se si hacer la yupihouse
+[03:43:27] [Async Chat Thread - #2/INFO]: <KotaruMa> AAJKAJKAJKA
+[03:43:34] [Async Chat Thread - #2/INFO]: <awitaa> mano
+[03:43:40] [Async Chat Thread - #2/INFO]: <awitaa> tenian una picazon anal
+[03:43:42] [Async Chat Thread - #2/INFO]: <awitaa> arrecha
+[03:43:45] [Async Chat Thread - #2/INFO]: <KotaruMa> 1. regla del server no quemar yupis
+[03:43:46] [Async Chat Thread - #2/INFO]: <awitaa> para quemar mi yupi
