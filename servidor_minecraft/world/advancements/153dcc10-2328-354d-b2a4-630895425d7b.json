@@ -988,6 +988,7 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:pillager": "2024-12-13 21:12:52 +0000",
+      "minecraft:blaze": "2024-12-15 17:23:21 +0000",
       "minecraft:skeleton": "2024-12-13 20:10:59 +0000",
       "minecraft:ravager": "2024-12-13 21:14:57 +0000",
       "minecraft:spider": "2024-12-15 03:50:49 +0000",
@@ -1304,6 +1305,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/blaze_powder": {
+    "criteria": {
+      "has_blaze_rod": "2024-12-15 17:23:21 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/paper": {
     "criteria": {
       "has_reeds": "2024-12-13 20:23:00 +0000"
@@ -1355,6 +1362,12 @@
   "minecraft:recipes/building_blocks/brown_wool": {
     "criteria": {
       "has_white_wool": "2024-12-13 18:08:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_fortress": {
+    "criteria": {
+      "fortress": "2024-12-15 17:22:39 +0000"
     },
     "done": true
   },
@@ -1754,6 +1767,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/brewing_stand": {
+    "criteria": {
+      "has_blaze_rod": "2024-12-15 17:23:21 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/red_concrete_powder": {
     "criteria": {
       "has_gravel": "2024-12-13 20:17:35 +0000"
@@ -1811,6 +1830,12 @@
   "minecraft:recipes/decorations/blue_carpet_from_white_carpet": {
     "criteria": {
       "has_white_carpet": "2024-12-13 21:12:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_blaze_rod": {
+    "criteria": {
+      "blaze_rod": "2024-12-15 17:23:21 +0000"
     },
     "done": true
   },
@@ -2091,9 +2116,10 @@
       "minecraft:crimson_forest": "2024-12-15 05:04:23 +0000",
       "minecraft:nether_wastes": "2024-12-15 04:42:37 +0000",
       "minecraft:soul_sand_valley": "2024-12-15 04:33:17 +0000",
-      "minecraft:basalt_deltas": "2024-12-15 04:50:39 +0000"
+      "minecraft:basalt_deltas": "2024-12-15 04:50:39 +0000",
+      "minecraft:warped_forest": "2024-12-15 17:22:39 +0000"
     },
-    "done": false
+    "done": true
   },
   "minecraft:recipes/decorations/yellow_carpet_from_white_carpet": {
     "criteria": {
