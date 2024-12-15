@@ -205,3 +205,34 @@
 [03:33:25] [Async Chat Thread - #1/INFO]: <awaaa> mosca con la vaina
 [03:34:18] [User Authenticator #5/INFO]: UUID of player Comanpoya is 060e1438-7289-36d6-82a0-8f00da010810
 [03:34:18] [Server thread/INFO]: Comanpoya[/127.57.93.60:36345] logged in with entity id 1595 at ([world]-286.87375345698143, 64.0, -58.00630690188056)
+[03:35:00] [Server thread/INFO]: Comanpoya lost connection: Disconnected
+[03:35:00] [Server thread/INFO]: Comanpoya left the game
+[03:35:00] [Server thread/INFO]: awaaa lost connection: Disconnected
+[03:35:00] [Server thread/INFO]: awaaa left the game
+[03:36:41] [User Authenticator #6/INFO]: UUID of player Yupiberth is 153dcc10-2328-354d-b2a4-630895425d7b
+[03:36:42] [Server thread/INFO]: Yupiberth[/127.194.137.192:37819] logged in with entity id 2104 at ([world]-728.9548016090414, 62.9375, -265.4667013892231)
+[03:36:51] [Async Chat Thread - #2/INFO]: <Yupiberth> yava
+[03:36:55] [Async Chat Thread - #2/INFO]: <Yupiberth> voy a guardar mis vainas
+[03:37:37] [Async Chat Thread - #2/INFO]: <Yupiberth> yaesta
+[03:37:49] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[03:37:56] [Server thread/INFO]: Stopping the server
+[03:37:56] [Server thread/INFO]: Stopping server
+[03:37:56] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.5.0
+[03:37:56] [Server thread/INFO]: [SimpleTpa] Disabling SimpleTpa v7.3
+[03:37:56] [Server thread/INFO]: [SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9
+[03:37:56] [Server thread/INFO]: [SimpleTpa] Simple Tpa has been disabled on version 7.3
+[03:37:56] [Server thread/INFO]: Saving players
+[03:37:56] [Server thread/INFO]: KotaruMa lost connection: Server closed
+[03:37:56] [Server thread/INFO]: KotaruMa left the game
+[03:37:56] [Server thread/INFO]: Yupiberth lost connection: Server closed
+[03:37:56] [Server thread/INFO]: Yupiberth left the game
+[03:37:56] [Server thread/INFO]: Saving worlds
+[03:37:56] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
+[03:37:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[03:37:57] [Server thread/INFO]: Saving chunks for level 'world_nether'/minecraft:the_nether
+[03:37:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[03:37:57] [Server thread/INFO]: Saving chunks for level 'world_the_end'/minecraft:the_end
+[03:37:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[03:37:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[03:37:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[03:37:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
