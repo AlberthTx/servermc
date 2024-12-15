@@ -98,3 +98,11 @@
 [23:10:17] [Server thread/INFO]: Villager EntityVillager['Fletcher'/1993, uuid='b759fcc4-f96f-452a-86ba-03ad46158a24', l='ServerLevel[world]', x=-691.00, y=60.56, z=-260.81, cx=-44, cz=-17, tl=905737, v=true, d=false] died, message: 'Fletcher was blown up by Creeper'
 [23:10:44] [Server thread/INFO]: AltDeEnma issued server command: /backpack
 [23:17:16] [Server thread/INFO]: Villager EntityVillager['Butcher'/1972, uuid='cfc321ac-9323-4388-bd27-ee3a48efc052', l='ServerLevel[world]', x=-669.84, y=62.94, z=-259.37, cx=-42, cz=-17, tl=459573, v=true, d=false] died, message: 'Butcher was slain by AltDeEnma'
+[23:25:37] [Server thread/INFO]: AltDeEnma issued server command: /back
+[23:25:50] [Server thread/INFO]: AltDeEnma issued server command: /fly
+[23:34:20] [User Authenticator #3/INFO]: UUID of player KotaruMa is c0750b00-36f4-323f-bdab-d5860f1f8211
+[23:34:20] [Server thread/INFO]: KotaruMa joined the game
+[23:34:21] [Server thread/INFO]: KotaruMa[/127.128.147.105:40575] logged in with entity id 5092 at ([world]-689.0595309484468, 60.5625, -266.095455612509)
+[23:37:26] [Async Chat Thread - #0/INFO]: <KotaruMa> me voy a comprar los perros
+[23:38:01] [Server thread/INFO]: KotaruMa lost connection: Disconnected
+[23:38:01] [Server thread/INFO]: KotaruMa left the game
