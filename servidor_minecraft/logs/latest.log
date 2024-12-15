@@ -431,3 +431,74 @@
 [17:44:28] [Server thread/INFO]: AltDeAlberth lost connection: Kicked by an operator
 [17:44:28] [Server thread/INFO]: AltDeAlberth left the game
 [17:44:28] [Server thread/INFO]: [SomeOneX: Kicked AltDeAlberth: Kicked by an operator]
+[17:44:37] [Server thread/INFO]: SomeOneX issued server command: /kick Yupiberth
+[17:44:37] [Server thread/INFO]: Yupiberth lost connection: Kicked by an operator
+[17:44:37] [Server thread/INFO]: Yupiberth left the game
+[17:44:37] [Server thread/INFO]: [SomeOneX: Kicked Yupiberth: Kicked by an operator]
+[17:45:39] [User Authenticator #10/INFO]: UUID of player Yupiberth is 153dcc10-2328-354d-b2a4-630895425d7b
+[17:45:39] [Server thread/INFO]: Yupiberth joined the game
+[17:45:39] [Server thread/INFO]: Yupiberth[/127.194.137.192:60649] logged in with entity id 20362 at ([world]-721.5199803917652, 67.0, -230.33903749643338)
+[17:45:45] [Async Chat Thread - #11/INFO]: <Yupiberth> el que me kickeo mano
+[17:45:50] [Async Chat Thread - #11/INFO]: <Yupiberth> le voy a dar yupi
+[17:45:57] [Async Chat Thread - #11/INFO]: <Yupiberth> ya voy a ver en la consola
+[17:46:18] [Server thread/INFO]: Yupiberth issued server command: /ban SomeOneX
+[17:46:18] [Server thread/INFO]: [Yupiberth: Banned SomeOneX: Banned by an operator.]
+[17:46:18] [Server thread/INFO]: SomeOneX lost connection: You are banned from this server
+[17:46:19] [Server thread/INFO]: SomeOneX left the game
+[17:46:25] [User Authenticator #10/INFO]: UUID of player SomeOneX is ba2594f5-e7b3-345c-bbb3-ac0548bcb7c3
+[17:46:25] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@1c4e6d94[id=ba2594f5-e7b3-345c-bbb3-ac0548bcb7c3,name=SomeOneX,properties={textures=[com.mojang.authlib.properties.Property@516df5ef]},legacy=false] (/127.133.12.109:59369): You are banned from this server.
+Reason: Banned by an operator.
+[17:46:25] [Server thread/INFO]: com.mojang.authlib.GameProfile@1c4e6d94[id=ba2594f5-e7b3-345c-bbb3-ac0548bcb7c3,name=SomeOneX,properties={textures=[com.mojang.authlib.properties.Property@516df5ef]},legacy=false] (/127.133.12.109:59369) lost connection: You are banned from this server.
+Reason: Banned by an operator.
+[17:46:26] [Async Chat Thread - #11/INFO]: <Yupiberth> JAJAJJAJAJAJ
+[17:46:30] [Async Chat Thread - #11/INFO]: <Yupiberth> ya se lo quito
+[17:46:32] [Async Chat Thread - #11/INFO]: <Yupiberth> ya va
+[17:46:33] [User Authenticator #10/INFO]: UUID of player SomeOneX is ba2594f5-e7b3-345c-bbb3-ac0548bcb7c3
+[17:46:33] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@603fb6ca[id=ba2594f5-e7b3-345c-bbb3-ac0548bcb7c3,name=SomeOneX,properties={textures=[com.mojang.authlib.properties.Property@46de26a8]},legacy=false] (/127.133.12.109:50511): You are banned from this server.
+Reason: Banned by an operator.
+[17:46:33] [Server thread/INFO]: com.mojang.authlib.GameProfile@603fb6ca[id=ba2594f5-e7b3-345c-bbb3-ac0548bcb7c3,name=SomeOneX,properties={textures=[com.mojang.authlib.properties.Property@46de26a8]},legacy=false] (/127.133.12.109:50511) lost connection: You are banned from this server.
+Reason: Banned by an operator.
+[17:46:38] [User Authenticator #10/INFO]: UUID of player SomeOneX is ba2594f5-e7b3-345c-bbb3-ac0548bcb7c3
+[17:46:38] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@3fe7155f[id=ba2594f5-e7b3-345c-bbb3-ac0548bcb7c3,name=SomeOneX,properties={textures=[com.mojang.authlib.properties.Property@426b69e]},legacy=false] (/127.133.12.109:42285): You are banned from this server.
+Reason: Banned by an operator.
+[17:46:38] [Server thread/INFO]: com.mojang.authlib.GameProfile@3fe7155f[id=ba2594f5-e7b3-345c-bbb3-ac0548bcb7c3,name=SomeOneX,properties={textures=[com.mojang.authlib.properties.Property@426b69e]},legacy=false] (/127.133.12.109:42285) lost connection: You are banned from this server.
+Reason: Banned by an operator.
+[17:46:45] [User Authenticator #10/INFO]: UUID of player SomeOneX is ba2594f5-e7b3-345c-bbb3-ac0548bcb7c3
+[17:46:46] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@3b630dd5[id=ba2594f5-e7b3-345c-bbb3-ac0548bcb7c3,name=SomeOneX,properties={textures=[com.mojang.authlib.properties.Property@ec9121c]},legacy=false] (/127.133.12.109:34697): You are banned from this server.
+Reason: Banned by an operator.
+[17:46:46] [Server thread/INFO]: com.mojang.authlib.GameProfile@3b630dd5[id=ba2594f5-e7b3-345c-bbb3-ac0548bcb7c3,name=SomeOneX,properties={textures=[com.mojang.authlib.properties.Property@ec9121c]},legacy=false] (/127.133.12.109:34697) lost connection: You are banned from this server.
+Reason: Banned by an operator.
+[17:46:52] [User Authenticator #10/INFO]: UUID of player SomeOneX is ba2594f5-e7b3-345c-bbb3-ac0548bcb7c3
+[17:46:52] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@7aa8c155[id=ba2594f5-e7b3-345c-bbb3-ac0548bcb7c3,name=SomeOneX,properties={textures=[com.mojang.authlib.properties.Property@580cb8fd]},legacy=false] (/127.133.12.109:38729): You are banned from this server.
+Reason: Banned by an operator.
+[17:46:52] [Server thread/INFO]: com.mojang.authlib.GameProfile@7aa8c155[id=ba2594f5-e7b3-345c-bbb3-ac0548bcb7c3,name=SomeOneX,properties={textures=[com.mojang.authlib.properties.Property@580cb8fd]},legacy=false] (/127.133.12.109:38729) lost connection: You are banned from this server.
+Reason: Banned by an operator.
+[17:46:56] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[17:47:03] [User Authenticator #10/INFO]: UUID of player SomeOneX is ba2594f5-e7b3-345c-bbb3-ac0548bcb7c3
+[17:47:03] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@173952fb[id=ba2594f5-e7b3-345c-bbb3-ac0548bcb7c3,name=SomeOneX,properties={textures=[com.mojang.authlib.properties.Property@186c4730]},legacy=false] (/127.133.12.109:33419): You are banned from this server.
+Reason: Banned by an operator.
+[17:47:04] [Server thread/INFO]: com.mojang.authlib.GameProfile@173952fb[id=ba2594f5-e7b3-345c-bbb3-ac0548bcb7c3,name=SomeOneX,properties={textures=[com.mojang.authlib.properties.Property@186c4730]},legacy=false] (/127.133.12.109:33419) lost connection: You are banned from this server.
+Reason: Banned by an operator.
+[17:47:06] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[17:47:27] [Server thread/INFO]: Yupiberth issued server command: /pardon SomeOneX
+[17:47:27] [Server thread/INFO]: [Yupiberth: Unbanned SomeOneX]
+[17:47:29] [Async Chat Thread - #11/INFO]: <Yupiberth> ya
+[17:47:34] [User Authenticator #10/INFO]: UUID of player SomeOneX is ba2594f5-e7b3-345c-bbb3-ac0548bcb7c3
+[17:47:34] [Server thread/INFO]: SomeOneX joined the game
+[17:47:34] [Server thread/INFO]: SomeOneX[/127.133.12.109:42253] logged in with entity id 21498 at ([world]-690.7073630816328, 60.5625, -264.5313304751994)
+[17:47:48] [Server thread/INFO]: SomeOneX lost connection: Disconnected
+[17:47:48] [Server thread/INFO]: SomeOneX left the game
+[17:47:49] [User Authenticator #10/INFO]: UUID of player SomeOneX is ba2594f5-e7b3-345c-bbb3-ac0548bcb7c3
+[17:47:49] [Server thread/INFO]: SomeOneX joined the game
+[17:47:49] [Server thread/INFO]: SomeOneX[/127.133.12.109:60363] logged in with entity id 21653 at ([world]-690.7073630816328, 60.5625, -264.5313304751994)
+[17:48:47] [Server thread/INFO]: SomeOneX issued server command: /backpack
+[17:49:51] [Server thread/INFO]: SomeOneX issued server command: /backpack
+[17:49:58] [Server thread/INFO]: SomeOneX issued server command: /backpack
+[17:52:47] [Server thread/WARN]: KotaruMa was kicked due to keepalive timeout!
+[17:52:47] [Server thread/INFO]: KotaruMa lost connection: Timed out
+[17:52:47] [Server thread/INFO]: KotaruMa left the game
+[17:53:24] [Server thread/INFO]: SomeOneX issued server command: /backpack
+[17:53:40] [User Authenticator #11/INFO]: UUID of player KotaruMa is c0750b00-36f4-323f-bdab-d5860f1f8211
+[17:53:40] [Server thread/INFO]: KotaruMa joined the game
+[17:53:40] [Server thread/INFO]: KotaruMa[/127.128.147.105:53293] logged in with entity id 25361 at ([world]-711.3595237377574, 68.0, -219.7953574685745)
+[17:54:35] [Server thread/INFO]: SomeOneX issued server command: /backpack

@@ -697,6 +697,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/gold_block": {
+    "criteria": {
+      "has_gold_ingot": "2024-12-15 17:42:22 +0000"
+    },
+    "done": true
+  },
   "minecraft:story/obtain_armor": {
     "criteria": {
       "iron_helmet": "2024-12-13 18:57:04 +0000"
