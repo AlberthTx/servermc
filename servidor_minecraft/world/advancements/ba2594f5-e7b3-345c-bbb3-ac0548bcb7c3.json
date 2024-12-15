@@ -819,6 +819,12 @@
     },
     "done": true
   },
+  "minecraft:end/kill_dragon": {
+    "criteria": {
+      "killed_dragon": "2024-12-15 18:54:23 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/stone_hoe": {
     "criteria": {
       "has_cobblestone": "2024-12-15 14:43:22 +0000"
@@ -883,6 +889,7 @@
       "minecraft:piglin_brute": "2024-12-15 16:20:02 +0000",
       "minecraft:creeper": "2024-12-15 17:57:19 +0000",
       "minecraft:wither_skeleton": "2024-12-15 17:19:58 +0000",
+      "minecraft:ender_dragon": "2024-12-15 18:54:23 +0000",
       "minecraft:piglin": "2024-12-15 16:20:06 +0000",
       "minecraft:enderman": "2024-12-15 15:48:39 +0000",
       "minecraft:zombie": "2024-12-15 15:07:24 +0000",
@@ -1800,6 +1807,12 @@
   "minecraft:recipes/building_blocks/light_gray_stained_glass": {
     "criteria": {
       "has_glass": "2024-12-15 17:50:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/dragon_egg": {
+    "criteria": {
+      "dragon_egg": "2024-12-15 18:54:55 +0000"
     },
     "done": true
   },
