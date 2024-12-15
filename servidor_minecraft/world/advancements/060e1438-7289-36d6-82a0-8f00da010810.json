@@ -71,6 +71,12 @@
     },
     "done": true
   },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2024-12-15 14:51:01 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/spruce_fence_gate": {
     "criteria": {
       "has_planks": "2024-12-13 19:56:44 +0000"
@@ -92,12 +98,6 @@
   "minecraft:recipes/decorations/crafting_table": {
     "criteria": {
       "has_planks": "2024-12-13 18:37:12 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/redstone": {
-    "criteria": {
-      "has_at_least_9_redstone": "2024-12-13 20:43:17 +0000"
     },
     "done": true
   },
@@ -173,6 +173,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/nether_brick": {
+    "criteria": {
+      "has_netherrack": "2024-12-15 14:51:18 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/stick": {
     "criteria": {
       "has_planks": "2024-12-13 18:37:12 +0000"
@@ -188,12 +194,6 @@
   "minecraft:recipes/combat/arrow": {
     "criteria": {
       "has_flint": "2024-12-13 20:46:45 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/coal_block": {
-    "criteria": {
-      "has_at_least_9_coal": "2024-12-13 19:06:31 +0000"
     },
     "done": true
   },
@@ -248,12 +248,6 @@
   "minecraft:recipes/tools/stone_shovel": {
     "criteria": {
       "has_cobblestone": "2024-12-13 18:46:13 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/oak_planks": {
-    "criteria": {
-      "has_log": "2024-12-13 18:07:32 +0000"
     },
     "done": true
   },
@@ -351,12 +345,6 @@
   "minecraft:recipes/building_blocks/cobblestone_stairs": {
     "criteria": {
       "has_cobblestone": "2024-12-13 18:46:13 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/birch_planks": {
-    "criteria": {
-      "has_log": "2024-12-13 18:49:56 +0000"
     },
     "done": true
   },
@@ -462,12 +450,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/coal": {
-    "criteria": {
-      "has_at_least_9_coal": "2024-12-13 19:06:31 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/oak_sign": {
     "criteria": {
       "has_oak_planks": "2024-12-13 18:37:12 +0000"
@@ -525,12 +507,6 @@
   "minecraft:recipes/redstone/oak_fence_gate": {
     "criteria": {
       "has_planks": "2024-12-13 18:37:12 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/composter": {
-    "criteria": {
-      "has_wooden_fences": "2024-12-13 21:15:11 +0000"
     },
     "done": true
   },
@@ -606,15 +582,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/stone": {
-    "criteria": {
-      "has_cobblestone": "2024-12-13 18:46:13 +0000"
-    },
-    "done": true
-  },
   "minecraft:story/mine_stone": {
     "criteria": {
       "get_stone": "2024-12-13 18:46:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone": {
+    "criteria": {
+      "has_cobblestone": "2024-12-13 18:46:13 +0000"
     },
     "done": true
   },
@@ -659,12 +635,6 @@
   "minecraft:recipes/building_blocks/andesite_stairs": {
     "criteria": {
       "has_andesite": "2024-12-13 18:50:43 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/spruce_planks": {
-    "criteria": {
-      "has_log": "2024-12-13 19:51:05 +0000"
     },
     "done": true
   },
@@ -806,12 +776,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/diamond_block": {
-    "criteria": {
-      "has_at_least_9_diamond": "2024-12-13 19:25:25 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/stone_hoe": {
     "criteria": {
       "has_cobblestone": "2024-12-13 18:46:13 +0000"
@@ -836,13 +800,13 @@
     },
     "done": true
   },
-  "minecraft:recipes/tools/diamond_pickaxe": {
+  "minecraft:recipes/tools/diamond_hoe": {
     "criteria": {
       "has_diamond": "2024-12-13 19:24:58 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/tools/diamond_hoe": {
+  "minecraft:recipes/tools/diamond_pickaxe": {
     "criteria": {
       "has_diamond": "2024-12-13 19:24:58 +0000"
     },
@@ -869,9 +833,9 @@
     },
     "done": false
   },
-  "minecraft:recipes/building_blocks/lapis_block": {
+  "minecraft:story/enter_the_nether": {
     "criteria": {
-      "has_at_least_9_lapis": "2024-12-13 19:59:12 +0000"
+      "entered_nether": "2024-12-15 14:51:01 +0000"
     },
     "done": true
   },
@@ -884,12 +848,6 @@
   "minecraft:recipes/building_blocks/polished_granite": {
     "criteria": {
       "has_stone": "2024-12-13 18:44:41 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/redstone_block": {
-    "criteria": {
-      "has_at_least_9_redstone": "2024-12-13 20:43:17 +0000"
     },
     "done": true
   },
@@ -929,6 +887,12 @@
     },
     "done": true
   },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:soul_sand_valley": "2024-12-15 14:51:01 +0000"
+    },
+    "done": false
+  },
   "minecraft:recipes/decorations/sandstone_wall": {
     "criteria": {
       "has_sandstone": "2024-12-14 15:33:07 +0000"
@@ -938,18 +902,6 @@
   "minecraft:recipes/decorations/granite_wall_from_granite_stonecutting": {
     "criteria": {
       "has_granite": "2024-12-13 18:44:41 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/diamond": {
-    "criteria": {
-      "has_at_least_9_diamond": "2024-12-13 19:25:25 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/lapis_lazuli": {
-    "criteria": {
-      "has_at_least_9_lapis": "2024-12-13 19:59:12 +0000"
     },
     "done": true
   },
@@ -1019,6 +971,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/soul_campfire": {
+    "criteria": {
+      "has_soul_sand": "2024-12-15 14:53:55 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/stone_axe": {
     "criteria": {
       "has_cobblestone": "2024-12-13 18:46:13 +0000"
@@ -1037,6 +995,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/soul_torch": {
+    "criteria": {
+      "has_soul_sand": "2024-12-15 14:53:55 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/oak_slab": {
     "criteria": {
       "has_planks": "2024-12-13 18:37:12 +0000"
@@ -1049,5 +1013,5 @@
     },
     "done": true
   },
-  "DataVersion": 1976
+  "DataVersion": 2586
 }
