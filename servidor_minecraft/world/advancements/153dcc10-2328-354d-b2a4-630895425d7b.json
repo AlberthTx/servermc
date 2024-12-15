@@ -444,6 +444,7 @@
       "cooked_mutton": "2024-12-13 18:12:14 +0000",
       "sweet_berries": "2024-12-13 20:19:38 +0000",
       "bread": "2024-12-13 19:27:29 +0000",
+      "golden_apple": "2024-12-15 18:53:04 +0000",
       "rotten_flesh": "2024-12-13 19:05:19 +0000",
       "golden_carrot": "2024-12-14 02:42:24 +0000",
       "cooked_chicken": "2024-12-13 20:17:11 +0000",
@@ -1000,6 +1001,7 @@
       "minecraft:spider": "2024-12-15 03:50:49 +0000",
       "minecraft:creeper": "2024-12-15 16:13:37 +0000",
       "minecraft:piglin": "2024-12-15 04:56:35 +0000",
+      "minecraft:enderman": "2024-12-15 18:49:21 +0000",
       "minecraft:zombie": "2024-12-13 21:21:48 +0000",
       "minecraft:zombie_villager": "2024-12-15 02:15:00 +0000"
     },
@@ -1221,6 +1223,12 @@
     },
     "done": true
   },
+  "minecraft:story/follow_ender_eye": {
+    "criteria": {
+      "in_stronghold": "2024-12-15 18:40:35 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/light_blue_stained_glass": {
     "criteria": {
       "has_glass": "2024-12-15 15:02:06 +0000"
@@ -1320,6 +1328,12 @@
   "minecraft:recipes/misc/paper": {
     "criteria": {
       "has_reeds": "2024-12-13 20:23:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2024-12-15 18:44:29 +0000"
     },
     "done": true
   },
@@ -2081,9 +2095,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/lapis_block": {
+    "criteria": {
+      "has_lapis": "2024-12-15 18:19:31 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/brown_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2024-12-15 15:49:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2024-12-15 18:44:29 +0000"
     },
     "done": true
   },

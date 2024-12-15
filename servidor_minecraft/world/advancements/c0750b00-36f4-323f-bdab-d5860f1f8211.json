@@ -952,7 +952,9 @@
       "minecraft:skeleton": "2024-12-14 02:16:02 +0000",
       "minecraft:spider": "2024-12-14 17:17:50 +0000",
       "minecraft:creeper": "2024-12-14 16:10:35 +0000",
-      "minecraft:zombie": "2024-12-13 18:21:50 +0000"
+      "minecraft:zombified_piglin": "2024-12-15 18:31:56 +0000",
+      "minecraft:zombie": "2024-12-13 18:21:50 +0000",
+      "minecraft:zombie_villager": "2024-12-15 18:13:57 +0000"
     },
     "done": false
   },
@@ -1163,6 +1165,12 @@
   "minecraft:recipes/combat/golden_boots": {
     "criteria": {
       "has_gold_ingot": "2024-12-13 20:23:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2024-12-15 18:06:26 +0000"
     },
     "done": true
   },
@@ -1696,6 +1704,12 @@
   "minecraft:recipes/decorations/purple_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2024-12-14 16:12:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/composter": {
+    "criteria": {
+      "has_wood_slab": "2024-12-15 18:13:09 +0000"
     },
     "done": true
   },

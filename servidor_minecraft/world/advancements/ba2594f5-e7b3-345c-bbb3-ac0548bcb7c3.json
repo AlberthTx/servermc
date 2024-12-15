@@ -155,6 +155,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/map": {
+    "criteria": {
+      "has_compass": "2024-12-15 18:22:01 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/iron_nugget": {
     "criteria": {
       "has_iron_ingot": "2024-12-15 14:44:27 +0000"
@@ -194,6 +200,12 @@
   "minecraft:recipes/decorations/black_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2024-12-15 17:55:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_slab_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-12-15 18:45:24 +0000"
     },
     "done": true
   },
@@ -333,6 +345,7 @@
     "criteria": {
       "cooked_porkchop": "2024-12-15 17:09:39 +0000",
       "apple": "2024-12-15 14:52:43 +0000",
+      "golden_apple": "2024-12-15 18:51:47 +0000",
       "golden_carrot": "2024-12-15 15:19:29 +0000",
       "carrot": "2024-12-15 14:53:06 +0000"
     },
@@ -395,6 +408,12 @@
   "minecraft:recipes/building_blocks/cobblestone_stairs": {
     "criteria": {
       "has_cobblestone": "2024-12-15 14:43:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_smoking": {
+    "criteria": {
+      "has_kelp": "2024-12-15 18:12:32 +0000"
     },
     "done": true
   },
@@ -626,15 +645,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/red_stained_glass": {
-    "criteria": {
-      "has_glass": "2024-12-15 17:50:18 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/sandstone": {
     "criteria": {
       "has_sand": "2024-12-15 17:49:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_stained_glass": {
+    "criteria": {
+      "has_glass": "2024-12-15 17:50:18 +0000"
     },
     "done": true
   },
@@ -659,6 +678,12 @@
   "minecraft:recipes/building_blocks/cobblestone_slab_from_cobblestone_stonecutting": {
     "criteria": {
       "has_cobblestone": "2024-12-15 14:43:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_smelting": {
+    "criteria": {
+      "has_kelp": "2024-12-15 18:12:32 +0000"
     },
     "done": true
   },
@@ -860,7 +885,9 @@
       "minecraft:wither_skeleton": "2024-12-15 17:19:58 +0000",
       "minecraft:piglin": "2024-12-15 16:20:06 +0000",
       "minecraft:enderman": "2024-12-15 15:48:39 +0000",
-      "minecraft:zombie": "2024-12-15 15:07:24 +0000"
+      "minecraft:zombie": "2024-12-15 15:07:24 +0000",
+      "minecraft:drowned": "2024-12-15 18:11:31 +0000",
+      "minecraft:zombie_villager": "2024-12-15 18:41:25 +0000"
     },
     "done": false
   },
@@ -1062,6 +1089,12 @@
     },
     "done": true
   },
+  "minecraft:story/follow_ender_eye": {
+    "criteria": {
+      "in_stronghold": "2024-12-15 18:20:25 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/light_blue_stained_glass": {
     "criteria": {
       "has_glass": "2024-12-15 17:50:18 +0000"
@@ -1140,6 +1173,12 @@
     },
     "done": true
   },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2024-12-15 18:44:37 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/golden_chestplate": {
     "criteria": {
       "has_gold_ingot": "2024-12-15 15:16:32 +0000"
@@ -1164,9 +1203,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/end_stone_bricks_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-12-15 18:45:24 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/brewing/glass_bottle": {
     "criteria": {
       "has_glass": "2024-12-15 17:50:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_stairs_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-12-15 18:45:24 +0000"
     },
     "done": true
   },
@@ -1598,10 +1649,18 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:cold_ocean": "2024-12-15 18:12:25 +0000",
+      "minecraft:snowy_mountains": "2024-12-15 18:10:06 +0000",
       "minecraft:forest": "2024-12-15 14:39:46 +0000",
       "minecraft:taiga": "2024-12-15 14:45:14 +0000",
+      "minecraft:deep_cold_ocean": "2024-12-15 18:12:05 +0000",
+      "minecraft:snowy_tundra": "2024-12-15 18:09:46 +0000",
       "minecraft:taiga_hills": "2024-12-15 14:44:21 +0000",
+      "minecraft:snowy_beach": "2024-12-15 18:09:43 +0000",
+      "minecraft:beach": "2024-12-15 18:09:35 +0000",
       "minecraft:river": "2024-12-15 15:12:46 +0000",
+      "minecraft:lukewarm_ocean": "2024-12-15 18:09:34 +0000",
+      "minecraft:wooded_hills": "2024-12-15 18:08:15 +0000",
       "minecraft:plains": "2024-12-15 15:04:13 +0000"
     },
     "done": false
@@ -1744,6 +1803,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/end_stone_bricks": {
+    "criteria": {
+      "has_end_stone": "2024-12-15 18:45:24 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/heavy_weighted_pressure_plate": {
     "criteria": {
       "has_iron_ingot": "2024-12-15 14:44:27 +0000"
@@ -1780,6 +1845,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/dried_kelp_from_campfire_cooking": {
+    "criteria": {
+      "has_kelp": "2024-12-15 18:12:32 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/lapis_block": {
     "criteria": {
       "has_lapis": "2024-12-15 14:56:26 +0000"
@@ -1789,6 +1860,18 @@
   "minecraft:recipes/decorations/brown_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2024-12-15 17:55:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2024-12-15 18:44:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_stone_brick_wall_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-12-15 18:45:24 +0000"
     },
     "done": true
   },
