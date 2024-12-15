@@ -1,169 +1,157 @@
-[05:28:02] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[05:28:03] [main/INFO]: Reloading ResourceManager: Default, bukkit
-[05:28:05] [Worker-Main-1/INFO]: Loaded 7 recipes
-[05:28:08] [Server thread/INFO]: Starting minecraft server version 1.16.5
-[05:28:08] [Server thread/INFO]: Loading properties
-[05:28:08] [Server thread/INFO]: This server is running Paper version git-Paper-794 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT)
-[05:28:08] [Server thread/INFO]: Debug logging is disabled
-[05:28:08] [Server thread/INFO]: Using 4 threads for Netty based IO
-[05:28:08] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[05:28:09] [Server thread/INFO]: Default game type: SURVIVAL
-[05:28:09] [Server thread/INFO]: Generating keypair
-[05:28:09] [Server thread/INFO]: Starting Minecraft server on *:25565
-[05:28:09] [Server thread/INFO]: Using epoll channel type
-[05:28:11] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v7.4
-[05:28:11] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v15.5.0
-[05:28:11] [Server thread/INFO]: [Minepacks] Loading Minepacks v2.4.31.4-T20240629215752
-[05:28:11] [Server thread/INFO]: [Minepacks] PCGF-PluginLib not installed. Switching to standalone mode!
-[05:28:11] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[05:28:11] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.5.0
-[05:28:12] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1mYou must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.[0;39m
-[05:28:13] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mRunning on Minecraft [33;1m1.16.5[32;1m.[0;39m
-[05:28:14] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mUsing paper join listener![0;39m
-[05:28:14] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1m[33;1mYou are running an outdated Java version, please update it to at least Java 21 (your version is 11).[0;39m
-[05:28:14] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1m[33;1mSkinsRestorer no longer officially supports this version of Java, you are currently using an unsupported compatibility build.[0;39m
-[05:28:14] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1m[33;1mYou can still use the plugin, but you may encounter issues that are not present in newer versions of Java.[0;39m
-[05:28:14] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[05:28:14] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[05:28:14] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[05:28:14] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[05:28:14] [Server thread/INFO]: Preparing level "world"
-[05:28:15] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[05:28:15] [Server thread/INFO]: Preparing spawn area: 0%
-[05:28:15] [Server thread/INFO]: Preparing spawn area: 0%
-[05:28:16] [Server thread/INFO]: Time elapsed: 994 ms
-[05:28:16] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[05:28:16] [Server thread/INFO]: Time elapsed: 527 ms
-[05:28:16] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[05:28:18] [Server thread/INFO]: Time elapsed: 1421 ms
-[05:28:18] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v7.4
-[05:28:18] [Server thread/INFO]: [SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9
-[05:28:18] [Server thread/INFO]: [SimpleTpa] Simple Tpa has been enabled on version 7.4
-[05:28:18] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
-[05:28:18] [Server thread/INFO]: [Minepacks] Enabling Minepacks v2.4.31.4-T20240629215752
-[05:28:18] [Server thread/INFO]: [Minepacks] Starting Minepacks in standalone mode!
-[05:28:18] [Server thread/INFO]: [Minepacks] Config version: 32 => Config outdated! Upgrading ...
-[05:28:18] [Server thread/INFO]: [Minepacks] File "/config.yml" extracted successfully!
-[05:28:18] [Server thread/INFO]: [Minepacks] [32mConfig file successfully loaded.[0m
-[05:28:18] [Server thread/INFO]: [Minepacks] [32mSuccessful upgraded config file.[0m
-[05:28:19] [Server thread/INFO]: [Minepacks] Language version: 18 => Language outdated! Upgrading ...
-[05:28:19] [Server thread/INFO]: [Minepacks] File "/lang/en.yml" extracted successfully!
-[05:28:19] [Server thread/INFO]: [Minepacks] [32mLanguage file successfully loaded. Language: english  Author: GeorgH93[0m
-[05:28:19] [Server thread/INFO]: [Minepacks] No custom language upgrade code. Copying data from old file to new one.
-[05:28:19] [Server thread/INFO]: [Minepacks] [32mSuccessful upgraded language file.[0m
-[05:28:19] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Starting...
-[05:28:20] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Start completed.
-[05:28:20] [Server thread/INFO]: [Minepacks] [32mItem name language file successfully loaded. Language: english  Author: GeorgH93[0m
-[05:28:20] [Server thread/INFO]: [Minepacks] Loading item translations ...
-[05:28:20] [Server thread/INFO]: [Minepacks] Finished loading item translations for 829 items.
-[05:28:20] [Server thread/INFO]: [Minepacks] [32m Minepacks has been enabled! [33m :) [0m
-[05:28:21] [Server thread/INFO]: Running delayed init tasks
-[05:28:21] [Server thread/INFO]: Done (13.216s)! For help, type "help"
-[05:28:21] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] ************************************************************
-[05:28:21] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * WARNING - YOU ARE RUNNING AN OUTDATED VERSION OF JAVA.
-[05:28:21] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * PAPER WILL STOP BEING COMPATIBLE WITH THIS VERSION OF
-[05:28:21] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * JAVA WHEN MINECRAFT 1.17 IS RELEASED.
-[05:28:21] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
-[05:28:21] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Please update the version of Java you use to run Paper
-[05:28:21] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * to at least Java 16. When Paper for Minecraft 1.17 is
-[05:28:21] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * released support for versions of Java before 16 will
-[05:28:21] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * be dropped.
-[05:28:21] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
-[05:28:21] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Current Java version: 11.0.25
-[05:28:21] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
-[05:28:21] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Check this forum post for more information: 
-[05:28:21] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *   https://papermc.io/java16
-[05:28:21] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] ************************************************************
-[05:28:21] [Server thread/INFO]: Timings Reset
-[05:28:21] [Craft Scheduler Thread - 3/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
-[05:28:21] [Craft Scheduler Thread - 3/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
-[05:28:21] [Craft Scheduler Thread - 3/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m
-[05:28:21] [Craft Scheduler Thread - 3/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m
-[05:28:21] [Craft Scheduler Thread - 3/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |  [34;1m[4m[21mStandalone Mode[0;39m[32;1m |[0;39m
-[05:28:21] [Craft Scheduler Thread - 3/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
-[05:28:21] [Craft Scheduler Thread - 3/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
-[05:28:21] [Craft Scheduler Thread - 3/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Version: [32;1m15.5.0[0;39m
-[05:28:21] [Craft Scheduler Thread - 3/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Commit: [32;1mad418e4[0;39m
-[05:28:21] [Craft Scheduler Thread - 3/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
-[05:28:21] [Craft Scheduler Thread - 3/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
-[05:28:21] [Craft Scheduler Thread - 3/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[34;1mDo you have issues? Read our troubleshooting guide: [33;1mhttps://skinsrestorer.net/docs/troubleshooting[0;39m
-[05:28:21] [Craft Scheduler Thread - 3/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[34;1mWant to support SkinsRestorer? Consider donating: [33;1mhttps://skinsrestorer.net/donate[0;39m
-[05:28:29] [User Authenticator #1/INFO]: UUID of player AltDeEnma is 4cb66614-63eb-3e64-8488-2912c1dcff4f
-[05:28:31] [Server thread/INFO]: AltDeEnma joined the game
-[05:28:31] [Server thread/INFO]: AltDeEnma[/127.6.201.148:49617] logged in with entity id 88 at ([world_nether]962.8721687108733, 50.0, -119.05569639655741)
-[05:29:25] [Server thread/INFO]: Unknown command. Type "/help" for help.
-[05:29:37] [Server thread/INFO]: Unknown command. Type "/help" for help.
-[05:29:44] [Server thread/INFO]: Unknown command. Type "/help" for help.
-[05:30:03] [Server thread/INFO]: AltDeEnma issued server command: /tell AltDeEnma hola
-[05:30:34] [Server thread/INFO]: AltDeEnma issued server command: /ping
-[05:30:50] [Server thread/INFO]: AltDeEnma issued server command: /skin set alwayshighcity
-[05:30:51] [Thread-24/WARN]: java.lang.IllegalArgumentException: Unknown standard bukkit form: ITEM_SWEET_BERRIES_PICK_FROM_BUSH named ITEM_SWEET_BERRIES_PICK_FROM_BUSH
-[05:30:51] [Thread-24/WARN]: 	at net.skinsrestorer.shadow.xseries.base.XRegistry.std(XRegistry.java:302)
-[05:30:51] [Thread-24/WARN]: 	at net.skinsrestorer.shadow.xseries.base.XRegistry.std(XRegistry.java:288)
-[05:30:51] [Thread-24/WARN]: 	at net.skinsrestorer.shadow.xseries.base.XRegistry.pullSystemValues(XRegistry.java:123)
-[05:30:51] [Thread-24/WARN]: 	at net.skinsrestorer.shadow.xseries.base.XRegistry.pullValues(XRegistry.java:86)
-[05:30:51] [Thread-24/WARN]: 	at net.skinsrestorer.shadow.xseries.base.XRegistry.getByName(XRegistry.java:219)
-[05:30:51] [Thread-24/WARN]: 	at net.skinsrestorer.shadow.xseries.XSound.matchXSound(XSound.java:1802)
-[05:30:51] [Thread-24/WARN]: 	at net.skinsrestorer.bukkit.utils.SoundUtil.playSound(SoundUtil.java:51)
-[05:30:51] [Thread-24/WARN]: 	at net.skinsrestorer.bukkit.utils.BukkitSoundProvider.accept(BukkitSoundProvider.java:27)
-[05:30:51] [Thread-24/WARN]: 	at net.skinsrestorer.bukkit.utils.BukkitSoundProvider.accept(BukkitSoundProvider.java:24)
-[05:30:51] [Thread-24/WARN]: 	at net.skinsrestorer.shared.api.SharedSkinApplier.lambda$applySkin$1(SharedSkinApplier.java:66)
-[05:30:51] [Thread-24/WARN]: 	at java.base/java.util.Optional.ifPresent(Optional.java:183)
-[05:30:51] [Thread-24/WARN]: 	at net.skinsrestorer.shared.api.SharedSkinApplier.applySkin(SharedSkinApplier.java:66)
-[05:30:51] [Thread-24/WARN]: 	at net.skinsrestorer.shared.commands.SkinCommand.lambda$setSkin$6(SkinCommand.java:523)
-[05:30:51] [Thread-24/WARN]: 	at java.base/java.util.Optional.ifPresent(Optional.java:183)
-[05:30:51] [Thread-24/WARN]: 	at net.skinsrestorer.shared.commands.SkinCommand.setSkin(SkinCommand.java:523)
-[05:30:51] [Thread-24/WARN]: 	at net.skinsrestorer.shared.commands.SkinCommand.onSkinSetOther(SkinCommand.java:299)
-[05:30:51] [Thread-24/WARN]: 	at net.skinsrestorer.shared.commands.SkinCommand.onSkinSetOther(SkinCommand.java:287)
-[05:30:51] [Thread-24/WARN]: 	at net.skinsrestorer.shared.commands.SkinCommand.onSkinSet(SkinCommand.java:279)
-[05:30:51] [Thread-24/WARN]: 	at java.base/java.lang.invoke.MethodHandle.invokeWithArguments(MethodHandle.java:710)
-[05:30:51] [Thread-24/WARN]: 	at java.base/java.lang.invoke.MethodHandle.invokeWithArguments(MethodHandle.java:735)
-[05:30:51] [Thread-24/WARN]: 	at net.skinsrestorer.shadow.cloud.annotations.MethodCommandExecutionHandler.executeFuture(MethodCommandExecutionHandler.java:88)
-[05:30:51] [Thread-24/WARN]: 	at net.skinsrestorer.shadow.cloud.execution.ExecutionCoordinatorImpl.lambda$coordinateExecution$4(ExecutionCoordinatorImpl.java:121)
-[05:30:51] [Thread-24/WARN]: 	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1072)
-[05:30:51] [Thread-24/WARN]: 	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478)
-[05:30:51] [Thread-24/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:829)
-[05:31:27] [Server thread/INFO]: Unknown command. Type "/help" for help.
-[05:31:47] [Server thread/INFO]: AltDeEnma issued server command: /give AltDeEnma minecraft:experience_bottle 64
-[05:31:47] [Server thread/INFO]: [AltDeEnma: Gave 64 [Bottle o' Enchanting] to AltDeEnma]
-[05:32:48] [Server thread/INFO]: AltDeEnma issued server command: /give AltDeEnma minecraft:gold_block 16
-[05:32:48] [Server thread/INFO]: [AltDeEnma: Gave 16 [Block of Gold] to AltDeEnma]
-[05:34:24] [Server thread/INFO]: AltDeEnma issued server command: /tp -77 76 -24
-[05:34:24] [Server thread/INFO]: [AltDeEnma: Teleported AltDeEnma to -76.5, 76.0, -23.5]
-[05:50:33] [Server thread/INFO]: AltDeEnma issued server command: /backpack
-[05:51:05] [Server thread/INFO]: AltDeEnma issued server command: /backpack
-[05:52:11] [Server thread/INFO]: AltDeEnma issued server command: /backpack
-[05:53:31] [Server thread/INFO]: AltDeEnma issued server command: /backpack
-[05:53:51] [Server thread/INFO]: AltDeEnma issued server command: /backpack
-[05:53:55] [Server thread/INFO]: AltDeEnma issued server command: /backpack
-[05:54:20] [Server thread/INFO]: AltDeEnma issued server command: /backpack
-[05:54:40] [Server thread/INFO]: AltDeEnma issued server command: /backpack
-[05:55:00] [Server thread/INFO]: AltDeEnma issued server command: /backpack
-[05:55:46] [Server thread/INFO]: AltDeEnma issued server command: /backpack
-[05:56:02] [Server thread/INFO]: AltDeEnma issued server command: /backpack
-[05:57:08] [Server thread/INFO]: AltDeEnma lost connection: Disconnected
-[05:57:08] [Server thread/INFO]: AltDeEnma left the game
-[05:57:30] [Server thread/INFO]: Stopping the server
-[05:57:30] [Server thread/INFO]: Stopping server
-[05:57:30] [Server thread/INFO]: [Minepacks] Disabling Minepacks v2.4.31.4-T20240629215752
-[05:57:31] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Shutdown initiated...
-[05:57:31] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Shutdown completed.
-[05:57:31] [Server thread/INFO]: [Minepacks] [31m Minepacks has been disabled. [33m :( [0m
-[05:57:31] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.5.0
-[05:57:31] [Server thread/INFO]: [SimpleTpa] Disabling SimpleTpa v7.4
-[05:57:31] [Server thread/INFO]: [SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9
-[05:57:31] [Server thread/INFO]: [SimpleTpa] Simple Tpa has been disabled on version 7.4
-[05:57:31] [Server thread/INFO]: Saving players
-[05:57:31] [Server thread/INFO]: Saving worlds
-[05:57:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[05:57:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[05:57:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[05:57:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[05:57:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[05:57:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[05:57:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[05:57:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[05:57:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[05:57:31] [Server thread/INFO]: Flushing Chunk IO
-[05:57:31] [Server thread/INFO]: Closing Thread Pool
-[05:57:31] [Server thread/INFO]: Closing Server
+[14:35:43] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[14:35:43] [main/INFO]: Reloading ResourceManager: Default, bukkit
+[14:35:45] [Worker-Main-1/INFO]: Loaded 7 recipes
+[14:35:47] [Server thread/INFO]: Starting minecraft server version 1.16.5
+[14:35:47] [Server thread/INFO]: Loading properties
+[14:35:48] [Server thread/INFO]: This server is running Paper version git-Paper-794 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT)
+[14:35:49] [Server thread/INFO]: Debug logging is disabled
+[14:35:49] [Server thread/INFO]: Using 4 threads for Netty based IO
+[14:35:49] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[14:35:50] [Server thread/INFO]: Default game type: SURVIVAL
+[14:35:50] [Server thread/INFO]: Generating keypair
+[14:35:50] [Server thread/INFO]: Starting Minecraft server on *:25565
+[14:35:50] [Server thread/INFO]: Using epoll channel type
+[14:35:51] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v7.4
+[14:35:51] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v15.5.0
+[14:35:51] [Server thread/INFO]: [Minepacks] Loading Minepacks v2.4.31.4-T20240629215752
+[14:35:51] [Server thread/INFO]: [Minepacks] PCGF-PluginLib not installed. Switching to standalone mode!
+[14:35:51] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[14:35:51] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.5.0
+[14:35:53] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1mYou must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.[0;39m
+[14:35:54] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mRunning on Minecraft [33;1m1.16.5[32;1m.[0;39m
+[14:35:55] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mUsing paper join listener![0;39m
+[14:35:55] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1m[33;1mYou are running an outdated Java version, please update it to at least Java 21 (your version is 11).[0;39m
+[14:35:55] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1m[33;1mSkinsRestorer no longer officially supports this version of Java, you are currently using an unsupported compatibility build.[0;39m
+[14:35:55] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1m[33;1mYou can still use the plugin, but you may encounter issues that are not present in newer versions of Java.[0;39m
+[14:35:55] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[14:35:55] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[14:35:55] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[14:35:55] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[14:35:55] [Server thread/INFO]: Preparing level "world"
+[14:35:55] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[14:35:56] [Server thread/INFO]: Preparing spawn area: 0%
+[14:35:56] [Server thread/INFO]: Preparing spawn area: 0%
+[14:35:56] [Server thread/INFO]: Time elapsed: 952 ms
+[14:35:56] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[14:35:57] [Server thread/INFO]: Time elapsed: 1123 ms
+[14:35:57] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[14:35:58] [Server thread/INFO]: Time elapsed: 404 ms
+[14:35:58] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v7.4
+[14:35:58] [Server thread/INFO]: [SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9
+[14:35:58] [Server thread/INFO]: [SimpleTpa] Simple Tpa has been enabled on version 7.4
+[14:35:58] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[14:35:58] [Server thread/INFO]: [Minepacks] Enabling Minepacks v2.4.31.4-T20240629215752
+[14:35:58] [Server thread/INFO]: [Minepacks] Starting Minepacks in standalone mode!
+[14:35:58] [Server thread/INFO]: [Minepacks] [32mConfig file successfully loaded.[0m
+[14:35:58] [Server thread/INFO]: [Minepacks] [32mLanguage file successfully loaded. Language: english  Author: GeorgH93[0m
+[14:35:58] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Starting...
+[14:35:59] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Start completed.
+[14:35:59] [Server thread/INFO]: [Minepacks] [32mItem name language file successfully loaded. Language: english  Author: GeorgH93[0m
+[14:35:59] [Server thread/INFO]: [Minepacks] Loading item translations ...
+[14:35:59] [Server thread/INFO]: [Minepacks] Finished loading item translations for 829 items.
+[14:35:59] [Server thread/INFO]: [Minepacks] [32m Minepacks has been enabled! [33m :) [0m
+[14:36:00] [Server thread/INFO]: Running delayed init tasks
+[14:36:00] [Server thread/INFO]: Done (12.374s)! For help, type "help"
+[14:36:00] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] ************************************************************
+[14:36:00] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * WARNING - YOU ARE RUNNING AN OUTDATED VERSION OF JAVA.
+[14:36:00] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * PAPER WILL STOP BEING COMPATIBLE WITH THIS VERSION OF
+[14:36:00] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * JAVA WHEN MINECRAFT 1.17 IS RELEASED.
+[14:36:00] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
+[14:36:00] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Please update the version of Java you use to run Paper
+[14:36:00] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * to at least Java 16. When Paper for Minecraft 1.17 is
+[14:36:00] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * released support for versions of Java before 16 will
+[14:36:00] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * be dropped.
+[14:36:00] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
+[14:36:00] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Current Java version: 11.0.25
+[14:36:00] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
+[14:36:00] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Check this forum post for more information: 
+[14:36:00] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *   https://papermc.io/java16
+[14:36:00] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] ************************************************************
+[14:36:00] [Server thread/INFO]: Timings Reset
+[14:36:00] [Craft Scheduler Thread - 3/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[14:36:00] [Craft Scheduler Thread - 3/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[14:36:00] [Craft Scheduler Thread - 3/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m
+[14:36:00] [Craft Scheduler Thread - 3/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m
+[14:36:00] [Craft Scheduler Thread - 3/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |  [34;1m[4m[21mStandalone Mode[0;39m[32;1m |[0;39m
+[14:36:00] [Craft Scheduler Thread - 3/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[14:36:00] [Craft Scheduler Thread - 3/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[14:36:00] [Craft Scheduler Thread - 3/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Version: [32;1m15.5.0[0;39m
+[14:36:00] [Craft Scheduler Thread - 3/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Commit: [32;1mad418e4[0;39m
+[14:36:00] [Craft Scheduler Thread - 3/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
+[14:36:00] [Craft Scheduler Thread - 3/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[14:36:00] [Craft Scheduler Thread - 3/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[34;1mDo you have issues? Read our troubleshooting guide: [33;1mhttps://skinsrestorer.net/docs/troubleshooting[0;39m
+[14:36:00] [Craft Scheduler Thread - 3/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[34;1mWant to support SkinsRestorer? Consider donating: [33;1mhttps://skinsrestorer.net/donate[0;39m
+[14:36:34] [User Authenticator #1/INFO]: UUID of player awitaa is cd512d06-6559-340e-a718-8d07cf578c77
+[14:36:35] [Server thread/INFO]: awitaa joined the game
+[14:36:35] [Server thread/INFO]: awitaa[/127.57.93.60:34409] logged in with entity id 158 at ([world]-253.2162193251938, 64.0, -48.89679970537807)
+[14:36:52] [Async Chat Thread - #0/INFO]: <awitaa> aca succionador de yupis 69
+[14:39:01] [Async Chat Thread - #1/INFO]: <awitaa> Nigga nigga niga niga
+[14:39:02] [Async Chat Thread - #1/INFO]: <awitaa> nignigani
+[14:39:25] [Server thread/INFO]: awitaa has made the advancement [Ice Bucket Challenge]
+[14:39:46] [User Authenticator #2/INFO]: UUID of player SomeOneX is ba2594f5-e7b3-345c-bbb3-ac0548bcb7c3
+[14:39:46] [Server thread/INFO]: SomeOneX joined the game
+[14:39:46] [Server thread/INFO]: SomeOneX[/127.133.12.109:52631] logged in with entity id 684 at ([world]-223.5, 63.0, 106.5)
+[14:39:52] [Async Chat Thread - #1/INFO]: <awitaa> hello maton
+[14:39:59] [Async Chat Thread - #1/INFO]: <SomeOneX> yo fon ringin
+[14:40:08] [Async Chat Thread - #1/INFO]: <SomeOneX> tiriririn tin tin tin tin
+[14:40:08] [Async Chat Thread - #1/INFO]: <awitaa> xaero-waypoint:gui.xaero-deathpoint-old:D:-702:63:-244:0:false:0:Internal-overworld-waypoints
+[14:40:16] [Async Chat Thread - #1/INFO]: <awitaa> la base de esos matones esta ahi
+[14:40:18] [Async Chat Thread - #1/INFO]: <awitaa> yo estoy en otro sitio
+[14:40:21] [Async Chat Thread - #1/INFO]: <awitaa> me quemaron el yupi
+[14:41:00] [Async Chat Thread - #1/INFO]: <awitaa> a meter las yupicuentas
+[14:41:02] [User Authenticator #3/INFO]: UUID of player Comanpoya is 060e1438-7289-36d6-82a0-8f00da010810
+[14:41:02] [Server thread/INFO]: Comanpoya joined the game
+[14:41:02] [Server thread/INFO]: Comanpoya[/127.57.93.60:39613] logged in with entity id 926 at ([world]-256.5385469394763, 64.0, -49.1676366499877)
+[14:41:03] [User Authenticator #3/INFO]: UUID of player Yupiberth is 153dcc10-2328-354d-b2a4-630895425d7b
+[14:41:03] [Server thread/INFO]: Yupiberth joined the game
+[14:41:03] [Server thread/INFO]: Yupiberth[/127.194.137.192:46003] logged in with entity id 938 at ([world]-713.3000000119209, 67.0, -229.04457675657076)
+[14:41:10] [Async Chat Thread - #1/INFO]: <Yupiberth> pene pa some
+[14:41:13] [User Authenticator #3/INFO]: UUID of player awaaa is f1b839c0-d1ef-3862-8fcb-fbb003313421
+[14:41:13] [Server thread/INFO]: awaaa joined the game
+[14:41:13] [Server thread/INFO]: awaaa[/127.57.93.60:33043] logged in with entity id 1246 at ([world]-254.58595584627693, 64.0, -49.49835315970942)
+[14:41:15] [Server thread/INFO]: Yupiberth issued server command: /op SomeOneX
+[14:41:15] [Server thread/INFO]: [Yupiberth: Made SomeOneX a server operator]
+[14:41:19] [Async Chat Thread - #1/INFO]: <Yupiberth> no la cagues mano
+[14:41:20] [User Authenticator #3/INFO]: UUID of player MLGdoritos is 86a7d1c1-db4b-38bb-9943-8f5f94a3a2ef
+[14:41:20] [Server thread/INFO]: MLGdoritos joined the game
+[14:41:20] [Server thread/INFO]: MLGdoritos[/127.57.93.60:38465] logged in with entity id 1252 at ([world]-255.24137306227485, 64.0, -43.7209261523577)
+[14:41:24] [Async Chat Thread - #1/INFO]: <Comanpoya> dea
+[14:41:26] [Server thread/INFO]: SomeOneX issued server command: /difficulty hard
+[14:41:26] [Server thread/INFO]: [SomeOneX: The difficulty has been set to Hard]
+[14:41:27] [Async Chat Thread - #1/INFO]: <Yupiberth> que el op es pa la mochila
+[14:41:31] [Async Chat Thread - #1/INFO]: <Yupiberth> awita
+[14:41:37] [Async Chat Thread - #1/INFO]: <Yupiberth> en que cuenta te pongo op
+[14:41:42] [Async Chat Thread - #1/INFO]: <Yupiberth> pa que uses la mochila
+[14:41:43] [Async Chat Thread - #1/INFO]: <Comanpoya> ni me pongas op
+[14:41:47] [Server thread/INFO]: SomeOneX issued server command: /scoreboard objectives add HP health
+[14:41:47] [Server thread/INFO]: [SomeOneX: Created new objective [HP]]
+[14:41:48] [Async Chat Thread - #1/INFO]: <Comanpoya> yava que
+[14:42:04] [Server thread/INFO]: SomeOneX issued server command: /scoreboard objectives setdisplay belowName HP
+[14:42:04] [Server thread/INFO]: [SomeOneX: Set display slot belowName to show objective HP]
+[14:42:06] [Server thread/INFO]: Comanpoya was blown up by Creeper
+[14:42:13] [Async Chat Thread - #1/INFO]: <Yupiberth> que cño haces some
+[14:42:14] [Server thread/INFO]: Comanpoya issued server command: /back
+[14:42:16] [Async Chat Thread - #1/INFO]: <Yupiberth> no entiendo nada de eso
+[14:42:18] [Async Chat Thread - #1/INFO]: <Comanpoya> esta en el yupispawn
+[14:42:18] [Server thread/INFO]: SomeOneX issued server command: /scoreboard objectives setdisplay list HP
+[14:42:18] [Server thread/INFO]: [SomeOneX: Set display slot list to show objective HP]
+[14:43:22] [Server thread/INFO]: SomeOneX has made the advancement [Stone Age]
+[14:43:46] [Server thread/INFO]: Yupiberth issued server command: /tpahere SomeOneX
+[14:43:49] [Async Chat Thread - #2/INFO]: <awitaa> estamos en 1.16.5 no?
+[14:43:52] [Server thread/INFO]: SomeOneX issued server command: /tpaccept
+[14:43:53] [Async Chat Thread - #2/INFO]: <Yupiberth> sisa
+[14:44:09] [Server thread/INFO]: SomeOneX has made the advancement [Getting an Upgrade]
+[14:44:17] [Server thread/INFO]: SomeOneX issued server command: /tpa Yupiberth
+[14:44:21] [Server thread/INFO]: Yupiberth issued server command: /tp SomeOneX Yupiberth
+[14:44:21] [Server thread/INFO]: [Yupiberth: Teleported SomeOneX to Yupiberth]
+[14:44:27] [Server thread/INFO]: SomeOneX has made the advancement [Acquire Hardware]
+[14:44:30] [Server thread/INFO]: awaaa has made the advancement [Cover Me With Diamonds]
+[14:44:43] [Async Chat Thread - #2/INFO]: <SomeOneX> dame hacha de diamante
+[14:44:48] [Async Chat Thread - #2/INFO]: <Yupiberth> voy
+[14:45:06] [Async Chat Thread - #2/INFO]: <Yupiberth> vamos a robarle a ma
+[14:45:09] [Async Chat Thread - #2/INFO]: <Yupiberth> pero no le digas
+[14:45:10] [Async Chat Thread - #2/INFO]: <Yupiberth> shhhh
+[14:45:14] [Async Chat Thread - #2/INFO]: <awitaa> te voy a sapear
+[14:45:14] [Async Chat Thread - #2/INFO]: <awitaa> dae
+[14:45:15] [Async Chat Thread - #2/INFO]: <awitaa> dea
+[14:45:20] [Async Chat Thread - #2/INFO]: <Yupiberth> dea
