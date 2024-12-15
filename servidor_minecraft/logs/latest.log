@@ -502,3 +502,35 @@ Reason: Banned by an operator.
 [17:53:40] [Server thread/INFO]: KotaruMa joined the game
 [17:53:40] [Server thread/INFO]: KotaruMa[/127.128.147.105:53293] logged in with entity id 25361 at ([world]-711.3595237377574, 68.0, -219.7953574685745)
 [17:54:35] [Server thread/INFO]: SomeOneX issued server command: /backpack
+[17:56:09] [Server thread/INFO]: SomeOneX has made the advancement [Local Brewery]
+[17:56:13] [Server thread/INFO]: KotaruMa lost connection: Disconnected
+[17:56:13] [Server thread/INFO]: KotaruMa left the game
+[17:56:17] [User Authenticator #12/INFO]: UUID of player KotaruMa is c0750b00-36f4-323f-bdab-d5860f1f8211
+[17:56:17] [Server thread/INFO]: KotaruMa joined the game
+[17:56:17] [Server thread/INFO]: KotaruMa[/127.128.147.105:51851] logged in with entity id 26951 at ([world]-720.1574737337037, 68.0, -216.8701950133502)
+[17:56:31] [Async Chat Thread - #12/INFO]: <Yupiberth> que pasa
+[17:56:35] [Async Chat Thread - #12/INFO]: <SomeOneX> duerme
+[17:56:47] [Async Chat Thread - #12/INFO]: <Yupiberth> ya
+[17:56:58] [Server thread/INFO]: KotaruMa issued server command: /tpa SomeOneX
+[17:57:00] [Server thread/INFO]: SomeOneX issued server command: /kick KotaruMa
+[17:57:00] [Server thread/INFO]: KotaruMa lost connection: Kicked by an operator
+[17:57:00] [Server thread/INFO]: KotaruMa left the game
+[17:57:00] [Server thread/INFO]: [SomeOneX: Kicked KotaruMa: Kicked by an operator]
+[17:57:04] [User Authenticator #12/INFO]: UUID of player KotaruMa is c0750b00-36f4-323f-bdab-d5860f1f8211
+[17:57:04] [Server thread/INFO]: KotaruMa joined the game
+[17:57:04] [Server thread/INFO]: KotaruMa[/127.128.147.105:33455] logged in with entity id 27418 at ([world]-743.7098538079048, 64.0, -219.53485087383467)
+[17:57:14] [Server thread/WARN]: KotaruMa was kicked for floating too long!
+[17:57:14] [Server thread/INFO]: KotaruMa lost connection: Flying is not enabled on this server
+[17:57:14] [Server thread/INFO]: KotaruMa left the game
+[17:58:00] [User Authenticator #12/INFO]: UUID of player KotaruMa is c0750b00-36f4-323f-bdab-d5860f1f8211
+[17:58:00] [Server thread/INFO]: KotaruMa joined the game
+[17:58:00] [Server thread/INFO]: KotaruMa[/127.128.147.105:56387] logged in with entity id 27966 at ([world]-743.7098538079048, 63.55250210301658, -219.53485087383467)
+[17:59:36] [Server thread/INFO]: SomeOneX issued server command: /backpack
+[18:02:37] [Server thread/INFO]: SomeOneX issued server command: /backpack
+[18:03:27] [Server thread/INFO]: SomeOneX issued server command: /backpack
+[18:03:42] [Server thread/INFO]: SomeOneX lost connection: Disconnected
+[18:03:42] [Server thread/INFO]: SomeOneX left the game
+[18:03:50] [User Authenticator #13/INFO]: UUID of player SomeOneX is ba2594f5-e7b3-345c-bbb3-ac0548bcb7c3
+[18:03:50] [Server thread/INFO]: SomeOneX joined the game
+[18:03:50] [Server thread/INFO]: SomeOneX[/127.133.12.109:37209] logged in with entity id 30849 at ([world]-691.2293955252766, 60.5625, -261.25721685653014)
+[18:04:47] [Server thread/INFO]: SomeOneX issued server command: /backpack
