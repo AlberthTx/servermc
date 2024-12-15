@@ -1,1152 +1,208 @@
-[15:23:27] [Server thread/INFO]: Starting minecraft server version 1.14.4
-[15:23:27] [Server thread/INFO]: Loading properties
-[15:23:27] [Server thread/INFO]: This server is running Paper version git-Paper-245 (MC: 1.14.4) (Implementing API version 1.14.4-R0.1-SNAPSHOT)
-[15:23:28] [Server thread/INFO]: Debug logging is disabled
-[15:23:28] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[15:23:28] [Server thread/INFO]: Using 4 threads for Netty based IO
-[15:23:28] [Server thread/INFO]: Default game type: SURVIVAL
-[15:23:28] [Server thread/INFO]: Generating keypair
-[15:23:29] [Server thread/INFO]: Starting Minecraft server on *:25565
-[15:23:29] [Server thread/INFO]: Using epoll channel type
-[15:23:35] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v7.3
-[15:23:35] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v15.5.0
-[15:23:35] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[15:23:35] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.5.0
-[15:23:36] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1mYou must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.[0;39m
-[15:23:37] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mRunning on Minecraft [33;1m1.14.4[32;1m.[0;39m
-[15:23:38] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mUsing paper join listener![0;39m
-[15:23:38] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1m[33;1mYou are running an outdated Java version, please update it to at least Java 21 (your version is 11).[0;39m
-[15:23:38] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1m[33;1mSkinsRestorer no longer officially supports this version of Java, you are currently using an unsupported compatibility build.[0;39m
-[15:23:38] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1m[33;1mYou can still use the plugin, but you may encounter issues that are not present in newer versions of Java.[0;39m
-[15:23:38] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[15:23:38] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[15:23:38] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[15:23:38] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[15:23:38] [Server thread/INFO]: Preparing level "world"
-[15:23:38] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
-[15:23:52] [Server thread/INFO]: Loaded 6 recipes
-[15:23:52] [Server thread/INFO]: -------- World Settings For [world] --------
-[15:23:52] [Server thread/INFO]: Experience Merge Radius: 3.0
-[15:23:52] [Server thread/INFO]: Mob Spawn Range: 8
-[15:23:52] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[15:23:52] [Server thread/INFO]: Cane Growth Modifier: 100%
-[15:23:52] [Server thread/INFO]: Melon Growth Modifier: 100%
-[15:23:52] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[15:23:52] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[15:23:52] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[15:23:52] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[15:23:52] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[15:23:52] [Server thread/INFO]: Potato Growth Modifier: 100%
-[15:23:52] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[15:23:52] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[15:23:52] [Server thread/INFO]: Vine Growth Modifier: 100%
-[15:23:52] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[15:23:52] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[15:23:52] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[15:23:52] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[15:23:52] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[15:23:52] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[15:23:52] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[15:23:52] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[15:23:52] [Server thread/INFO]: Max TNT Explosions: 100
-[15:23:52] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[15:23:52] [Server thread/INFO]: View Distance: 10
-[15:23:52] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[15:23:52] [Server thread/INFO]: Item Merge Radius: 2.5
-[15:23:52] [Server thread/INFO]: Item Despawn Rate: 6000
-[15:23:52] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[15:23:52] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[15:23:52] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[15:23:52] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[15:23:52] [Server thread/INFO]: Experience Merge Radius: 3.0
-[15:23:52] [Server thread/INFO]: Mob Spawn Range: 8
-[15:23:52] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[15:23:52] [Server thread/INFO]: Cane Growth Modifier: 100%
-[15:23:52] [Server thread/INFO]: Melon Growth Modifier: 100%
-[15:23:52] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[15:23:52] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[15:23:52] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[15:23:52] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[15:23:52] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[15:23:52] [Server thread/INFO]: Potato Growth Modifier: 100%
-[15:23:52] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[15:23:52] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[15:23:52] [Server thread/INFO]: Vine Growth Modifier: 100%
-[15:23:52] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[15:23:52] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[15:23:52] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[15:23:52] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[15:23:52] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[15:23:52] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[15:23:52] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[15:23:52] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[15:23:52] [Server thread/INFO]: Max TNT Explosions: 100
-[15:23:52] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[15:23:52] [Server thread/INFO]: View Distance: 10
-[15:23:52] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[15:23:52] [Server thread/INFO]: Item Merge Radius: 2.5
-[15:23:52] [Server thread/INFO]: Item Despawn Rate: 6000
-[15:23:52] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[15:23:52] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[15:23:52] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[15:23:52] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[15:23:52] [Server thread/INFO]: Experience Merge Radius: 3.0
-[15:23:52] [Server thread/INFO]: Mob Spawn Range: 8
-[15:23:52] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[15:23:52] [Server thread/INFO]: Cane Growth Modifier: 100%
-[15:23:52] [Server thread/INFO]: Melon Growth Modifier: 100%
-[15:23:52] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[15:23:52] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[15:23:52] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[15:23:52] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[15:23:52] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[15:23:52] [Server thread/INFO]: Potato Growth Modifier: 100%
-[15:23:52] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[15:23:52] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[15:23:52] [Server thread/INFO]: Vine Growth Modifier: 100%
-[15:23:52] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[15:23:52] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[15:23:52] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[15:23:52] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[15:23:52] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[15:23:52] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[15:23:52] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[15:23:52] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[15:23:52] [Server thread/INFO]: Max TNT Explosions: 100
-[15:23:52] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[15:23:52] [Server thread/INFO]: View Distance: 10
-[15:23:52] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[15:23:52] [Server thread/INFO]: Item Merge Radius: 2.5
-[15:23:52] [Server thread/INFO]: Item Despawn Rate: 6000
-[15:23:52] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[15:23:52] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[15:23:52] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[15:23:52] [Server thread/INFO]: Preparing start region for dimension 'world'/minecraft:overworld
-[15:23:53] [Server thread/INFO]: Preparing spawn area: 0%
-[15:23:53] [Server thread/INFO]: Preparing spawn area: 0%
-[15:23:53] [Server thread/INFO]: Preparing spawn area: 14%
-[15:23:54] [Server thread/INFO]: Preparing spawn area: 73%
-[15:23:54] [Server thread/INFO]: Preparing spawn area: 100%
-[15:23:56] [Server-Worker-1/INFO]: Preparing spawn area: 100%
-[15:23:56] [Server-Worker-2/INFO]: Preparing spawn area: 100%
-[15:23:56] [Server-Worker-2/INFO]: Preparing spawn area: 100%
-[15:23:56] [Server-Worker-1/INFO]: Preparing spawn area: 100%
-[15:23:57] [Server thread/INFO]: Preparing spawn area: 100%
-[15:23:57] [Server thread/INFO]: Loaded 441 spawn chunks for world world
-[15:23:57] [Server thread/INFO]: Time elapsed: 4534 ms
-[15:23:57] [Server thread/INFO]: Preparing start region for dimension 'world_nether'/minecraft:the_nether
-[15:23:57] [Server thread/INFO]: Preparing spawn area: 0%
-[15:23:57] [Server thread/INFO]: Preparing spawn area: 71%
-[15:23:58] [Server-Worker-2/INFO]: Preparing spawn area: 100%
-[15:23:58] [Server-Worker-2/INFO]: Preparing spawn area: 100%
-[15:23:59] [Server-Worker-1/INFO]: Preparing spawn area: 100%
-[15:23:59] [Server-Worker-2/INFO]: Preparing spawn area: 100%
-[15:24:00] [Server-Worker-2/INFO]: Preparing spawn area: 100%
-[15:24:00] [Server-Worker-1/INFO]: Preparing spawn area: 100%
-[15:24:01] [Server-Worker-2/INFO]: Preparing spawn area: 100%
-[15:24:01] [Server thread/INFO]: Loaded 441 spawn chunks for world world_nether
-[15:24:01] [Server thread/INFO]: Time elapsed: 4192 ms
-[15:24:01] [Server thread/INFO]: Preparing start region for dimension 'world_the_end'/minecraft:the_end
-[15:24:01] [Server thread/INFO]: Preparing spawn area: 0%
-[15:24:01] [Server-Worker-2/INFO]: Preparing spawn area: 100%
-[15:24:02] [Server thread/INFO]: Loaded 441 spawn chunks for world world_the_end
-[15:24:02] [Server thread/INFO]: Time elapsed: 946 ms
-[15:24:02] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v7.3
-[15:24:02] [Server thread/INFO]: [SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9
-[15:24:02] [Server thread/INFO]: [SimpleTpa] Simple Tpa has been enabled on version 7.3
-[15:24:02] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
-[15:24:02] [Server thread/INFO]: Done (24.166s)! For help, type "help"
-[15:24:02] [Server thread/INFO]: Timings Reset
-[15:24:03] [Craft Scheduler Thread - 7/INFO]: [SimpleTpa] There is a new update available.
-[15:24:03] [Craft Scheduler Thread - 7/INFO]: [SimpleTpa] There is a new update available:
-[15:24:03] [Craft Scheduler Thread - 7/INFO]: [SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/
-[15:24:03] [Craft Scheduler Thread - 5/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
-[15:24:03] [Craft Scheduler Thread - 5/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
-[15:24:03] [Craft Scheduler Thread - 5/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m
-[15:24:03] [Craft Scheduler Thread - 5/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m
-[15:24:03] [Craft Scheduler Thread - 5/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |  [34;1m[4m[21mStandalone Mode[0;39m[32;1m |[0;39m
-[15:24:03] [Craft Scheduler Thread - 5/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
-[15:24:03] [Craft Scheduler Thread - 5/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
-[15:24:03] [Craft Scheduler Thread - 5/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Version: [32;1m15.5.0[0;39m
-[15:24:03] [Craft Scheduler Thread - 5/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Commit: [32;1mad418e4[0;39m
-[15:24:03] [Craft Scheduler Thread - 5/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
-[15:24:03] [Craft Scheduler Thread - 5/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
-[15:24:03] [Craft Scheduler Thread - 5/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[34;1mDo you have issues? Read our troubleshooting guide: [33;1mhttps://skinsrestorer.net/docs/troubleshooting[0;39m
-[15:24:03] [Craft Scheduler Thread - 5/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[34;1mWant to support SkinsRestorer? Consider donating: [33;1mhttps://skinsrestorer.net/donate[0;39m
-[15:25:08] [User Authenticator #1/INFO]: UUID of player awitaa is cd512d06-6559-340e-a718-8d07cf578c77
-[15:25:09] [Server thread/INFO]: awitaa[/127.57.93.60:38501] logged in with entity id 178 at ([world]-267.79306221719423, 69.0, -36.362846824944256)
-[15:25:13] [User Authenticator #1/INFO]: UUID of player Yupiberth is 153dcc10-2328-354d-b2a4-630895425d7b
-[15:25:13] [Server thread/INFO]: Yupiberth[/127.194.137.192:58515] logged in with entity id 268 at ([world]-708.5050530591487, 63.0, -239.3187743616844)
-[15:25:26] [User Authenticator #1/INFO]: UUID of player MLGdoritos is 86a7d1c1-db4b-38bb-9943-8f5f94a3a2ef
-[15:25:26] [Server thread/INFO]: MLGdoritos[/127.57.93.60:55105] logged in with entity id 551 at ([world]-288.3054073440558, 64.0, -73.89986433404493)
-[15:25:44] [Async Chat Thread - #0/INFO]: <MLGdoritos> papu tienesu na papullamada
-[15:25:50] [Async Chat Thread - #0/INFO]: <Yupiberth> nose
-[15:25:56] [Async Chat Thread - #0/INFO]: <Yupiberth> solo tengo papuyupi
-[15:26:06] [Server thread/INFO]: MLGdoritos lost connection: Disconnected
-[15:26:06] [Server thread/INFO]: MLGdoritos left the game
-[15:26:20] [Server thread/INFO]: awitaa hit the ground too hard
-[15:26:24] [Async Chat Thread - #0/INFO]: <Yupiberth> mano
-[15:26:26] [Async Chat Thread - #0/INFO]: <Yupiberth> awita
-[15:26:32] [Async Chat Thread - #0/INFO]: <Yupiberth> necesitamos que tu bot mine oro
-[15:26:35] [Async Chat Thread - #0/INFO]: <Yupiberth> si puedes
-[15:26:37] [Async Chat Thread - #0/INFO]: <awitaa> no
-[15:26:40] [Async Chat Thread - #0/INFO]: <Yupiberth> si
-[15:26:42] [Async Chat Thread - #0/INFO]: <Yupiberth> pli
-[15:26:45] [Async Chat Thread - #0/INFO]: <awitaa> yo se que tu prendiste la yupihouse
-[15:26:50] [Async Chat Thread - #0/INFO]: <Yupiberth> fue enma
-[15:26:53] [Async Chat Thread - #0/INFO]: <Yupiberth> el dijo
-[15:27:02] [Async Chat Thread - #0/INFO]: <Yupiberth> yo le prendi ese papuculo
-[15:27:04] [Async Chat Thread - #0/INFO]: <Yupiberth> tranquilo
-[15:27:08] [Async Chat Thread - #0/INFO]: <awitaa> bueno pagaran las yupiconsecuencias
-[15:27:09] [Async Chat Thread - #0/INFO]: <awitaa> dea
-[15:27:22] [Async Chat Thread - #0/INFO]: <Yupiberth> serio mrc, pa hacer zanahorias doradas
-[15:27:28] [Async Chat Thread - #0/INFO]: <awitaa> no
-[15:27:31] [Async Chat Thread - #0/INFO]: <Yupiberth> yo tengo 21 con el oro que mine
-[15:27:41] [Async Chat Thread - #0/INFO]: <awitaa> me falta de odo
-[15:27:46] [Async Chat Thread - #0/INFO]: <awitaa> .v
-[15:27:49] [Async Chat Thread - #0/INFO]: <Yupiberth> bueno, pero manda al bot
-[15:27:53] [Async Chat Thread - #0/INFO]: <awitaa> el conseguir comida es mi prioridad
-[15:27:55] [Async Chat Thread - #0/INFO]: <Yupiberth> y me compaltes
-[15:27:58] [Async Chat Thread - #0/INFO]: <awitaa> nuh uh
-[15:28:06] [Async Chat Thread - #0/INFO]: <Yupiberth> por eso, aca tengo 1 stack de zanahorias
-[15:28:09] [Async Chat Thread - #0/INFO]: <Yupiberth> te comparto
-[15:28:18] [Async Chat Thread - #0/INFO]: <awitaa> non
-[15:28:24] [User Authenticator #2/INFO]: UUID of player awaaa is f1b839c0-d1ef-3862-8fcb-fbb003313421
-[15:28:24] [Server thread/INFO]: awaaa[/127.57.93.60:54713] logged in with entity id 954 at ([world]-255.51649695773776, 67.0, -87.38260581776255)
-[15:28:38] [Async Chat Thread - #0/INFO]: <awaaa> um
-[15:28:41] [Async Chat Thread - #0/INFO]: <awaaa> a esta le falta una pala
-[15:28:43] [Async Chat Thread - #0/INFO]: <awaaa> q peo
-[15:28:44] [Server thread/INFO]: awaaa lost connection: Disconnected
-[15:28:44] [Server thread/INFO]: awaaa left the game
-[15:28:48] [User Authenticator #2/INFO]: UUID of player Comanpoya is 060e1438-7289-36d6-82a0-8f00da010810
-[15:28:48] [Server thread/INFO]: Comanpoya[/127.57.93.60:43327] logged in with entity id 1003 at ([world]-273.2026851118523, 64.0, -55.00997813329352)
-[15:29:01] [Async Chat Thread - #0/INFO]: <Comanpoya> esta si tiene pala
-[15:29:02] [Async Chat Thread - #0/INFO]: <Comanpoya> nice
-[15:29:02] [Server thread/INFO]: Yupiberth issued server command: /msg awitaa si prendo la yupihouse de ma por voz me buscas oro
-[15:29:20] [Server thread/WARN]: Yupiberth moved too quickly! 14.540214775027266,1.1973099932216513,-11.43978225088648
-[15:29:27] [Server thread/INFO]: Yupiberth issued server command: /msg Comanpoya si prendo la yupihouse de ma por voz me buscas oro
-[15:29:34] [Server thread/WARN]: Yupiberth was kicked for floating too long!
-[15:29:34] [Server thread/INFO]: Yupiberth lost connection: Flying is not enabled on this server
-[15:29:34] [Server thread/INFO]: Yupiberth left the game
-[15:29:34] [Server thread/WARN]: handleDisconnection() called twice
-[15:29:37] [Async Chat Thread - #0/INFO]: <Comanpoya> No
-[15:29:43] [User Authenticator #2/INFO]: UUID of player Yupiberth is 153dcc10-2328-354d-b2a4-630895425d7b
-[15:29:43] [Server thread/INFO]: Yupiberth[/127.194.137.192:48477] logged in with entity id 1079 at ([world]-697.0398035307354, 63.28647961603036, -243.26477515160332)
-[15:41:46] [User Authenticator #3/INFO]: UUID of player MLGdoritos is 86a7d1c1-db4b-38bb-9943-8f5f94a3a2ef
-[15:41:46] [Server thread/INFO]: MLGdoritos[/127.57.93.60:33641] logged in with entity id 2923 at ([world]-295.2815274055161, 64.0, -78.1719811655699)
-[15:41:51] [User Authenticator #3/INFO]: UUID of player awaaa is f1b839c0-d1ef-3862-8fcb-fbb003313421
-[15:41:51] [Server thread/INFO]: awaaa[/127.57.93.60:43655] logged in with entity id 2970 at ([world]-258.42497850706496, 68.0, -83.30000001192093)
-[15:42:48] [Async Chat Thread - #1/INFO]: <Comanpoya> bueno a seguir aplananando
-[15:42:57] [Async Chat Thread - #1/INFO]: <Yupiberth> CONSIGUE ORO CARAJO
-[15:42:59] [Async Chat Thread - #1/INFO]: <Yupiberth> pli
-[15:43:00] [Async Chat Thread - #1/INFO]: <Comanpoya> NO
-[15:47:30] [User Authenticator #4/INFO]: UUID of player KotaruMa is c0750b00-36f4-323f-bdab-d5860f1f8211
-[15:47:30] [Server thread/INFO]: KotaruMa[/127.234.240.122:49029] logged in with entity id 4352 at ([world]-721.8293260897003, 64.00133597911214, -229.15794482249638)
-[15:47:37] [Server thread/WARN]: KotaruMa was kicked for floating too long!
-[15:47:37] [Server thread/INFO]: KotaruMa lost connection: Flying is not enabled on this server
-[15:47:37] [Server thread/INFO]: KotaruMa left the game
-[15:47:37] [Server thread/WARN]: handleDisconnection() called twice
-[15:48:06] [Server thread/INFO]: Expected whitespace to end one argument, but found trailing data
-[15:48:06] [Server thread/INFO]: ...piberth 25l<--[HERE]
-[15:48:12] [Server thread/INFO]: Gave 25 experience points to Yupiberth
-[15:48:21] [User Authenticator #4/INFO]: UUID of player KotaruMa is c0750b00-36f4-323f-bdab-d5860f1f8211
-[15:48:21] [Server thread/INFO]: KotaruMa[/127.234.240.122:34575] logged in with entity id 4547 at ([world]-721.8293260897003, 63.55383808212872, -229.15794482249638)
-[15:48:40] [Server thread/INFO]: Gave 100 experience points to Yupiberth
-[15:49:06] [Server thread/WARN]: KotaruMa was kicked due to keepalive timeout!
-[15:49:06] [Server thread/INFO]: KotaruMa lost connection: Timed out
-[15:49:06] [Server thread/INFO]: KotaruMa left the game
-[15:49:06] [Server thread/WARN]: handleDisconnection() called twice
-[15:49:06] [Async Chat Thread - #2/INFO]: <Yupiberth> MAAAAAAAAAAAAAAAAAAAAAAAAA
-[15:49:08] [Async Chat Thread - #2/INFO]: <Yupiberth> mielda
-[15:49:10] [Async Chat Thread - #2/INFO]: <Yupiberth> cantb
-[15:50:06] [Server thread/INFO]: awaaa has made the advancement [Getting an Upgrade]
-[15:52:11] [Server thread/INFO]: Yupiberth lost connection: Disconnected
-[15:52:11] [Server thread/INFO]: Yupiberth left the game
-[15:54:00] [User Authenticator #5/INFO]: UUID of player KotaruMa is c0750b00-36f4-323f-bdab-d5860f1f8211
-[15:54:00] [Server thread/INFO]: KotaruMa[/127.234.240.122:43041] logged in with entity id 5991 at ([world]-721.8293260897003, 63.0, -229.15794482249638)
-[15:54:23] [Async Chat Thread - #3/INFO]: <awitaa> mardita sea regrese a la era de piedra
-[15:54:30] [Async Chat Thread - #3/INFO]: <awitaa> ya sem e acabo el diamante y el todo
-[15:54:45] [Server thread/WARN]: KotaruMa was kicked due to keepalive timeout!
-[15:54:45] [Server thread/INFO]: KotaruMa lost connection: Timed out
-[15:54:45] [Server thread/INFO]: KotaruMa left the game
-[15:54:45] [Server thread/WARN]: handleDisconnection() called twice
-[15:58:32] [User Authenticator #6/INFO]: UUID of player KotaruMa is c0750b00-36f4-323f-bdab-d5860f1f8211
-[15:58:32] [Server thread/INFO]: KotaruMa[/127.234.240.122:40377] logged in with entity id 7140 at ([world]-721.8293260897003, 63.0, -229.15794482249638)
-[15:58:34] [User Authenticator #6/INFO]: UUID of player Yupiberth is 153dcc10-2328-354d-b2a4-630895425d7b
-[15:58:34] [Server thread/INFO]: Yupiberth[/127.194.137.192:59021] logged in with entity id 7353 at ([world]-698.4023751816158, 63.0, -236.23643242650093)
-[15:59:05] [Async Chat Thread - #4/INFO]: <Yupiberth> maaaaaaaaaaaa
-[15:59:09] [Server thread/INFO]: KotaruMa lost connection: Disconnected
-[15:59:09] [Server thread/INFO]: KotaruMa left the game
-[15:59:12] [Async Chat Thread - #4/INFO]: <Yupiberth> xD
-[15:59:47] [Server thread/INFO]: awitaa was blown up by Creeper
-[16:00:33] [Async Chat Thread - #5/INFO]: <awaaa> q peo estos picos no duran nada
-[16:00:50] [Async Chat Thread - #5/INFO]: <Yupiberth> mrc igual estan mis picos
-[16:00:56] [Async Chat Thread - #5/INFO]: <Yupiberth> se rompen pinga de rapido
-[16:01:03] [Async Chat Thread - #5/INFO]: <awaaa> osea claro estos aplanando y todo pero
-[16:01:09] [Async Chat Thread - #5/INFO]: <awaaa> nah igual sin picos de piedra
-[16:01:13] [Async Chat Thread - #5/INFO]: <awaaa> son picos de piedra
-[16:01:16] [Async Chat Thread - #5/INFO]: <awaaa> lo mas barato que puedo hacer
-[16:01:49] [Server thread/WARN]: Yupiberth was kicked due to keepalive timeout!
-[16:01:49] [Server thread/INFO]: Yupiberth lost connection: Timed out
-[16:01:49] [Server thread/INFO]: Yupiberth left the game
-[16:01:49] [Server thread/WARN]: handleDisconnection() called twice
-[16:02:13] [User Authenticator #7/INFO]: UUID of player Yupiberth is 153dcc10-2328-354d-b2a4-630895425d7b
-[16:02:13] [Server thread/INFO]: Yupiberth[/127.194.137.192:37385] logged in with entity id 8033 at ([world]-696.2266614242603, 63.0, -260.64621438107764)
-[16:07:23] [User Authenticator #8/INFO]: UUID of player KotaruMa is c0750b00-36f4-323f-bdab-d5860f1f8211
-[16:07:24] [Server thread/INFO]: KotaruMa[/127.234.240.122:33903] logged in with entity id 9338 at ([world]-696.7530048120591, 62.9375, -244.01836531503952)
-[16:07:41] [Server thread/INFO]: awaaa has made the advancement [Monster Hunter]
-[16:17:05] [User Authenticator #9/INFO]: UUID of player AltDeAlberth is fe8d63d6-c43d-38d9-b7b6-50c95c57df62
-[16:17:05] [Server thread/INFO]: AltDeAlberth[/127.194.137.192:44517] logged in with entity id 11805 at ([world]-233.5, 64.0, 102.5)
-[16:17:11] [Async Chat Thread - #6/INFO]: <Comanpoya> nooojoda
-[16:17:11] [Async Chat Thread - #6/INFO]: <AltDeAlberth> YAESTA
-[16:17:29] [Server thread/INFO]: AltDeAlberth issued server command: /skin set Yupiberth
-[16:17:42] [Server thread/INFO]: AltDeAlberth issued server command: /tpa Yupiberth
-[16:17:45] [Server thread/INFO]: Yupiberth issued server command: /tpaccept
-[16:18:12] [Server thread/INFO]: Gave 100 experience points to Yupiberth
-[16:18:47] [Async Chat Thread - #7/INFO]: <awitaa> mmm
-[16:18:54] [Async Chat Thread - #7/INFO]: <awitaa> metere una multi en el telefono
-[16:18:56] [Async Chat Thread - #7/INFO]: <awitaa> solo por los jajas
-[16:19:03] [Async Chat Thread - #7/INFO]: <AltDeAlberth> xD
-[16:19:13] [Server thread/INFO]: AltDeAlberth has made the advancement [Suit Up]
-[16:19:21] [Async Chat Thread - #7/INFO]: <AltDeAlberth> mano
-[16:19:23] [Async Chat Thread - #7/INFO]: <AltDeAlberth> awita
-[16:19:29] [Async Chat Thread - #7/INFO]: <Comanpoya> que
-[16:19:32] [Async Chat Thread - #7/INFO]: <AltDeAlberth> pasame la vaina esa pa poner a minar mi alt
-[16:19:34] [Async Chat Thread - #7/INFO]: <AltDeAlberth> tas claro
-[16:19:39] [Async Chat Thread - #7/INFO]: <Comanpoya> nuh uh
-[16:19:43] [Async Chat Thread - #7/INFO]: <AltDeAlberth> xD
-[16:19:51] [Server thread/INFO]: Gave 100 experience points to Yupiberth
-[16:19:51] [Server thread/INFO]: Gave 100 experience points to Yupiberth
-[16:19:52] [Server thread/INFO]: Gave 100 experience points to Yupiberth
-[16:19:52] [Server thread/INFO]: Gave 100 experience points to Yupiberth
-[16:19:53] [Server thread/INFO]: Gave 100 experience points to Yupiberth
-[16:19:54] [Server thread/INFO]: Gave 100 experience points to Yupiberth
-[16:20:09] [Server thread/INFO]: Gave 1000 experience points to Yupiberth
-[16:20:24] [Server thread/INFO]: AltDeAlberth lost connection: Disconnected
-[16:20:24] [Server thread/INFO]: AltDeAlberth left the game
-[16:20:46] [Async Chat Thread - #8/INFO]: <KotaruMa> una ladilla esta granja de hilo
-[16:20:51] [Async Chat Thread - #8/INFO]: <KotaruMa> me duele el deo
-[16:20:52] [Async Chat Thread - #8/INFO]: <Yupiberth> xD
-[16:23:44] [Async Chat Thread - #9/INFO]: <KotaruMa> marico el devorador de mundos me mordio el deo denueov
-[16:23:49] [Async Chat Thread - #9/INFO]: <Yupiberth> JAJJAJAJAJJAJAJ
-[16:23:55] [Async Chat Thread - #9/INFO]: <KotaruMa> mmhbo me quiere comer njd
-[16:26:52] [Async Chat Thread - #10/INFO]: <KotaruMa> el yunque me robo un libro
-[16:26:54] [Async Chat Thread - #10/INFO]: <KotaruMa> mas ladron
-[16:26:55] [Async Chat Thread - #10/INFO]: <KotaruMa> JAJAAJAJAJ
-[16:27:39] [Async Chat Thread - #10/INFO]: <Yupiberth> duerme
-[16:27:42] [Async Chat Thread - #10/INFO]: <Yupiberth> jajas
-[16:27:43] [Async Chat Thread - #10/INFO]: <Yupiberth> dea
-[16:28:01] [Server thread/INFO]: awaaa was blown up by Creeper
-[16:28:08] [Async Chat Thread - #10/INFO]: <Yupiberth> mimami
-[16:28:23] [Async Chat Thread - #10/INFO]: <KotaruMa> AKKJAJKLSHKLAJDHKLJASDHKJAHBKDJ
-[16:28:27] [Async Chat Thread - #10/INFO]: <KotaruMa> volo
-[16:28:47] [Async Chat Thread - #10/INFO]: <Yupiberth> donde esta mi mami
-[16:28:47] [Server thread/INFO]: awaaa issued server command: /back
-[16:29:02] [Async Chat Thread - #10/INFO]: <Yupiberth> no encuentro a mi mami
-[16:29:04] [Server thread/INFO]: awaaa issued server command: /back
-[16:29:04] [Async Chat Thread - #10/INFO]: <Yupiberth> ashuda
-[16:29:10] [Async Chat Thread - #10/INFO]: <Yupiberth> aiuda
-[16:29:23] [Async Chat Thread - #10/INFO]: <awaaa> yo no encuentro la mierda gey
-[16:29:25] [Async Chat Thread - #10/INFO]: <Yupiberth> DUERMAN CARAJO
-[16:29:29] [Async Chat Thread - #10/INFO]: <awaaa> Nob
-[16:29:30] [Async Chat Thread - #10/INFO]: <awaaa> Non
-[16:29:35] [Async Chat Thread - #10/INFO]: <KotaruMa> duerme mmhbo
-[16:29:41] [Async Chat Thread - #10/INFO]: <awaaa> ok vv
-[16:29:45] [Server thread/INFO]: MLGdoritos lost connection: Disconnected
-[16:29:45] [Server thread/INFO]: MLGdoritos left the game
-[16:29:45] [Server thread/INFO]: Comanpoya lost connection: Disconnected
-[16:29:45] [Server thread/INFO]: Comanpoya left the game
-[16:29:48] [Server thread/INFO]: awaaa lost connection: Disconnected
-[16:29:48] [Server thread/INFO]: awaaa left the game
-[16:30:03] [Async Chat Thread - #10/INFO]: <Yupiberth> YAESTA
-[16:30:09] [User Authenticator #10/INFO]: UUID of player awaaa is f1b839c0-d1ef-3862-8fcb-fbb003313421
-[16:30:09] [Server thread/INFO]: awaaa[/127.57.93.60:49273] logged in with entity id 15285 at ([world]-266.80898795828193, 64.0, -70.07554979325843)
-[16:30:29] [User Authenticator #10/INFO]: UUID of player Comanpoya is 060e1438-7289-36d6-82a0-8f00da010810
-[16:30:29] [Server thread/INFO]: Comanpoya[/127.57.93.60:40139] logged in with entity id 15337 at ([world]-273.6587797997501, 84.0, -76.3352297728813)
-[16:30:40] [User Authenticator #10/INFO]: UUID of player MLGdoritos is 86a7d1c1-db4b-38bb-9943-8f5f94a3a2ef
-[16:30:40] [Server thread/INFO]: MLGdoritos[/127.57.93.60:58599] logged in with entity id 15408 at ([world]-244.69999998807907, 65.0, -64.98378388521778)
-[16:33:38] [Async Chat Thread - #11/INFO]: <KotaruMa> marico pique un arbolote y estaba bien gruesote uwu
-[16:34:02] [Async Chat Thread - #11/INFO]: <awitaa> golosa
-[16:34:14] [Async Chat Thread - #11/INFO]: <KotaruMa> jASKJKAJSKAJSKAJAJAJAJA
-[16:34:25] [Async Chat Thread - #11/INFO]: <Yupiberth> ESTA MRD DE GRANJA NO SIRVE
-[16:34:29] [Async Chat Thread - #11/INFO]: <Yupiberth> MALDITO ENMA NOJODA
-[16:34:33] [Async Chat Thread - #11/INFO]: <KotaruMa> AUIhAIJHSAKJHAJHJAJAUJAJAJAJA
-[16:34:36] [Async Chat Thread - #11/INFO]: <KotaruMa> si sirve mano
-[16:34:40] [Async Chat Thread - #11/INFO]: <KotaruMa> pero hay que rezar
-[16:34:45] [Async Chat Thread - #11/INFO]: <KotaruMa> para que te suelte 3
-[16:34:47] [Async Chat Thread - #11/INFO]: <Yupiberth> PRENDELA ACA PUE
-[16:34:56] [Async Chat Thread - #11/INFO]: <Yupiberth> pli
-[16:35:01] [Async Chat Thread - #11/INFO]: <KotaruMa> metele pe
-[16:35:36] [Async Chat Thread - #11/INFO]: <Yupiberth> VE ESA MIELDA
-[16:35:39] [Async Chat Thread - #11/INFO]: <Yupiberth> NO SILVE
-[16:35:42] [Async Chat Thread - #11/INFO]: <KotaruMa> si silve
-[16:35:49] [Async Chat Thread - #11/INFO]: <KotaruMa> me dio 3
-[16:36:02] [Async Chat Thread - #11/INFO]: <Yupiberth> pero no dropea constante
-[16:36:06] [Async Chat Thread - #11/INFO]: <KotaruMa> de pana
-[16:36:42] [Async Chat Thread - #11/INFO]: <Yupiberth> NOJODA
-[16:36:48] [Async Chat Thread - #11/INFO]: <Yupiberth> PREFIERO TRADEAR CON EL CHINAZO
-[16:36:54] [Async Chat Thread - #11/INFO]: <Yupiberth> me ladille de los hilos
-[16:36:56] [Async Chat Thread - #11/INFO]: <KotaruMa> XDDD
-[16:39:17] [Async Chat Thread - #12/INFO]: <KotaruMa> albert mano
-[16:39:20] [Async Chat Thread - #12/INFO]: <KotaruMa> ponelo en hard
-[16:39:27] [Async Chat Thread - #12/INFO]: <Yupiberth> oka
-[16:39:30] [Async Chat Thread - #12/INFO]: <MLGdoritos> nonono
-[16:39:32] [Async Chat Thread - #12/INFO]: <MLGdoritos> dea
-[16:39:33] [Server thread/INFO]: Yupiberth issued server command: /difficulty hard
-[16:39:33] [Server thread/INFO]: [Yupiberth: The difficulty has been set to Hard]
-[16:39:35] [Async Chat Thread - #12/INFO]: <KotaruMa> sisisisi
-[16:39:36] [Server thread/INFO]: MLGdoritos starved to death
-[16:39:39] [Async Chat Thread - #12/INFO]: <KotaruMa> OIPASJUKLAINHLKADJHAS
-[16:39:46] [Server thread/INFO]: MLGdoritos issued server command: /pause
-[16:39:51] [Server thread/INFO]: MLGdoritos issued server command: /back
-[16:39:51] [Async Chat Thread - #12/INFO]: <Yupiberth> ahora si necesitamos oro
-[16:39:52] [Async Chat Thread - #12/INFO]: <Yupiberth> ma
-[16:39:56] [Async Chat Thread - #12/INFO]: <KotaruMa> alalo
-[16:39:57] [Async Chat Thread - #12/INFO]: <Yupiberth> anda a buscar oro
-[16:40:01] [Async Chat Thread - #12/INFO]: <KotaruMa> manden al bot wei
-[16:40:05] [Async Chat Thread - #12/INFO]: <Yupiberth> tengo 3 stacks de zanahorias
-[16:40:13] [Async Chat Thread - #12/INFO]: <Yupiberth> pero el bot es de awita, y el esta picao
-[16:40:18] [Async Chat Thread - #12/INFO]: <KotaruMa> KLASDHALKJSHAAJSA+
-[16:40:19] [Async Chat Thread - #12/INFO]: <Yupiberth> por lo de la yupihouse aun
-[16:40:25] [Async Chat Thread - #12/INFO]: <KotaruMa> awa move al bot mano
-[16:40:29] [Async Chat Thread - #12/INFO]: <MLGdoritos> no
-[16:40:33] [Async Chat Thread - #12/INFO]: <KotaruMa> este mmhbo
-[16:40:34] [Async Chat Thread - #12/INFO]: <MLGdoritos> yupihouse
-[16:40:57] [Async Chat Thread - #12/INFO]: <KotaruMa> yava mano ando abusando de eficiencia 3
-[16:42:48] [Async Chat Thread - #13/INFO]: <Yupiberth> dolmil
-[16:43:07] [Server thread/INFO]: MLGdoritos lost connection: Disconnected
-[16:43:07] [Server thread/INFO]: MLGdoritos left the game
-[16:43:08] [Server thread/INFO]: Comanpoya lost connection: Disconnected
-[16:43:08] [Server thread/INFO]: Comanpoya left the game
-[16:43:10] [Server thread/INFO]: awaaa lost connection: Disconnected
-[16:43:10] [Server thread/INFO]: awaaa left the game
-[16:43:18] [Async Chat Thread - #13/INFO]: <Yupiberth> ma, anda despues que dulmamos a buscar oro, con tu eficiencia 3
-[16:43:23] [Async Chat Thread - #13/INFO]: <Yupiberth> digo, con tu fortuna
-[16:43:27] [Async Chat Thread - #13/INFO]: <Yupiberth> pa que salga mas
-[16:43:43] [Async Chat Thread - #13/INFO]: <Yupiberth> las esmeraldas te las consigo yo
-[16:43:47] [Async Chat Thread - #13/INFO]: <awitaa> duelman
-[16:43:50] [Async Chat Thread - #13/INFO]: <awitaa> mmgbs
-[16:43:51] [Async Chat Thread - #13/INFO]: <Yupiberth> MAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-[16:43:52] [Async Chat Thread - #13/INFO]: <Yupiberth> duerme
-[16:43:59] [Server thread/INFO]: Yupiberth issued server command: /tpahere KotaruMa
-[16:44:04] [Async Chat Thread - #13/INFO]: <Yupiberth> acepta
-[16:44:15] [Server thread/INFO]: Yupiberth issued server command: /kick KotaruMa
-[16:44:15] [Server thread/INFO]: KotaruMa lost connection: Kicked by an operator
-[16:44:15] [Server thread/INFO]: KotaruMa left the game
-[16:44:15] [Server thread/INFO]: [Yupiberth: Kicked KotaruMa: Kicked by an operator]
-[16:44:15] [Server thread/WARN]: handleDisconnection() called twice
-[16:44:18] [Async Chat Thread - #13/INFO]: <Yupiberth> YAESTA
-[16:44:20] [User Authenticator #11/INFO]: UUID of player KotaruMa is c0750b00-36f4-323f-bdab-d5860f1f8211
-[16:44:20] [Server thread/INFO]: KotaruMa[/127.234.240.122:36785] logged in with entity id 19278 at ([world]-713.700000025332, 67.0000002, -237.70000002533197)
-[16:44:26] [Async Chat Thread - #13/INFO]: <KotaruMa> este mmhbo AJAJKAKJAJK
-[16:44:27] [Async Chat Thread - #13/INFO]: <Yupiberth> nojoa
-[16:44:31] [Server thread/INFO]: awitaa was slain by Zombie
-[16:44:34] [Async Chat Thread - #13/INFO]: <Yupiberth> bueno pero tu no duermes
-[16:44:37] [Async Chat Thread - #13/INFO]: <Yupiberth> xDDDDDDDDDD
-[16:45:09] [Server thread/INFO]: awitaa issued server command: /back
-[16:47:47] [Server thread/INFO]: Yupiberth issued server command: /tpa KotaruMa
-[16:47:49] [Async Chat Thread - #14/INFO]: <Yupiberth> aceptame ma
-[16:47:51] [Async Chat Thread - #14/INFO]: <Yupiberth> porfa
-[16:47:54] [Server thread/INFO]: KotaruMa issued server command: /tpaccept
-[16:49:43] [Async Chat Thread - #15/INFO]: <awitaa> mm
-[16:49:46] [Async Chat Thread - #15/INFO]: <Yupiberth> dim
-[16:49:48] [Async Chat Thread - #15/INFO]: <awitaa> quiza deberia ponerme a minar diamante
-[16:49:52] [Async Chat Thread - #15/INFO]: <awitaa> dea
-[16:49:55] [Async Chat Thread - #15/INFO]: <Yupiberth> bueno
-[16:50:00] [Async Chat Thread - #15/INFO]: <Yupiberth> pero compaltes
-[16:50:05] [Async Chat Thread - #15/INFO]: <awitaa> Nuh uh
-[16:50:11] [User Authenticator #12/INFO]: UUID of player Comanpoya is 060e1438-7289-36d6-82a0-8f00da010810
-[16:50:11] [Server thread/INFO]: Comanpoya[/127.57.93.60:59091] logged in with entity id 20385 at ([world]-290.52307713328867, 72.0, -71.50964785662775)
-[16:50:57] [User Authenticator #12/INFO]: UUID of player MLGdoritos is 86a7d1c1-db4b-38bb-9943-8f5f94a3a2ef
-[16:50:57] [Server thread/INFO]: MLGdoritos[/127.57.93.60:41309] logged in with entity id 20650 at ([world]-256.08931044846884, 64.0, -55.631736485323266)
-[16:51:13] [Async Chat Thread - #16/INFO]: <Comanpoya> gordo grasoso
-[16:51:15] [Async Chat Thread - #16/INFO]: <Comanpoya> GG
-[16:51:16] [Async Chat Thread - #16/INFO]: <Comanpoya> dea
-[16:51:17] [Server thread/INFO]: Comanpoya starved to death
-[16:51:19] [Async Chat Thread - #16/INFO]: <Yupiberth> dea
-[16:51:21] [Server thread/INFO]: Comanpoya issued server command: /back
-[16:51:22] [Async Chat Thread - #16/INFO]: <Yupiberth> xD
-[16:51:39] [User Authenticator #12/INFO]: UUID of player awaaa is f1b839c0-d1ef-3862-8fcb-fbb003313421
-[16:51:40] [Server thread/INFO]: awaaa[/127.57.93.60:59807] logged in with entity id 20903 at ([world]-247.86956606624807, 69.0, -65.53424280749311)
-[16:53:14] [Async Chat Thread - #17/INFO]: <KotaruMa> marico
-[16:53:24] [Async Chat Thread - #17/INFO]: <KotaruMa> pene
-[16:53:35] [Async Chat Thread - #17/INFO]: <Yupiberth> yo
-[16:53:57] [Async Chat Thread - #17/INFO]: <KotaruMa> agrande el cembradio
-[16:54:02] [Async Chat Thread - #17/INFO]: <Yupiberth> EAAAAAAAAA
-[16:54:03] [Async Chat Thread - #17/INFO]: <KotaruMa> ahora me entran mas zanahorias
-[16:54:06] [Async Chat Thread - #17/INFO]: <KotaruMa> digo
-[16:54:08] [Async Chat Thread - #17/INFO]: <KotaruMa> :D
-[16:54:08] [Async Chat Thread - #17/INFO]: <Yupiberth> uffffffff
-[16:54:19] [Async Chat Thread - #17/INFO]: <awitaa> chinazo forzado
-[16:54:23] [Async Chat Thread - #17/INFO]: <KotaruMa> JAHSKAJLHDKLAJSDHKAJJAJAJA
-[16:56:26] [Server thread/WARN]: Yupiberth moved wrongly!
-[17:00:28] [Async Chat Thread - #18/INFO]: <MLGdoritos> a
-[17:00:31] [Server thread/INFO]: Comanpoya issued server command: /tpa mlg
-[17:00:34] [Server thread/INFO]: MLGdoritos issued server command: /tpaccept
-[17:00:43] [Server thread/INFO]: Yupiberth lost connection: Timed out
-[17:00:43] [Server thread/INFO]: Yupiberth left the game
-[17:00:58] [User Authenticator #13/INFO]: UUID of player Yupiberth is 153dcc10-2328-354d-b2a4-630895425d7b
-[17:00:58] [Server thread/INFO]: Yupiberth[/127.194.137.192:34611] logged in with entity id 23043 at ([world]-719.3309066859238, 27.0, -357.84736825097406)
-[17:01:44] [Server thread/WARN]: Yupiberth moved too quickly! 7.627320557802477,-4.921599998474122,-5.052959771352619
-[17:02:14] [Async Chat Thread - #19/INFO]: <KotaruMa> mrc vamos a tener que hacer un muro
-[17:02:20] [Async Chat Thread - #19/INFO]: <awitaa> MURILLO
-[17:02:25] [Async Chat Thread - #19/INFO]: <KotaruMa> AKJSAHJKLSAJAJKAJ
-[17:02:31] [Async Chat Thread - #19/INFO]: <awitaa> ya esto ya es demasiado autiso
-[17:02:34] [Async Chat Thread - #19/INFO]: <awitaa> autismo
-[17:02:36] [Async Chat Thread - #19/INFO]: <KotaruMa> KLAJKLASHJKADLHJADKA
-[17:02:45] [Async Chat Thread - #19/INFO]: <Yupiberth> JAJAJJAJAJJAJJA
-[17:04:32] [Async Chat Thread - #20/INFO]: <KotaruMa> mano
-[17:04:35] [Async Chat Thread - #20/INFO]: <Yupiberth> DIM
-[17:04:39] [Async Chat Thread - #20/INFO]: <KotaruMa> el congo se quiere meter a mi casa
-[17:04:43] [Async Chat Thread - #20/INFO]: <Yupiberth> JAIPAPA
-[17:04:45] [Async Chat Thread - #20/INFO]: <KotaruMa> opinen
-[17:04:51] [Async Chat Thread - #20/INFO]: <Yupiberth> dejalo que pase
-[17:04:58] [Async Chat Thread - #20/INFO]: <Yupiberth> esta buscando algo de accion
-[17:05:05] [Async Chat Thread - #20/INFO]: <KotaruMa> KAJHSJKAHKAJSAJAJAJAJ
-[17:06:20] [Async Chat Thread - #21/INFO]: <KotaruMa> mano
-[17:06:24] [Async Chat Thread - #21/INFO]: <Yupiberth> dim
-[17:06:29] [Async Chat Thread - #21/INFO]: <KotaruMa> mataron a la niña emo por 20 volivare
-[17:06:34] [Async Chat Thread - #21/INFO]: <KotaruMa> mentira mano AAKJAKJLAKJA
-[17:06:34] [Async Chat Thread - #21/INFO]: <Yupiberth> jaipapa
-[17:06:38] [Async Chat Thread - #21/INFO]: <awaaa> jaipapa
-[17:06:40] [Async Chat Thread - #21/INFO]: <awaaa> ni se quie nera
-[17:08:17] [Async Chat Thread - #22/INFO]: <KotaruMa> mano sufro de apego totonativo
-[17:08:25] [Async Chat Thread - #22/INFO]: <MLGdoritos> yo de autismo
-[17:08:25] [Async Chat Thread - #22/INFO]: <KotaruMa> necesito estar siempre pegao a una totona
-[17:08:26] [Async Chat Thread - #22/INFO]: <Yupiberth> jai
-[17:08:30] [Async Chat Thread - #22/INFO]: <Yupiberth> yo
-[17:08:37] [Async Chat Thread - #22/INFO]: <KotaruMa> sisa
-[17:09:06] [Server thread/INFO]: Yupiberth issued server command: /tpa KotaruMa
-[17:09:09] [Async Chat Thread - #22/INFO]: <Yupiberth> aceptame
-[17:09:14] [Server thread/INFO]: KotaruMa issued server command: /tpaccept
-[17:09:30] [Async Chat Thread - #22/INFO]: <Yupiberth> QUE SONRIAN LAS QUE YA LES METI
-[17:09:32] [Async Chat Thread - #22/INFO]: <Yupiberth> JEAH
-[17:10:02] [Async Chat Thread - #22/INFO]: <Yupiberth> UNA DOMINICANA QUE ES UVA BOMBOM
-[17:10:07] [Async Chat Thread - #22/INFO]: <Yupiberth> UVA UVA BOMBOM
-[17:10:08] [Async Chat Thread - #22/INFO]: <KotaruMa> UVA UVA BOMBON
-[17:10:18] [Async Chat Thread - #22/INFO]: <Yupiberth> TITI ME PREGUNTO SI TENGO MUCHAS NOVIAS
-[17:10:23] [Async Chat Thread - #22/INFO]: <KotaruMa> Eh
-[17:10:25] [Async Chat Thread - #22/INFO]: <awaaa> eh
-[17:10:27] [Async Chat Thread - #22/INFO]: <awaaa> eso no es muy matno
-[17:10:34] [Async Chat Thread - #22/INFO]: <Yupiberth> TITI ME PREGUNTO TOTOTOTOTOTOTO
-[17:10:38] [Async Chat Thread - #22/INFO]: <awitaa> -999999 yupi credit
-[17:10:48] [Async Chat Thread - #22/INFO]: <Yupiberth> +100000000000 de jevitas
-[17:10:52] [Async Chat Thread - #22/INFO]: <Yupiberth> digalo ahi ma
-[17:11:03] [Async Chat Thread - #22/INFO]: <KotaruMa> aro
-[17:11:19] [Async Chat Thread - #22/INFO]: <Yupiberth> YO QUISIERA ENAMORARME
-[17:11:23] [Async Chat Thread - #22/INFO]: <Yupiberth> PERO NO PUEDO
-[17:11:30] [Async Chat Thread - #22/INFO]: <Yupiberth> YO QUISIERA ENAMORARMEEEEEEE
-[17:11:35] [Async Chat Thread - #22/INFO]: <Yupiberth> SORRY YO NO CONFIO
-[17:11:39] [Async Chat Thread - #22/INFO]: <Yupiberth> NI EN MI MISMO CONFIO
-[17:11:40] [Async Chat Thread - #22/INFO]: <Yupiberth> NAG
-[17:11:48] [Async Chat Thread - #22/INFO]: <Yupiberth> Y LLEVARSE EL CREDITO
-[17:14:58] [Async Chat Thread - #23/INFO]: <awaaa> todo esto era campo
-[17:15:01] [Async Chat Thread - #23/INFO]: <awaaa> digo
-[17:15:02] [Async Chat Thread - #23/INFO]: <awaaa> montaña
-[17:15:07] [Async Chat Thread - #23/INFO]: <Yupiberth> dea
-[17:15:12] [Async Chat Thread - #23/INFO]: <KotaruMa> albert opina de cuantas zanahorias me entran ahora
-[17:15:19] [Async Chat Thread - #23/INFO]: <awaaa> depende
-[17:15:21] [Async Chat Thread - #23/INFO]: <awaaa> de 3 a 5
-[17:15:23] [Async Chat Thread - #23/INFO]: <Yupiberth> como 8000
-[17:15:26] [Async Chat Thread - #23/INFO]: <KotaruMa> AHJAJKAJKAJKAJJAJA
-[17:15:36] [Async Chat Thread - #23/INFO]: <Yupiberth> NWBN
-[17:15:45] [Async Chat Thread - #23/INFO]: <Yupiberth> AHORA TE ENTRAN COMO 2K DE ZANAHORIAS
-[17:15:49] [Async Chat Thread - #23/INFO]: <KotaruMa> oASIKJOIASAJAJAJAJA
-[17:17:02] [Async Chat Thread - #24/INFO]: <KotaruMa> enma entra marico
-[17:17:06] [Async Chat Thread - #24/INFO]: <KotaruMa> y va a ver el sembradio
-[17:17:09] [Async Chat Thread - #24/INFO]: <KotaruMa> mas hpt
-[17:17:12] [Async Chat Thread - #24/INFO]: <KotaruMa> de su fokin vida
-[17:17:20] [Server thread/INFO]: awaaa was blown up by Creeper
-[17:17:27] [Async Chat Thread - #24/INFO]: <KotaruMa> awa lo vio
-[17:17:30] [Async Chat Thread - #24/INFO]: <KotaruMa> y exploto
-[17:17:45] [Server thread/INFO]: awaaa issued server command: /back
-[17:18:01] [Async Chat Thread - #24/INFO]: <Yupiberth> TU ME DEJASTECAEEEEEEEEEEEEEER
-[17:18:05] [Async Chat Thread - #24/INFO]: <Yupiberth> ME ELLA ME LEVANTO
-[17:18:08] [Async Chat Thread - #24/INFO]: <KotaruMa> PERO ELLA ME LEVANTOOOO
-[17:19:49] [Server thread/INFO]: awaaa was slain by Zombie
-[17:19:58] [Async Chat Thread - #25/INFO]: <awaaa> a coño
-[17:20:00] [Async Chat Thread - #25/INFO]: <awaaa> me quieren joder justo a mi
-[17:20:07] [Server thread/INFO]: awaaa issued server command: /back
-[17:21:12] [Async Chat Thread - #26/INFO]: <KotaruMa> marico vi un loco en tik tok que el mc le corre a 7777 fps
-[17:21:14] [Async Chat Thread - #26/INFO]: <Yupiberth> PENE
-[17:21:17] [Async Chat Thread - #26/INFO]: <Yupiberth> YO
-[17:21:18] [Async Chat Thread - #26/INFO]: <KotaruMa> es la mierda mas fluida del mundo
-[17:22:00] [Async Chat Thread - #26/INFO]: <KotaruMa> 7777 fps en mc :D/ en cs :skull:
-[17:22:37] [Async Chat Thread - #26/INFO]: <Yupiberth> ma
-[17:22:40] [Async Chat Thread - #26/INFO]: <Yupiberth> busca oro
-[17:22:43] [Async Chat Thread - #26/INFO]: <KotaruMa> hablame veve
-[17:22:47] [Async Chat Thread - #26/INFO]: <KotaruMa> voisa
-[17:23:43] [Async Chat Thread - #26/INFO]: <KotaruMa> mano
-[17:23:47] [Async Chat Thread - #26/INFO]: <KotaruMa> necesito lv 7
-[17:23:51] [Async Chat Thread - #26/INFO]: <KotaruMa> para fortuna 3
-[17:23:53] [Async Chat Thread - #26/INFO]: <KotaruMa> para minar
-[17:24:19] [Async Chat Thread - #26/INFO]: <Yupiberth> pero no importa, ya que el oro no mina con fortuna
-[17:24:25] [Async Chat Thread - #26/INFO]: <Yupiberth> porque no te da el mineral
-[17:24:28] [Async Chat Thread - #26/INFO]: <Yupiberth> te da la mina
-[17:24:32] [Async Chat Thread - #26/INFO]: <KotaruMa> que raro
-[17:24:37] [Async Chat Thread - #26/INFO]: <KotaruMa> en hycraft si lo hacia
-[17:24:51] [Async Chat Thread - #26/INFO]: <Yupiberth> pero en hycraft es otro modo
-[17:24:51] [Server thread/INFO]: KotaruMa was blown up by Creeper
-[17:25:00] [Async Chat Thread - #26/INFO]: <KotaruMa> ._.
-[17:25:08] [Async Chat Thread - #26/INFO]: <awitaa> JAJASJASJ
-[17:25:09] [Async Chat Thread - #26/INFO]: <awitaa> dea
-[17:26:01] [Async Chat Thread - #26/INFO]: <KotaruMa> mano
-[17:26:03] [Async Chat Thread - #26/INFO]: <KotaruMa> no me dolio
-[17:26:05] [Async Chat Thread - #26/INFO]: <KotaruMa> lo juro
-[17:32:32] [Async Chat Thread - #27/INFO]: <KotaruMa> marico mi mama adopto
-[17:32:35] [Async Chat Thread - #27/INFO]: <KotaruMa> un mosutro
-[17:32:39] [Async Chat Thread - #27/INFO]: <KotaruMa> Moustro
-[17:32:46] [Async Chat Thread - #27/INFO]: <KotaruMa> mordio ahora a mi papa
-[17:32:48] [Async Chat Thread - #27/INFO]: <KotaruMa> KAJkjAKJAJKAJAAJAJ
-[17:32:50] [Async Chat Thread - #27/INFO]: <awitaa> Xd
-[17:32:52] [Async Chat Thread - #27/INFO]: <KotaruMa> anda odioso el mmhbo este
-[17:32:52] [Async Chat Thread - #27/INFO]: <awitaa> tienes rabia andi
-[17:33:18] [Async Chat Thread - #27/INFO]: <Yupiberth> JAJJAJAJJAJAJA
-[17:33:27] [Async Chat Thread - #27/INFO]: <KotaruMa> mmhbo perro que le pasa pue
-[17:33:32] [Async Chat Thread - #27/INFO]: <Yupiberth> cño awita pon a minar al pana ese horo vale
-[17:33:36] [Async Chat Thread - #27/INFO]: <awaaa> Horo
-[17:33:36] [Async Chat Thread - #27/INFO]: <Yupiberth> necesito horo
-[17:33:36] [Async Chat Thread - #27/INFO]: <KotaruMa> tiene 3 camas y duerme en el piso
-[17:33:37] [Async Chat Thread - #27/INFO]: <Yupiberth> HORO
-[17:33:38] [Async Chat Thread - #27/INFO]: <KotaruMa> AJKAJKAJKAJAJA
-[17:33:47] [Async Chat Thread - #27/INFO]: <awaaa> aprende a escribir
-[17:33:48] [Async Chat Thread - #27/INFO]: <awaaa> deam
-[17:33:53] [Async Chat Thread - #27/INFO]: <Yupiberth> HOROOOOOOOOOOOOOOOO
-[17:33:56] [Async Chat Thread - #27/INFO]: <awaaa> HOROO
-[17:34:02] [Async Chat Thread - #27/INFO]: <awaaa> haganlo nst
-[17:34:05] [Async Chat Thread - #27/INFO]: <Yupiberth> pon a minar oro al pana ese vale
-[17:34:19] [Async Chat Thread - #27/INFO]: <KotaruMa> verga tas modo odioso te salude y no me saludaste como te llego la bolsa del cla no saludas a la gente
-[17:34:31] [Async Chat Thread - #27/INFO]: <awitaa> tiraba esa
-[17:34:38] [Async Chat Thread - #27/INFO]: <MLGdoritos> sacate el yupi de la yupiboca
-[17:34:38] [Async Chat Thread - #27/INFO]: <KotaruMa> jAJKAJKMAJAJ
-[17:34:38] [Async Chat Thread - #27/INFO]: <MLGdoritos> de
-[17:34:39] [Async Chat Thread - #27/INFO]: <MLGdoritos> dea
-[17:34:53] [Async Chat Thread - #27/INFO]: <Comanpoya> ya se que minar
-[17:35:05] [Async Chat Thread - #27/INFO]: <KotaruMa> el loco que esta picando esos arboles que lo plante denuevo pa tener el arbol definitivo
-[17:35:14] [Async Chat Thread - #27/INFO]: <Yupiberth> YSI
-[17:35:24] [Async Chat Thread - #27/INFO]: <KotaruMa> nhbn que gigante
-[17:35:26] [Server thread/INFO]: Comanpoya has made the advancement [Ice Bucket Challenge]
-[17:35:26] [Async Chat Thread - #27/INFO]: <KotaruMa> jAJAJAJAJA
-[17:35:34] [Async Chat Thread - #27/INFO]: <Comanpoya> poya fria
-[17:35:35] [Async Chat Thread - #27/INFO]: <Comanpoya> soy ese
-[17:35:37] [Async Chat Thread - #27/INFO]: <KotaruMa> poyafria
-[17:36:16] [Async Chat Thread - #27/INFO]: <awitaa> are una base arrecha con bunker
-[17:36:23] [Server thread/INFO]: awitaa was blown up by Creeper
-[17:36:28] [Async Chat Thread - #27/INFO]: <Yupiberth> pa protegerte de nadie
-[17:36:29] [Async Chat Thread - #27/INFO]: <Yupiberth> dea
-[17:36:32] [Async Chat Thread - #27/INFO]: <awitaa> y maquinas de azar y mujersuelas
-[17:36:33] [Server thread/INFO]: awitaa issued server command: /back
-[17:36:38] [Async Chat Thread - #27/INFO]: <Yupiberth> banco
-[17:36:52] [Async Chat Thread - #27/INFO]: <KotaruMa> 3 camas y duerme en el piso
-[17:36:56] [Async Chat Thread - #27/INFO]: <KotaruMa> este si es malandro
-[17:37:01] [Async Chat Thread - #27/INFO]: <Yupiberth> JAJJAJAJJAJAJA
-[17:37:04] [Server thread/INFO]: awitaa was blown up by Creeper
-[17:37:09] [Server thread/INFO]: awitaa issued server command: /back
-[17:37:09] [Async Chat Thread - #27/INFO]: <Yupiberth> fue detonado
-[17:37:11] [Async Chat Thread - #27/INFO]: <KotaruMa> njd mmhbo perro
-[17:37:11] [Async Chat Thread - #27/INFO]: <awitaa> me detonan
-[17:37:13] [Async Chat Thread - #27/INFO]: <Yupiberth> lo detono un creper
-[17:37:17] [Async Chat Thread - #27/INFO]: <Yupiberth> te detono mano
-[17:37:20] [Async Chat Thread - #27/INFO]: <Yupiberth> te dio yupi
-[17:37:24] [Async Chat Thread - #27/INFO]: <awitaa> hesido detonado
-[17:37:59] [Async Chat Thread - #27/INFO]: <awitaa> he sido ultratedonado
-[17:38:04] [Async Chat Thread - #27/INFO]: <awitaa> detonado
-[17:38:05] [Async Chat Thread - #27/INFO]: <awitaa> *
-[17:38:15] [Async Chat Thread - #27/INFO]: <awitaa> ultrakill si fuera bueno : ultradetonar
-[17:38:36] [Async Chat Thread - #27/INFO]: <KotaruMa> ultrakill si fuera bueno: ultraautismo
-[17:38:51] [Async Chat Thread - #27/INFO]: <Yupiberth> ysi
-[17:38:52] [Server thread/INFO]: awitaa was blown up by Creeper
-[17:38:58] [Server thread/INFO]: awitaa issued server command: /back
-[17:39:05] [Async Chat Thread - #27/INFO]: <Yupiberth> a ti si te gusta que te detonen vale
-[17:39:06] [Async Chat Thread - #27/INFO]: <awitaa> me siguen detonando
-[17:39:11] [Async Chat Thread - #27/INFO]: <Yupiberth> ya lo han detonado 4 veces
-[17:39:22] [Async Chat Thread - #27/INFO]: <KotaruMa> y si
-[17:40:17] [Async Chat Thread - #27/INFO]: <awitaa> el yupi se cae a pedasos
-[17:40:22] [Async Chat Thread - #27/INFO]: <awitaa> Dea
-[17:41:58] [Async Chat Thread - #28/INFO]: <KotaruMa> me voy a secar esperando que se duerman
-[17:42:01] [Async Chat Thread - #28/INFO]: <KotaruMa> malditos
-[17:42:08] [Async Chat Thread - #28/INFO]: <awitaa> el que se mete con la yupihouse se seca
-[17:42:14] [Async Chat Thread - #28/INFO]: <KotaruMa> oiAJSLOKAJAKLJKLAJLKAS
-[17:42:18] [Async Chat Thread - #28/INFO]: <KotaruMa> el que me lo mete se seca
-[17:42:20] [Async Chat Thread - #28/INFO]: <KotaruMa> tdigo digo
-[17:42:24] [Async Chat Thread - #28/INFO]: <KotaruMa> epa asi no era
-[17:42:31] [Async Chat Thread - #28/INFO]: <Yupiberth> JAIPAP
-[17:42:36] [Async Chat Thread - #28/INFO]: <KotaruMa> jJKAKJAKJAKJAKJAKJA
-[17:42:39] [Async Chat Thread - #28/INFO]: <Yupiberth> JAJAJJAJAJJAJ
-[17:42:47] [Async Chat Thread - #28/INFO]: <awitaa> JAIPAPA FALLIDO
-[17:43:03] [Async Chat Thread - #28/INFO]: <awitaa> ma descuido se le ve todo
-[17:43:16] [Async Chat Thread - #28/INFO]: <Yupiberth> yo escuche mano que dijo que, el que me lo mete me lo seca
-[17:43:16] [Async Chat Thread - #28/INFO]: <KotaruMa> jai papa
-[17:43:19] [Async Chat Thread - #28/INFO]: <Yupiberth> JAIPAPA
-[17:44:52] [Async Chat Thread - #29/INFO]: <awaaa> yupicoide
-[17:45:05] [Async Chat Thread - #29/INFO]: <Yupiberth> Y ANDO POR AHI CON LO DE SIEMPRE EN UN FLOW CABRON
-[17:45:10] [Async Chat Thread - #29/INFO]: <Yupiberth> DANDO VUELTA EN UN MAKINON
-[17:45:20] [Async Chat Thread - #29/INFO]: <Yupiberth> DIGANLE G5 EN UN CAPSULON
-[17:45:24] [Server thread/INFO]: Comanpoya was slain by Cave Spider
-[17:45:25] [Async Chat Thread - #29/INFO]: <awitaa> coño no se como hacer el guebo
-[17:45:28] [Async Chat Thread - #29/INFO]: <awitaa> NO
-[17:45:29] [Async Chat Thread - #29/INFO]: <awitaa> NOOO
-[17:45:31] [Async Chat Thread - #29/INFO]: <Yupiberth> ME ABURRI DE LA JEEPETA Y SAQUE UN MAKINON
-[17:45:35] [Server thread/INFO]: Comanpoya issued server command: /back
-[17:45:39] [Server thread/INFO]: Comanpoya issued server command: /bak
-[17:45:40] [Server thread/INFO]: Comanpoya issued server command: /back
-[17:45:52] [Server thread/INFO]: Comanpoya issued server command: /back
-[17:46:14] [Server thread/INFO]: Comanpoya lost connection: Disconnected
-[17:46:14] [Server thread/INFO]: Comanpoya left the game
-[17:46:18] [Server thread/INFO]: MLGdoritos lost connection: Disconnected
-[17:46:18] [Server thread/INFO]: MLGdoritos left the game
-[17:46:21] [Server thread/INFO]: awaaa lost connection: Disconnected
-[17:46:21] [Server thread/INFO]: awaaa left the game
-[17:46:24] [Server thread/INFO]: awitaa lost connection: Disconnected
-[17:46:24] [Server thread/INFO]: awitaa left the game
-[17:52:15] [Async Chat Thread - #30/INFO]: <Yupiberth> ma
-[17:52:22] [Async Chat Thread - #30/INFO]: <Yupiberth> este flechero esta defectuoso
-[17:52:37] [Async Chat Thread - #30/INFO]: <Yupiberth> no pone pa intercambiar los chinazos
-[17:52:40] [Async Chat Thread - #30/INFO]: <Yupiberth> solo vende mrd
-[17:52:43] [Async Chat Thread - #30/INFO]: <KotaruMa> ASAJKHSKAJ
-[17:52:48] [Async Chat Thread - #30/INFO]: <KotaruMa> hay un flechero todo podrido
-[17:52:54] [Async Chat Thread - #30/INFO]: <Yupiberth> ese mimo
-[17:52:56] [Async Chat Thread - #30/INFO]: <KotaruMa> no cambia palitos
-[17:53:17] [Async Chat Thread - #30/INFO]: <KotaruMa> empalamiento 3 ???
-[17:53:20] [Async Chat Thread - #30/INFO]: <KotaruMa> njd mejor nadota
-[17:53:21] [Async Chat Thread - #30/INFO]: <Yupiberth> si
-[17:55:51] [Async Chat Thread - #31/INFO]: <KotaruMa> SE REVELARON ESTOS ALDEANOS
-[17:55:56] [Async Chat Thread - #31/INFO]: <KotaruMa> NO ME QUIEREN TRADEAR
-[17:55:58] [Async Chat Thread - #31/INFO]: <KotaruMa> AAAAA
-[18:02:08] [Async Chat Thread - #32/INFO]: <Yupiberth> MAAAAAAAAAAA
-[18:02:13] [Async Chat Thread - #32/INFO]: <Yupiberth> FORTUNA 3 21 ESMERALDAS
-[18:02:21] [Async Chat Thread - #32/INFO]: <KotaruMa> YA LO AGARRE JKASJKJK
-[18:02:22] [Async Chat Thread - #32/INFO]: <Yupiberth> lo conservamos o buscamos prote 4
-[18:02:33] [Async Chat Thread - #32/INFO]: <KotaruMa> Buscamos prote
-[18:02:37] [Async Chat Thread - #32/INFO]: <Yupiberth> lesto
-[18:02:40] [Async Chat Thread - #32/INFO]: <KotaruMa> y despues irrompibilidad 3
-[18:03:04] [Async Chat Thread - #32/INFO]: <Yupiberth> lesto
-[18:03:09] [Async Chat Thread - #32/INFO]: <KotaruMa> pero bueno si es por mi los pongo a tirar
-[18:03:12] [Async Chat Thread - #32/INFO]: <Yupiberth> prote 4 19 esmeraldas
-[18:03:15] [Async Chat Thread - #32/INFO]: <KotaruMa> tienes hilo pa las camas?
-[18:03:18] [Async Chat Thread - #32/INFO]: <Yupiberth> nop
-[18:03:22] [Async Chat Thread - #32/INFO]: <KotaruMa> coño
-[18:03:30] [Async Chat Thread - #32/INFO]: <KotaruMa> Voy a tener que agrander el weco
-[18:03:49] [Async Chat Thread - #32/INFO]: <Yupiberth> xD
-[18:04:02] [Async Chat Thread - #32/INFO]: <KotaruMa> ya no entra un aldeano pajuo mas
-[18:05:16] [Async Chat Thread - #33/INFO]: <KotaruMa> Tengo eficiencia Iv
-[18:05:21] [Async Chat Thread - #33/INFO]: <KotaruMa> en la hacha
-[18:06:30] [Async Chat Thread - #34/INFO]: <Yupiberth> NOJODAAAAAAA
-[18:06:30] [User Authenticator #14/INFO]: UUID of player awitaa is cd512d06-6559-340e-a718-8d07cf578c77
-[18:06:30] [Server thread/INFO]: awitaa[/127.57.93.60:51497] logged in with entity id 36591 at ([world]-276.91256046488076, 64.0, -42.575638606616245)
-[18:06:36] [Async Chat Thread - #34/INFO]: <Yupiberth> LE PEGUE AL PROTE 4 SIN QUERER
-[18:06:38] [Async Chat Thread - #34/INFO]: <Yupiberth> CÑO E LA MADRE
-[18:06:41] [Async Chat Thread - #34/INFO]: <awitaa> matones 69
-[18:06:43] [Async Chat Thread - #34/INFO]: <KotaruMa> lo mataste?
-[18:06:49] [Async Chat Thread - #34/INFO]: <Yupiberth> ME SUBIO A 23
-[18:06:52] [Async Chat Thread - #34/INFO]: <Yupiberth> no lo mate
-[18:06:53] [Async Chat Thread - #34/INFO]: <KotaruMa> KAJSKJDAJKDS
-[18:06:55] [Async Chat Thread - #34/INFO]: <Yupiberth> pero subio un webo
-[18:06:59] [Async Chat Thread - #34/INFO]: <Yupiberth> de 19 a 23
-[18:07:04] [Async Chat Thread - #34/INFO]: <KotaruMa> solo a ti mano
-[18:07:05] [Async Chat Thread - #34/INFO]: <KotaruMa> creo
-[18:07:30] [Async Chat Thread - #34/INFO]: <Yupiberth> MAAAAAAAAA
-[18:07:31] [Async Chat Thread - #34/INFO]: <Yupiberth> ACA
-[18:07:33] [Async Chat Thread - #34/INFO]: <Yupiberth> ven
-[18:07:42] [Async Chat Thread - #34/INFO]: <KotaruMa> Mielda
-[18:07:46] [Async Chat Thread - #34/INFO]: <KotaruMa> 19
-[18:07:52] [Async Chat Thread - #34/INFO]: <Yupiberth> cño
-[18:07:55] [Async Chat Thread - #34/INFO]: <Yupiberth> fue solo a mi
-[18:07:57] [Async Chat Thread - #34/INFO]: <Yupiberth> nojoda
-[18:08:35] [Async Chat Thread - #34/INFO]: <KotaruMa> que raro que este tan barato
-[18:08:49] [Async Chat Thread - #34/INFO]: <Yupiberth> casi full prote 4
-[18:08:56] [Async Chat Thread - #34/INFO]: <Yupiberth> me faltan las botas no ma
-[18:11:11] [Async Chat Thread - #35/INFO]: <Yupiberth> duerme ma
-[18:11:16] [Async Chat Thread - #35/INFO]: <KotaruMa> voi
-[18:11:27] [Async Chat Thread - #35/INFO]: <Yupiberth> awita duelmete cablon
-[18:11:32] [Async Chat Thread - #35/INFO]: <KotaruMa> duerme mmhbo
-[18:12:07] [Async Chat Thread - #35/INFO]: <awitaa> me duele el guebo
-[18:12:10] [Async Chat Thread - #35/INFO]: <awitaa> seguro es culpa de la plei
-[18:12:23] [Async Chat Thread - #35/INFO]: <Yupiberth> JAJAJJAJAJJA
-[18:13:29] [Async Chat Thread - #36/INFO]: <KotaruMa> marico quiero flores moradas
-[18:13:41] [Async Chat Thread - #36/INFO]: <awitaa> quieres que te den flores o que puta
-[18:13:45] [Async Chat Thread - #36/INFO]: <KotaruMa> si
-[18:13:51] [Async Chat Thread - #36/INFO]: <awitaa> VALENCIANO
-[18:13:52] [Async Chat Thread - #36/INFO]: <awitaa> dea
-[18:13:57] [Async Chat Thread - #36/INFO]: <KotaruMa> KJAJKAKJAKJA
-[18:15:03] [Async Chat Thread - #37/INFO]: <KotaruMa> listo
-[18:15:45] [Server thread/INFO]: KotaruMa issued server command: /tpa
-[18:15:54] [Server thread/INFO]: KotaruMa issued server command: /tpa Yupiberth
-[18:16:04] [Server thread/INFO]: Yupiberth issued server command: /tpaccept
-[18:16:04] [Server thread/INFO]: Yupiberth issued server command: /tpaccept
-[18:16:19] [Async Chat Thread - #38/INFO]: <KotaruMa> mield
-[18:19:30] [User Authenticator #15/INFO]: UUID of player awaaa is f1b839c0-d1ef-3862-8fcb-fbb003313421
-[18:19:30] [Server thread/INFO]: awaaa[/127.57.93.60:56183] logged in with entity id 38297 at ([world]-277.54456429915496, 72.0, -52.16117695313198)
-[18:19:47] [Async Chat Thread - #39/INFO]: <awaaa> Nigga
-[18:19:50] [Server thread/INFO]: awaaa fell from a high place
-[18:19:54] [Server thread/INFO]: awaaa issued server command: /back
-[18:20:20] [Server thread/INFO]: awitaa lost connection: Disconnected
-[18:20:20] [Server thread/INFO]: awitaa left the game
-[18:20:22] [Server thread/INFO]: awaaa lost connection: Disconnected
-[18:20:22] [Server thread/INFO]: awaaa left the game
-[18:22:18] [User Authenticator #16/INFO]: UUID of player awitaa is cd512d06-6559-340e-a718-8d07cf578c77
-[18:22:18] [Server thread/INFO]: awitaa[/127.57.93.60:35599] logged in with entity id 38688 at ([world]-254.79548702976686, 67.0, -40.69999998807907)
-[18:22:42] [Async Chat Thread - #40/INFO]: <KotaruMa> maldito arbol
-[18:22:45] [Async Chat Thread - #40/INFO]: <KotaruMa> mas grueso uwu
-[18:22:50] [Async Chat Thread - #40/INFO]: <Yupiberth> TwT
-[18:22:52] [Async Chat Thread - #40/INFO]: <KotaruMa> AJAJAJAJA
-[18:23:26] [Async Chat Thread - #40/INFO]: <Yupiberth> ELLA ME DICE QUE LE GUTAN LOS PLATANOS
-[18:23:33] [Async Chat Thread - #40/INFO]: <KotaruMa> maduroooo
-[18:23:40] [Async Chat Thread - #40/INFO]: <Yupiberth> ELLA ME DICE QUE LE GUTAN LOS PLATANOS
-[18:24:08] [Async Chat Thread - #40/INFO]: <Yupiberth> ADOLMI
-[18:25:16] [User Authenticator #17/INFO]: UUID of player MLGdoritos is 86a7d1c1-db4b-38bb-9943-8f5f94a3a2ef
-[18:25:16] [Server thread/INFO]: MLGdoritos[/127.57.93.60:48971] logged in with entity id 39166 at ([world]-245.41398356017734, 63.0, -77.51006802608293)
-[18:25:23] [Server thread/INFO]: MLGdoritos lost connection: Disconnected
-[18:25:23] [Server thread/INFO]: MLGdoritos left the game
-[18:25:30] [User Authenticator #17/INFO]: UUID of player Comanpoya is 060e1438-7289-36d6-82a0-8f00da010810
-[18:25:30] [Server thread/INFO]: Comanpoya[/127.57.93.60:33543] logged in with entity id 39198 at ([world]-35.590580364205906, 17.0, -264.8028257391773)
-[18:25:53] [Server thread/INFO]: Comanpoya was slain by Cave Spider
-[18:25:56] [Server thread/INFO]: Comanpoya issued server command: /back
-[18:26:07] [Async Chat Thread - #41/INFO]: <KotaruMa> ahora con las mascara de mexico ponganle atencion
-[18:26:09] [Server thread/INFO]: Comanpoya issued server command: /tpa awitaa
-[18:26:09] [Async Chat Thread - #41/INFO]: <KotaruMa> orale wey
-[18:26:11] [Server thread/INFO]: awitaa issued server command: /tpaccept
-[18:26:12] [Async Chat Thread - #41/INFO]: <KotaruMa> OOOAAAA
-[18:26:22] [Async Chat Thread - #41/INFO]: <awitaa> horita invoco a un mejicano de velda
-[18:26:23] [Async Chat Thread - #41/INFO]: <awitaa> dea
-[18:26:26] [Async Chat Thread - #41/INFO]: <KotaruMa> AKJSAJASKJ
-[18:26:35] [Async Chat Thread - #41/INFO]: <Yupiberth> ESA NOCHE CONTIGO LA PASE BIEEEEEEEEN
-[18:26:36] [Server thread/INFO]: Comanpoya lost connection: Disconnected
-[18:26:36] [Server thread/INFO]: Comanpoya left the game
-[18:26:37] [Async Chat Thread - #41/INFO]: <Yupiberth> EEEEEEEEEEEEEEEEH
-[18:26:41] [Async Chat Thread - #41/INFO]: <Yupiberth> LO QUE PASO PASO
-[18:26:46] [Async Chat Thread - #41/INFO]: <KotaruMa> dormir
-[18:26:47] [Async Chat Thread - #41/INFO]: <Yupiberth> ADOLMI
-[18:26:54] [Async Chat Thread - #41/INFO]: <Yupiberth> LO QUE PASO PASO
-[18:26:59] [Async Chat Thread - #41/INFO]: <Yupiberth> ENTRE TU Y YO
-[18:27:03] [Async Chat Thread - #41/INFO]: <Yupiberth> UNA ABUSADO
-[18:27:07] [Async Chat Thread - #41/INFO]: <Yupiberth> ABUSADORA
-[18:27:12] [Async Chat Thread - #41/INFO]: <Yupiberth> UNA ESPECIALISTA
-[18:27:24] [Async Chat Thread - #41/INFO]: <Yupiberth> PRESEA DALE PRESEA
-[18:28:13] [Server thread/INFO]: Yupiberth lost connection: Disconnected
-[18:28:13] [Server thread/INFO]: Yupiberth left the game
-[18:28:24] [Async Chat Thread - #42/INFO]: <awitaa> le coltalon el yupifi
-[18:28:24] [User Authenticator #18/INFO]: UUID of player Yupiberth is 153dcc10-2328-354d-b2a4-630895425d7b
-[18:28:24] [Server thread/INFO]: Yupiberth[/127.194.137.192:37817] logged in with entity id 39691 at ([world]-694.6999999880791, 60.0, -260.8056815318097)
-[18:28:28] [Async Chat Thread - #42/INFO]: <Yupiberth> volviiiiiii
-[18:28:29] [Async Chat Thread - #42/INFO]: <KotaruMa> njd
-[18:28:35] [Async Chat Thread - #42/INFO]: <Yupiberth> PRESEA DALE PRESEA
-[18:28:46] [Async Chat Thread - #42/INFO]: <awitaa> UY MANO
-[18:28:57] [Async Chat Thread - #42/INFO]: <awitaa> MI PROCE LLEGO A 80°C
-[18:29:01] [Async Chat Thread - #42/INFO]: <awitaa> y yo ni cuenta
-[18:29:05] [Async Chat Thread - #42/INFO]: <KotaruMa> por marico
-[18:29:22] [Async Chat Thread - #42/INFO]: <awitaa> osea a 80°c seguro se funde la canaima
-[18:29:29] [Async Chat Thread - #42/INFO]: <KotaruMa> nah
-[18:29:32] [Async Chat Thread - #42/INFO]: <KotaruMa> sueñas mucho
-[18:29:45] [Async Chat Thread - #42/INFO]: <awitaa> a 60°C ya se esta derritiendo velda
-[18:29:45] [Async Chat Thread - #42/INFO]: <KotaruMa> no sabes el poder de una canaima
-[18:30:02] [Async Chat Thread - #42/INFO]: <KotaruMa> mi pc no sufre por temperatura
-[18:30:09] [Async Chat Thread - #42/INFO]: <Yupiberth> lamiasi
-[18:30:09] [Async Chat Thread - #42/INFO]: <awitaa> la temperatuar sufre por tu pc
-[18:30:21] [Async Chat Thread - #42/INFO]: <KotaruMa> nou
-[18:30:23] [Async Chat Thread - #42/INFO]: <Yupiberth> SI TE INVITO UNA COPA
-[18:30:27] [Async Chat Thread - #42/INFO]: <Yupiberth> Y ME MAMAS LA BOLA
-[18:30:34] [Async Chat Thread - #42/INFO]: <KotaruMa> tu crees que el ventilador que tiene en la placa no hecha aire
-[18:30:37] [Async Chat Thread - #42/INFO]: <Yupiberth> SI TE FALTO EL RESPETO
-[18:30:38] [Async Chat Thread - #42/INFO]: <KotaruMa> tas loco
-[18:30:41] [Async Chat Thread - #42/INFO]: <Yupiberth> Y LUEGO CULPO AL ALCHOLO
-[18:30:51] [Async Chat Thread - #42/INFO]: <awitaa> mi dell siempre es silenciosa
-[18:30:51] [Async Chat Thread - #42/INFO]: <Yupiberth> SI LEVANTO TU FALTA
-[18:30:55] [Async Chat Thread - #42/INFO]: <Yupiberth> ME DARIAS EL DERECHO
-[18:30:57] [Async Chat Thread - #42/INFO]: <awitaa> seguro ni hecha aire
-[18:30:59] [Async Chat Thread - #42/INFO]: <Yupiberth> DE VER ESA SENSATES
-[18:31:01] [Async Chat Thread - #42/INFO]: <Yupiberth> TURURURURUURUR
-[18:31:01] [Async Chat Thread - #42/INFO]: <KotaruMa> XD
-[18:31:06] [Async Chat Thread - #42/INFO]: <awitaa> UNA AVENTURA ES MAS DIVERTIDA SI HUELE A PELIGRO
-[18:31:10] [Async Chat Thread - #42/INFO]: <KotaruMa> mi ventilador es de 12 voltios
-[18:31:11] [Async Chat Thread - #42/INFO]: <awitaa> dea
-[18:31:11] [Async Chat Thread - #42/INFO]: <Yupiberth> UNA PROPUESTA INDECENTE
-[18:31:15] [Async Chat Thread - #42/INFO]: <KotaruMa> el te la canaima 5
-[18:31:16] [Async Chat Thread - #42/INFO]: <awitaa> aja
-[18:31:20] [Async Chat Thread - #42/INFO]: <awitaa> 12 voltios
-[18:31:26] [Async Chat Thread - #42/INFO]: <Yupiberth> SI TE INVITO UNA COPA
-[18:31:27] [Async Chat Thread - #42/INFO]: <Yupiberth> SI TE INVITO UNA COPA
-[18:31:31] [Async Chat Thread - #42/INFO]: <KotaruMa> AAA
-[18:31:33] [Async Chat Thread - #42/INFO]: <Yupiberth> Y ME MAMAS LA BOLA
-[18:31:34] [Async Chat Thread - #42/INFO]: <awitaa> si te invito una poya
-[18:32:27] [Async Chat Thread - #42/INFO]: <Yupiberth> ma
-[18:32:29] [Async Chat Thread - #42/INFO]: <KotaruMa> q
-[18:32:31] [Async Chat Thread - #42/INFO]: <Yupiberth> necesito diamantes
-[18:32:36] [Async Chat Thread - #42/INFO]: <Yupiberth> tienes
-[18:32:36] [Async Chat Thread - #42/INFO]: <KotaruMa> kuantos
-[18:32:38] [Async Chat Thread - #42/INFO]: <Yupiberth> 4
-[18:32:43] [Async Chat Thread - #42/INFO]: <Yupiberth> te pongo y te desbarato
-[18:32:45] [Async Chat Thread - #42/INFO]: <Yupiberth> peroaja
-[18:32:48] [Async Chat Thread - #42/INFO]: <KotaruMa> aaayy
-[18:32:49] [Async Chat Thread - #42/INFO]: <Yupiberth> 3+1
-[18:33:04] [Async Chat Thread - #42/INFO]: <Yupiberth> tienes
-[18:33:07] [Async Chat Thread - #42/INFO]: <KotaruMa> si
-[18:33:11] [Async Chat Thread - #42/INFO]: <Yupiberth> dame pue
-[18:33:13] [Async Chat Thread - #42/INFO]: <Yupiberth> UnU
-[18:33:18] [Async Chat Thread - #42/INFO]: <KotaruMa> ay tan
-[18:33:21] [Async Chat Thread - #42/INFO]: <Yupiberth> diavloooooooo
-[18:33:23] [Async Chat Thread - #42/INFO]: <Yupiberth> que millonario
-[18:33:26] [Async Chat Thread - #42/INFO]: <KotaruMa> JAJAJAJAJA
-[18:34:05] [Async Chat Thread - #42/INFO]: <KotaruMa> maldito arbol tan grande
-[18:36:56] [Async Chat Thread - #43/INFO]: <Yupiberth> ma
-[18:37:02] [Async Chat Thread - #43/INFO]: <Yupiberth> tienes esmeraldas
-[18:37:12] [Async Chat Thread - #43/INFO]: <Yupiberth> necesito 5
-[18:37:22] [Async Chat Thread - #43/INFO]: <awitaa> no es peo mio pero
-[18:37:28] [Async Chat Thread - #43/INFO]: <Yupiberth> salte pu
-[18:37:29] [Async Chat Thread - #43/INFO]: <Yupiberth> pue
-[18:37:30] [Async Chat Thread - #43/INFO]: <awitaa> no que tu ibas a tradear
-[18:37:33] [Async Chat Thread - #43/INFO]: <KotaruMa> yo cuando llegue a viejo y aun existan los telefonos
-[18:37:39] [Async Chat Thread - #43/INFO]: <KotaruMa> pondre de fondo de pantalla una cucota
-[18:37:42] [Async Chat Thread - #43/INFO]: <Yupiberth> yo
-[18:37:48] [Async Chat Thread - #43/INFO]: <Yupiberth> MAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-[18:37:51] [Async Chat Thread - #43/INFO]: <KotaruMa> q
-[18:37:51] [Async Chat Thread - #43/INFO]: <Yupiberth> A DOLMI
-[18:38:10] [Server thread/INFO]: Yupiberth issued server command: /kick awitaa
-[18:38:10] [Server thread/INFO]: awitaa lost connection: Kicked by an operator
-[18:38:10] [Server thread/INFO]: awitaa left the game
-[18:38:10] [Server thread/INFO]: [Yupiberth: Kicked awitaa: Kicked by an operator]
-[18:38:10] [Server thread/WARN]: handleDisconnection() called twice
-[18:38:13] [Async Chat Thread - #43/INFO]: <Yupiberth> yaesta
-[18:38:23] [Async Chat Thread - #43/INFO]: <Yupiberth> dame 5 esme ma
-[18:38:25] [User Authenticator #19/INFO]: UUID of player awitaa is cd512d06-6559-340e-a718-8d07cf578c77
-[18:38:25] [Server thread/INFO]: awitaa[/127.57.93.60:46777] logged in with entity id 40975 at ([world]-210.70000002533197, 64.0000002, -57.700000025331974)
-[18:38:29] [Async Chat Thread - #43/INFO]: <KotaruMa> void
-[18:38:43] [Async Chat Thread - #43/INFO]: <Yupiberth> awita, perdon por el kick pero a ti te gusta madrugar
-[18:38:59] [Async Chat Thread - #43/INFO]: <awitaa> te pica ese culo chamo
-[18:39:03] [Async Chat Thread - #43/INFO]: <KotaruMa> la ñapa
-[18:39:05] [Async Chat Thread - #43/INFO]: <Yupiberth> me picaba mano
-[18:39:07] [Async Chat Thread - #43/INFO]: <awitaa> justo me fui a dormir y me kickeaste
-[18:39:09] [Async Chat Thread - #43/INFO]: <awitaa> suicidate
-[18:39:09] [Async Chat Thread - #43/INFO]: <Yupiberth> pero me rasque
-[18:39:11] [Async Chat Thread - #43/INFO]: <KotaruMa> AAOKSAJAJSK
-[18:39:43] [Async Chat Thread - #43/INFO]: <KotaruMa> albert
-[18:39:49] [Async Chat Thread - #43/INFO]: <KotaruMa> este arbol se esta saliendo de control
-[18:39:51] [Async Chat Thread - #43/INFO]: <Yupiberth> prote 4 + reparacion
-[18:39:54] [Async Chat Thread - #43/INFO]: <Yupiberth> pave
-[18:40:10] [Server thread/INFO]: Yupiberth issued server command: /teleport KotaruMa
-[18:40:10] [Server thread/INFO]: [Yupiberth: Teleported Yupiberth to KotaruMa]
-[18:40:18] [Async Chat Thread - #43/INFO]: <Yupiberth> MIELDAAAAAAA
-[18:40:30] [Async Chat Thread - #43/INFO]: <Yupiberth> tenemos que ir al nether chamo
-[18:40:35] [Async Chat Thread - #43/INFO]: <Yupiberth> pero mejor esperamos a enma
-[18:40:36] [Async Chat Thread - #43/INFO]: <KotaruMa> yava
-[18:40:39] [Async Chat Thread - #43/INFO]: <KotaruMa> si
-[18:41:06] [Async Chat Thread - #43/INFO]: <awitaa> nether todo podrio ese
-[18:41:11] [Async Chat Thread - #43/INFO]: <KotaruMa> XDD
-[18:41:18] [User Authenticator #20/INFO]: UUID of player Comanpoya is 060e1438-7289-36d6-82a0-8f00da010810
-[18:41:18] [Server thread/INFO]: Comanpoya[/127.57.93.60:34905] logged in with entity id 41353 at ([world]-236.59951610435968, 64.0, -33.30000001192093)
-[18:41:33] [Server thread/INFO]: Comanpoya lost connection: Disconnected
-[18:41:34] [Server thread/INFO]: Comanpoya left the game
-[18:42:21] [Async Chat Thread - #44/INFO]: <Yupiberth> ma
-[18:42:23] [Async Chat Thread - #44/INFO]: <KotaruMa> q
-[18:42:30] [Async Chat Thread - #44/INFO]: <Yupiberth> el pana enma dijo que jugaba en la noche
-[18:42:34] [Async Chat Thread - #44/INFO]: <KotaruMa> coño
-[18:42:36] [Async Chat Thread - #44/INFO]: <KotaruMa> porke
-[18:42:38] [Async Chat Thread - #44/INFO]: <Yupiberth> vamos a sacarle una pieza prote 4
-[18:42:42] [Async Chat Thread - #44/INFO]: <KotaruMa> sisa
-[18:42:43] [Async Chat Thread - #44/INFO]: <Yupiberth> porque va a estar en la calle
-[18:42:46] [Async Chat Thread - #44/INFO]: <KotaruMa> aaa
-[18:42:50] [Async Chat Thread - #44/INFO]: <KotaruMa> se esta falseando
-[18:42:53] [Async Chat Thread - #44/INFO]: <KotaruMa> neneiv momento
-[18:42:57] [Async Chat Thread - #44/INFO]: <Yupiberth> vamos a talar full madera pa sacarle el prote 4
-[18:43:00] [Async Chat Thread - #44/INFO]: <KotaruMa> siva
-[18:43:02] [Async Chat Thread - #44/INFO]: <Yupiberth> enma se volvio neneiv
-[18:45:25] [Async Chat Thread - #45/INFO]: <Yupiberth> volvi
-[18:45:35] [Async Chat Thread - #45/INFO]: <KotaruMa> prote 4 con reparacion
-[18:45:40] [Async Chat Thread - #45/INFO]: <KotaruMa> pa enma
-[18:45:40] [Async Chat Thread - #45/INFO]: <Yupiberth> UFFFFFFFFFFF
-[18:45:51] [Async Chat Thread - #45/INFO]: <Yupiberth> no vale, solo prote 4
-[18:45:55] [Async Chat Thread - #45/INFO]: <KotaruMa> dale p
-[18:45:59] [Async Chat Thread - #45/INFO]: <Yupiberth> que la reparacion se la saque el
-[18:46:03] [Async Chat Thread - #45/INFO]: <Yupiberth> que no sea pajuo
-[18:46:10] [Async Chat Thread - #45/INFO]: <KotaruMa> que no se haga el wili
-[18:46:14] [Async Chat Thread - #45/INFO]: <Yupiberth> depana
-[18:46:51] [Async Chat Thread - #45/INFO]: <KotaruMa> verga chamo
-[18:46:57] [Async Chat Thread - #45/INFO]: <KotaruMa> pero este arbol es el propio demonio
-[18:47:01] [Async Chat Thread - #45/INFO]: <Yupiberth> JAJJAJAJAJJAJAJJAJA
-[18:47:06] [Async Chat Thread - #45/INFO]: <KotaruMa> marico
-[18:47:10] [Async Chat Thread - #45/INFO]: <KotaruMa> talo y talo
-[18:47:16] [Async Chat Thread - #45/INFO]: <KotaruMa> y no se acaba nunca la madera
-[18:47:26] [Async Chat Thread - #45/INFO]: <Yupiberth> JAJAJJAAJJAJAJJA
-[18:47:31] [Async Chat Thread - #45/INFO]: <Yupiberth> PORQUE PICAS TODOS JUNTOS
-[18:47:34] [Async Chat Thread - #45/INFO]: <Yupiberth> PICA 1 POR 1
-[18:47:45] [Async Chat Thread - #45/INFO]: <Yupiberth> mimami
-[18:47:46] [Async Chat Thread - #45/INFO]: <KotaruMa> marico los pico de 1 en 1
-[18:47:50] [Async Chat Thread - #45/INFO]: <KotaruMa> y de 2 en do
-[18:48:02] [Async Chat Thread - #45/INFO]: <KotaruMa> marico voy a tener que multiplicarme en un 2do Ma
-[18:48:03] [Async Chat Thread - #45/INFO]: <Yupiberth> yatevoyaenseñarmajose
-[18:48:09] [Async Chat Thread - #45/INFO]: <KotaruMa> para poder matar a ese arbol malnacido sera
-[18:48:26] [Async Chat Thread - #45/INFO]: <KotaruMa> 11 staks de madera
-[18:48:31] [Async Chat Thread - #45/INFO]: <KotaruMa> y aun el arbol sigue
-[18:48:32] [Server thread/INFO]: Yupiberth issued server command: /teleport KotaruMa
-[18:48:32] [Server thread/INFO]: [Yupiberth: Teleported Yupiberth to KotaruMa]
-[18:48:35] [Async Chat Thread - #45/INFO]: <Yupiberth> yaesta
-[18:48:53] [Async Chat Thread - #45/INFO]: <Yupiberth> ADOLMIIIIIIII
-[18:50:40] [Async Chat Thread - #46/INFO]: <Yupiberth> DUERMAAAAAAAAAAAAAN
-[18:50:42] [Async Chat Thread - #46/INFO]: <Yupiberth> CARAJO
-[18:50:44] [Async Chat Thread - #46/INFO]: <awitaa> yavoy
-[18:50:53] [Server thread/WARN]: awitaa was kicked for floating too long!
-[18:50:53] [Server thread/INFO]: awitaa lost connection: Flying is not enabled on this server
-[18:50:53] [Server thread/INFO]: awitaa left the game
-[18:50:53] [Server thread/WARN]: handleDisconnection() called twice
-[18:51:12] [User Authenticator #21/INFO]: UUID of player awitaa is cd512d06-6559-340e-a718-8d07cf578c77
-[18:51:12] [Server thread/INFO]: awitaa[/127.57.93.60:35751] logged in with entity id 42531 at ([world]-208.70000002533197, 64.01357310483357, -56.700000025331974)
-[18:51:17] [Async Chat Thread - #46/INFO]: <awitaa> me saco quique por vola
-[18:51:27] [Async Chat Thread - #46/INFO]: <Yupiberth> yo
-[18:51:27] [Async Chat Thread - #46/INFO]: <KotaruMa> hakel
-[18:51:50] [Async Chat Thread - #46/INFO]: <awitaa> ando esferizando mis bolas
-[18:51:55] [Async Chat Thread - #46/INFO]: <KotaruMa> ay papa
-[18:52:47] [Async Chat Thread - #46/INFO]: <Yupiberth> NOJODA
-[18:52:51] [Async Chat Thread - #46/INFO]: <Yupiberth> YA SE BLOQUEARON
-[18:52:53] [Async Chat Thread - #46/INFO]: <Yupiberth> QUE PAJUOS
-[18:52:55] [Async Chat Thread - #46/INFO]: <KotaruMa> AKJSAhjhskljdas
-[18:53:42] [Async Chat Thread - #46/INFO]: <Yupiberth> 1 prote ma
-[18:53:49] [Async Chat Thread - #46/INFO]: <KotaruMa> q
-[18:53:55] [Async Chat Thread - #46/INFO]: <Yupiberth> tengo 1 prote
-[18:53:59] [Async Chat Thread - #46/INFO]: <KotaruMa> XD
-[18:54:34] [Async Chat Thread - #46/INFO]: <awitaa> chicos las bolas me quedaron asimetricas
-[18:54:56] [Async Chat Thread - #46/INFO]: <Yupiberth> diavlo, vegeta no te las va a querer comer
-[18:55:04] [Async Chat Thread - #46/INFO]: <Yupiberth> porque no estan simetricas
-[19:00:42] [Async Chat Thread - #47/INFO]: <awitaa> saben q falta
-[19:00:44] [Async Chat Thread - #47/INFO]: <awitaa> q enma venga
-[19:00:48] [Async Chat Thread - #47/INFO]: <awitaa> a la yupihouse 2
-[19:00:49] [Async Chat Thread - #47/INFO]: <awitaa> y que la explote
-[19:00:51] [Async Chat Thread - #47/INFO]: <awitaa> envez de quemarla
-[19:01:01] [Async Chat Thread - #47/INFO]: <awitaa> la detone
-[19:01:55] [Async Chat Thread - #47/INFO]: <Yupiberth> ADOLMIIIIIII
-[19:01:58] [Async Chat Thread - #47/INFO]: <awitaa> voy
-[19:02:07] [Server thread/INFO]: Yupiberth issued server command: /tpahere KotaruMa
-[19:02:15] [Async Chat Thread - #47/INFO]: <KotaruMa> q paso
-[19:02:18] [Async Chat Thread - #47/INFO]: <Yupiberth> aceptame ma
-[19:02:19] [Async Chat Thread - #47/INFO]: <KotaruMa> listo
-[19:02:23] [Async Chat Thread - #47/INFO]: <KotaruMa> a
-[19:02:25] [Async Chat Thread - #47/INFO]: <Yupiberth> YAESTA
-[19:03:35] [Server thread/INFO]: KotaruMa was shot by Skeleton
-[19:03:43] [Async Chat Thread - #48/INFO]: <awitaa> te mato alguien de tu propia raza
-[19:03:48] [Async Chat Thread - #48/INFO]: <awitaa> dea
-[19:03:52] [Async Chat Thread - #48/INFO]: <KotaruMa> XDD
-[19:04:01] [Async Chat Thread - #48/INFO]: <awitaa> te querian robar el oro
-[19:04:07] [Async Chat Thread - #48/INFO]: <awitaa> dea
-[19:04:12] [Async Chat Thread - #48/INFO]: <KotaruMa> cual
-[19:04:14] [Async Chat Thread - #48/INFO]: <KotaruMa> si ni traigo
-[19:04:22] [Async Chat Thread - #48/INFO]: <awitaa> el cobre pue
-[19:04:25] [Async Chat Thread - #48/INFO]: <Yupiberth> ma, necesito libros
-[19:04:29] [Async Chat Thread - #48/INFO]: <Yupiberth> pa cajear el prote
-[19:04:52] [Async Chat Thread - #48/INFO]: <awitaa> creo que ya tengo las bolas simetricas chikos
-[19:05:00] [Async Chat Thread - #48/INFO]: <Yupiberth> UFFFFFFFFFF
-[19:05:16] [Async Chat Thread - #48/INFO]: <awitaa> mentira
-[19:05:18] [Async Chat Thread - #48/INFO]: <awitaa> aun no
-[19:05:20] [Async Chat Thread - #48/INFO]: <Yupiberth> ma, dame libros
-[19:05:25] [Async Chat Thread - #48/INFO]: <awitaa> ma, dame uypi
-[19:05:26] [Async Chat Thread - #48/INFO]: <awitaa> dea
-[19:05:27] [Async Chat Thread - #48/INFO]: <KotaruMa> huevo
-[19:05:38] [Async Chat Thread - #48/INFO]: <KotaruMa> no he encnatao lo mio compa
-[19:05:40] [Async Chat Thread - #48/INFO]: <KotaruMa> toy pelando
-[19:05:43] [Async Chat Thread - #48/INFO]: <Yupiberth> nwbn
-[19:06:32] [Async Chat Thread - #48/INFO]: <awitaa> noo mi compa
-[19:07:11] [Async Chat Thread - #48/INFO]: <awitaa> tengo una bola buena y la otra mala
-[19:07:17] [Async Chat Thread - #48/INFO]: <KotaruMa> ;v
-[19:07:25] [Async Chat Thread - #48/INFO]: <Yupiberth> bueno
-[19:07:30] [Async Chat Thread - #48/INFO]: <Yupiberth> bola deforme
-[19:07:31] [Async Chat Thread - #48/INFO]: <awitaa> la yupihouse ya tiene yupiforma
-[19:07:32] [Async Chat Thread - #48/INFO]: <Yupiberth> dea
-[19:09:08] [Async Chat Thread - #49/INFO]: <awitaa> mi compa usted estando pedo borraria la cuenta?
-[19:09:16] [Async Chat Thread - #49/INFO]: <awitaa> UF
-[19:09:18] [Async Chat Thread - #49/INFO]: <awitaa> YA SE QUE HARE
-[19:09:20] [Async Chat Thread - #49/INFO]: <awitaa> LOS YUPIS GEMELOS
-[19:09:28] [Async Chat Thread - #49/INFO]: <Yupiberth> LISTO
-[19:09:29] [Async Chat Thread - #49/INFO]: <KotaruMa> voy a cagar
-[19:09:30] [Server thread/INFO]: KotaruMa lost connection: Disconnected
-[19:09:30] [Server thread/INFO]: KotaruMa left the game
-[19:09:31] [Async Chat Thread - #49/INFO]: <Yupiberth> ENMA ESTA FULL PROTEV
-[19:09:34] [Async Chat Thread - #49/INFO]: <Yupiberth> IV
-[19:09:35] [Async Chat Thread - #49/INFO]: <awitaa> voy a cagar * se va*
-[19:09:39] [Async Chat Thread - #49/INFO]: <Yupiberth> ysi
-[19:09:43] [Async Chat Thread - #49/INFO]: <Yupiberth> se fue a cagal
-[19:10:05] [Async Chat Thread - #49/INFO]: <awitaa> el yupi original sera destruido
-[19:10:06] [Async Chat Thread - #49/INFO]: <awitaa> dea
-[19:10:10] [Async Chat Thread - #49/INFO]: <Yupiberth> dea
-[19:10:22] [User Authenticator #22/INFO]: UUID of player Comanpoya is 060e1438-7289-36d6-82a0-8f00da010810
-[19:10:22] [Server thread/INFO]: Comanpoya[/127.57.93.60:41693] logged in with entity id 45086 at ([world]-244.83746194802632, 69.0, -42.93010385043554)
-[19:10:30] [Async Chat Thread - #49/INFO]: <Comanpoya> pos, voy a destruir el yupi
-[19:10:50] [Async Chat Thread - #49/INFO]: <Yupiberth> Xxxyupidestroyer999xxX
-[19:10:59] [Async Chat Thread - #49/INFO]: <awitaa> yoese
-[19:11:05] [Async Chat Thread - #49/INFO]: <Yupiberth> yo vengo ahorita
-[19:11:12] [Async Chat Thread - #49/INFO]: <Yupiberth> te dejo esta vrg encendido
-[19:11:14] [Server thread/INFO]: Yupiberth lost connection: Disconnected
-[19:11:14] [Server thread/INFO]: Yupiberth left the game
-[19:20:39] [Async Chat Thread - #50/INFO]: <awitaa> aprendi de mis yupis pasados
-[19:20:44] [Async Chat Thread - #50/INFO]: <awitaa> no yupifallare
-[19:24:09] [Server thread/INFO]: Comanpoya lost connection: Disconnected
-[19:24:09] [Server thread/INFO]: Comanpoya left the game
-[19:28:00] [User Authenticator #23/INFO]: UUID of player MLGdoritos is 86a7d1c1-db4b-38bb-9943-8f5f94a3a2ef
-[19:28:00] [Server thread/INFO]: MLGdoritos[/127.57.93.60:35227] logged in with entity id 46116 at ([world]-245.41398356017734, 63.0, -77.51006802608293)
-[19:28:28] [Server thread/INFO]: MLGdoritos was blown up by Creeper
-[19:28:35] [Server thread/INFO]: MLGdoritos issued server command: /back
-[19:29:51] [Server thread/INFO]: MLGdoritos lost connection: Disconnected
-[19:29:51] [Server thread/INFO]: MLGdoritos left the game
-[19:33:40] [Async Chat Thread - #51/INFO]: <awitaa> itsu demo i love you kun ni take kissm e
-[19:33:49] [Async Chat Thread - #51/INFO]: <awitaa> wasure rare nai kara boku no daiji na memori
-[19:33:55] [Async Chat Thread - #51/INFO]: <awitaa> dora yaki wa shushoku ni nare nai
-[19:33:57] [Async Chat Thread - #51/INFO]: <awitaa> dea
-[19:34:56] [User Authenticator #24/INFO]: UUID of player KotaruMa is c0750b00-36f4-323f-bdab-d5860f1f8211
-[19:34:56] [Server thread/INFO]: KotaruMa[/127.234.240.122:35621] logged in with entity id 46434 at ([world]-717.1717997584457, 68.0, -225.98187200622033)
-[19:35:59] [Async Chat Thread - #52/INFO]: <KotaruMa> marico me andaba cagando
-[19:36:05] [Async Chat Thread - #52/INFO]: <KotaruMa> njd que bollo tan hpt
-[19:36:20] [Async Chat Thread - #52/INFO]: <awitaa> la table canaima solo sirve de monitor secundario
-[19:36:26] [Async Chat Thread - #52/INFO]: <KotaruMa> XD
-[19:36:31] [Async Chat Thread - #52/INFO]: <KotaruMa> como se le hara para eso
-[19:36:32] [Async Chat Thread - #52/INFO]: <awitaa> enserio
-[19:36:37] [Async Chat Thread - #52/INFO]: <awitaa> con una mierda ahi
-[19:36:43] [Async Chat Thread - #52/INFO]: <awitaa> spacedesk
-[19:36:46] [Async Chat Thread - #52/INFO]: <KotaruMa> la tienen que rotear no?
-[19:36:49] [Async Chat Thread - #52/INFO]: <awitaa> creo que si
-[19:37:00] [Async Chat Thread - #52/INFO]: <awitaa> mano yo rotee la table canaima con un cable medio maol
-[19:37:01] [Async Chat Thread - #52/INFO]: <KotaruMa> y ni de 2da pantalla sirve tanto
-[19:37:10] [Async Chat Thread - #52/INFO]: <awitaa> que bueno que ese cable no fallo
-[19:37:14] [Async Chat Thread - #52/INFO]: <awitaa> seguro me quedaba sin table
-[19:37:21] [Async Chat Thread - #52/INFO]: <awitaa> osea en plan ni la uso pero pue
-[19:38:13] [Async Chat Thread - #52/INFO]: <awitaa> man me quedaron feas las bolas
-[19:38:17] [Async Chat Thread - #52/INFO]: <KotaruMa> XDD
-[19:38:21] [Async Chat Thread - #52/INFO]: <awitaa> parecen piramides
-[19:38:24] [Async Chat Thread - #52/INFO]: <KotaruMa> KJAKJAKJAKJA
-[19:38:39] [Async Chat Thread - #52/INFO]: <awitaa> esto parece de todo menos bola
-[19:39:48] [Async Chat Thread - #53/INFO]: <awitaa> socanigadik
-[19:39:57] [Async Chat Thread - #53/INFO]: <awitaa> necesito pulir mis bolas
-[19:39:58] [Async Chat Thread - #53/INFO]: <awitaa> DEA
-[19:40:06] [Async Chat Thread - #53/INFO]: <KotaruMa> XDDA
-[19:40:11] [Async Chat Thread - #53/INFO]: <KotaruMa> AS
-[19:40:21] [Async Chat Thread - #53/INFO]: <awitaa> dc
-[19:40:42] [Server thread/WARN]: KotaruMa was kicked due to keepalive timeout!
-[19:40:42] [Server thread/INFO]: KotaruMa lost connection: Timed out
-[19:40:42] [Server thread/INFO]: KotaruMa left the game
-[19:40:42] [Server thread/WARN]: handleDisconnection() called twice
-[19:40:42] [Async Chat Thread - #53/INFO]: <awitaa> :v
-[19:40:45] [Async Chat Thread - #53/INFO]: <awitaa> naguebon
-[19:43:14] [User Authenticator #25/INFO]: UUID of player KotaruMa is c0750b00-36f4-323f-bdab-d5860f1f8211
-[19:43:14] [Server thread/INFO]: KotaruMa[/127.234.240.122:42833] logged in with entity id 47481 at ([world]-702.6999999880791, 64.8447679954834, -234.6309708093698)
-[19:43:36] [Async Chat Thread - #54/INFO]: <awitaa> ya estoy haciendo esfera mi bola
-[19:43:41] [Async Chat Thread - #54/INFO]: <awitaa> asi quedara mas protegida
-[19:43:42] [Async Chat Thread - #54/INFO]: <awitaa> :v
-[19:43:59] [Server thread/WARN]: KotaruMa was kicked due to keepalive timeout!
-[19:43:59] [Server thread/INFO]: KotaruMa lost connection: Timed out
-[19:43:59] [Server thread/INFO]: KotaruMa left the game
-[19:43:59] [Server thread/WARN]: handleDisconnection() called twice
-[19:49:28] [Server thread/INFO]: Stopping the server
-[19:49:28] [Server thread/INFO]: Stopping server
-[19:49:28] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.5.0
-[19:49:28] [Server thread/INFO]: [SimpleTpa] Disabling SimpleTpa v7.3
-[19:49:28] [Server thread/INFO]: [SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9
-[19:49:28] [Server thread/INFO]: [SimpleTpa] Simple Tpa has been disabled on version 7.3
-[19:49:28] [Server thread/INFO]: Saving players
-[19:49:28] [Server thread/INFO]: awitaa lost connection: Server closed
-[19:49:28] [Server thread/INFO]: awitaa left the game
-[19:49:28] [Server thread/INFO]: Saving worlds
-[19:49:28] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
-[19:49:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[19:49:28] [Server thread/INFO]: Saving chunks for level 'world_nether'/minecraft:the_nether
-[19:49:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[19:49:28] [Server thread/INFO]: Saving chunks for level 'world_the_end'/minecraft:the_end
-[19:49:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[19:49:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[19:49:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[19:49:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[01:20:55] [Server thread/INFO]: Starting minecraft server version 1.14.4
+[01:20:55] [Server thread/INFO]: Loading properties
+[01:20:55] [Server thread/INFO]: This server is running Paper version git-Paper-245 (MC: 1.14.4) (Implementing API version 1.14.4-R0.1-SNAPSHOT)
+[01:20:57] [Server thread/INFO]: Debug logging is disabled
+[01:20:57] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[01:20:57] [Server thread/INFO]: Using 4 threads for Netty based IO
+[01:20:57] [Server thread/INFO]: Default game type: SURVIVAL
+[01:20:57] [Server thread/INFO]: Generating keypair
+[01:20:58] [Server thread/INFO]: Starting Minecraft server on *:25565
+[01:20:58] [Server thread/INFO]: Using epoll channel type
+[01:21:09] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v7.3
+[01:21:09] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v15.5.0
+[01:21:09] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[01:21:09] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.5.0
+[01:21:11] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1mYou must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.[0;39m
+[01:21:12] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mRunning on Minecraft [33;1m1.14.4[32;1m.[0;39m
+[01:21:14] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mUsing paper join listener![0;39m
+[01:21:14] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1m[33;1mYou are running an outdated Java version, please update it to at least Java 21 (your version is 11).[0;39m
+[01:21:14] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1m[33;1mSkinsRestorer no longer officially supports this version of Java, you are currently using an unsupported compatibility build.[0;39m
+[01:21:14] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1m[33;1mYou can still use the plugin, but you may encounter issues that are not present in newer versions of Java.[0;39m
+[01:21:14] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[01:21:14] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[01:21:14] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[01:21:14] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[01:21:14] [Server thread/INFO]: Preparing level "world"
+[01:21:15] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[01:21:37] [Server thread/INFO]: Loaded 6 recipes
+[01:21:38] [Server thread/INFO]: -------- World Settings For [world] --------
+[01:21:38] [Server thread/INFO]: Experience Merge Radius: 3.0
+[01:21:38] [Server thread/INFO]: Mob Spawn Range: 8
+[01:21:38] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[01:21:38] [Server thread/INFO]: Cane Growth Modifier: 100%
+[01:21:38] [Server thread/INFO]: Melon Growth Modifier: 100%
+[01:21:38] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[01:21:38] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[01:21:38] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[01:21:38] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[01:21:38] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[01:21:38] [Server thread/INFO]: Potato Growth Modifier: 100%
+[01:21:38] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[01:21:38] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[01:21:38] [Server thread/INFO]: Vine Growth Modifier: 100%
+[01:21:38] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[01:21:38] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[01:21:38] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[01:21:38] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[01:21:38] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[01:21:38] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[01:21:38] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[01:21:38] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[01:21:38] [Server thread/INFO]: Max TNT Explosions: 100
+[01:21:38] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[01:21:38] [Server thread/INFO]: View Distance: 10
+[01:21:38] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[01:21:38] [Server thread/INFO]: Item Merge Radius: 2.5
+[01:21:38] [Server thread/INFO]: Item Despawn Rate: 6000
+[01:21:38] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[01:21:38] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[01:21:38] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[01:21:38] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[01:21:38] [Server thread/INFO]: Experience Merge Radius: 3.0
+[01:21:38] [Server thread/INFO]: Mob Spawn Range: 8
+[01:21:38] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[01:21:38] [Server thread/INFO]: Cane Growth Modifier: 100%
+[01:21:38] [Server thread/INFO]: Melon Growth Modifier: 100%
+[01:21:38] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[01:21:38] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[01:21:38] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[01:21:38] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[01:21:38] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[01:21:38] [Server thread/INFO]: Potato Growth Modifier: 100%
+[01:21:38] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[01:21:38] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[01:21:38] [Server thread/INFO]: Vine Growth Modifier: 100%
+[01:21:38] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[01:21:38] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[01:21:38] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[01:21:38] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[01:21:38] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[01:21:38] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[01:21:38] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[01:21:38] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[01:21:38] [Server thread/INFO]: Max TNT Explosions: 100
+[01:21:38] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[01:21:38] [Server thread/INFO]: View Distance: 10
+[01:21:38] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[01:21:38] [Server thread/INFO]: Item Merge Radius: 2.5
+[01:21:38] [Server thread/INFO]: Item Despawn Rate: 6000
+[01:21:38] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[01:21:38] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[01:21:38] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[01:21:38] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[01:21:38] [Server thread/INFO]: Experience Merge Radius: 3.0
+[01:21:38] [Server thread/INFO]: Mob Spawn Range: 8
+[01:21:38] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[01:21:38] [Server thread/INFO]: Cane Growth Modifier: 100%
+[01:21:38] [Server thread/INFO]: Melon Growth Modifier: 100%
+[01:21:38] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[01:21:38] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[01:21:38] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[01:21:38] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[01:21:38] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[01:21:38] [Server thread/INFO]: Potato Growth Modifier: 100%
+[01:21:38] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[01:21:38] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[01:21:38] [Server thread/INFO]: Vine Growth Modifier: 100%
+[01:21:38] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[01:21:38] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[01:21:38] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[01:21:38] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[01:21:38] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[01:21:38] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[01:21:38] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[01:21:38] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[01:21:38] [Server thread/INFO]: Max TNT Explosions: 100
+[01:21:38] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[01:21:38] [Server thread/INFO]: View Distance: 10
+[01:21:38] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[01:21:38] [Server thread/INFO]: Item Merge Radius: 2.5
+[01:21:38] [Server thread/INFO]: Item Despawn Rate: 6000
+[01:21:38] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[01:21:38] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[01:21:38] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[01:21:38] [Server thread/INFO]: Preparing start region for dimension 'world'/minecraft:overworld
+[01:21:39] [Server thread/INFO]: Preparing spawn area: 0%
+[01:21:39] [Server thread/INFO]: Preparing spawn area: 0%
+[01:21:39] [Server thread/INFO]: Preparing spawn area: 4%
+[01:21:40] [Server thread/INFO]: Preparing spawn area: 26%
+[01:21:40] [Server thread/INFO]: Preparing spawn area: 65%
+[01:21:41] [Server thread/INFO]: Preparing spawn area: 100%
+[01:21:41] [Server thread/INFO]: Preparing spawn area: 100%
+[01:21:44] [Server-Worker-2/INFO]: Preparing spawn area: 100%
+[01:21:44] [Server thread/INFO]: Preparing spawn area: 100%
+[01:21:44] [Server-Worker-1/INFO]: Preparing spawn area: 100%
+[01:21:44] [Server-Worker-1/INFO]: Preparing spawn area: 100%
+[01:21:44] [Server-Worker-1/INFO]: Preparing spawn area: 100%
+[01:21:44] [Server thread/INFO]: Preparing spawn area: 100%
+[01:21:45] [Server-Worker-1/INFO]: Preparing spawn area: 100%
+[01:21:45] [Server thread/INFO]: Preparing spawn area: 100%
+[01:21:45] [Server thread/INFO]: Loaded 441 spawn chunks for world world
+[01:21:45] [Server thread/INFO]: Time elapsed: 7069 ms
+[01:21:45] [Server thread/INFO]: Preparing start region for dimension 'world_nether'/minecraft:the_nether
+[01:21:45] [Server thread/INFO]: Preparing spawn area: 0%
+[01:21:46] [Server thread/INFO]: Preparing spawn area: 28%
+[01:21:46] [Server thread/INFO]: Preparing spawn area: 100%
+[01:21:47] [Server-Worker-1/INFO]: Preparing spawn area: 100%
+[01:21:47] [Server-Worker-2/INFO]: Preparing spawn area: 100%
+[01:21:48] [Server-Worker-1/INFO]: Preparing spawn area: 100%
+[01:21:48] [Server-Worker-1/INFO]: Preparing spawn area: 100%
+[01:21:49] [Server-Worker-2/INFO]: Preparing spawn area: 100%
+[01:21:49] [Server-Worker-2/INFO]: Preparing spawn area: 100%
+[01:21:50] [Server thread/INFO]: Loaded 441 spawn chunks for world world_nether
+[01:21:50] [Server thread/INFO]: Time elapsed: 4340 ms
+[01:21:50] [Server thread/INFO]: Preparing start region for dimension 'world_the_end'/minecraft:the_end
+[01:21:50] [Server thread/INFO]: Preparing spawn area: 0%
+[01:21:50] [Server-Worker-2/INFO]: Preparing spawn area: 100%
+[01:21:51] [Server-Worker-1/INFO]: Preparing spawn area: 100%
+[01:21:51] [Server thread/INFO]: Loaded 441 spawn chunks for world world_the_end
+[01:21:51] [Server thread/INFO]: Time elapsed: 1328 ms
+[01:21:51] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v7.3
+[01:21:51] [Server thread/INFO]: [SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9
+[01:21:51] [Server thread/INFO]: [SimpleTpa] Simple Tpa has been enabled on version 7.3
+[01:21:51] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[01:21:51] [Server thread/INFO]: Done (37.242s)! For help, type "help"
+[01:21:51] [Server thread/INFO]: Timings Reset
+[01:21:52] [Craft Scheduler Thread - 7/INFO]: [SimpleTpa] There is a new update available.
+[01:21:52] [Craft Scheduler Thread - 7/INFO]: [SimpleTpa] There is a new update available:
+[01:21:52] [Craft Scheduler Thread - 7/INFO]: [SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/
+[01:21:52] [Craft Scheduler Thread - 5/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[01:21:52] [Craft Scheduler Thread - 5/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[01:21:52] [Craft Scheduler Thread - 5/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m
+[01:21:52] [Craft Scheduler Thread - 5/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m
+[01:21:52] [Craft Scheduler Thread - 5/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |  [34;1m[4m[21mStandalone Mode[0;39m[32;1m |[0;39m
+[01:21:52] [Craft Scheduler Thread - 5/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[01:21:52] [Craft Scheduler Thread - 5/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[01:21:52] [Craft Scheduler Thread - 5/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Version: [32;1m15.5.0[0;39m
+[01:21:52] [Craft Scheduler Thread - 5/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Commit: [32;1mad418e4[0;39m
+[01:21:52] [Craft Scheduler Thread - 5/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
+[01:21:52] [Craft Scheduler Thread - 5/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[01:21:52] [Craft Scheduler Thread - 5/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[34;1mDo you have issues? Read our troubleshooting guide: [33;1mhttps://skinsrestorer.net/docs/troubleshooting[0;39m
+[01:21:52] [Craft Scheduler Thread - 5/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[34;1mWant to support SkinsRestorer? Consider donating: [33;1mhttps://skinsrestorer.net/donate[0;39m
+[01:24:40] [User Authenticator #1/INFO]: UUID of player awitaa is cd512d06-6559-340e-a718-8d07cf578c77
+[01:24:41] [Server thread/INFO]: awitaa[/127.57.93.60:59353] logged in with entity id 189 at ([world]-260.36941259765723, 64.0, -58.543087221162274)
+[01:24:58] [Async Chat Thread - #0/INFO]: <awitaa> anoche estaba jalandome el guebo
+[01:25:07] [User Authenticator #1/INFO]: UUID of player AltDeEnma is 4cb66614-63eb-3e64-8488-2912c1dcff4f
+[01:25:08] [Server thread/INFO]: AltDeEnma[/127.131.218.252:59985] logged in with entity id 252 at ([world]-695.6999999880791, 61.0, -256.30000001192064)
+[01:25:14] [Async Chat Thread - #0/INFO]: <awitaa> anoche estaba jalandome el guebo
+[01:25:39] [Async Chat Thread - #0/INFO]: <awitaa> :V
+[01:25:45] [Async Chat Thread - #0/INFO]: <awitaa> yo tengo las 2 bolas malas
+[01:25:46] [Async Chat Thread - #0/INFO]: <awitaa> dea
+[01:26:37] [Async Chat Thread - #0/INFO]: <awitaa> nigga i dont make that gay shit
+[01:26:41] [User Authenticator #2/INFO]: UUID of player awaaa is f1b839c0-d1ef-3862-8fcb-fbb003313421
+[01:26:41] [Server thread/INFO]: awaaa[/127.57.93.60:55995] logged in with entity id 630 at ([world]-272.4078563808744, 64.0, -49.22497174677321)
+[01:26:54] [User Authenticator #2/INFO]: UUID of player KotaruMa is c0750b00-36f4-323f-bdab-d5860f1f8211
+[01:26:54] [Server thread/INFO]: KotaruMa[/127.234.240.122:49077] logged in with entity id 644 at ([world]-723.5961654531185, 62.9375, -264.36024287995156)
+[01:27:00] [Async Chat Thread - #0/INFO]: <awaaa> coño esta multi podria no tiene lo q necesito
+[01:27:20] [Server thread/INFO]: awaaa lost connection: Disconnected
+[01:27:20] [Server thread/INFO]: awaaa left the game
+[01:27:29] [User Authenticator #2/INFO]: UUID of player MLGdoritos is 86a7d1c1-db4b-38bb-9943-8f5f94a3a2ef
+[01:27:29] [Server thread/INFO]: MLGdoritos[/127.57.93.60:45019] logged in with entity id 696 at ([world]-249.87389428632366, 64.0, -47.60657728578732)
+[01:27:41] [Server thread/INFO]: awitaa issued server command: /skin
+[01:27:42] [Async Chat Thread - #0/INFO]: <awitaa> que ricote
+[01:27:46] [Server thread/INFO]: awitaa issued server command: /skin set jreynoso2701
+[01:28:22] [Async Chat Thread - #0/INFO]: <awitaa> estaria arrecho tener minecraft con java headless
+[01:28:24] [Async Chat Thread - #0/INFO]: <awitaa> dea
+[01:28:34] [Async Chat Thread - #0/INFO]: <awitaa> te pica ese culo
+[01:29:01] [Server thread/INFO]: MLGdoritos issued server command: /skin set jreynoso2701
+[01:29:06] [Async Chat Thread - #0/INFO]: <awitaa> a minal
