@@ -1691,17 +1691,24 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:cold_ocean": "2024-12-15 15:56:13 +0000",
       "minecraft:forest": "2024-12-13 17:58:30 +0000",
       "minecraft:mountains": "2024-12-13 19:22:03 +0000",
       "minecraft:taiga": "2024-12-13 19:42:00 +0000",
+      "minecraft:deep_cold_ocean": "2024-12-15 15:57:02 +0000",
       "minecraft:taiga_hills": "2024-12-13 19:44:03 +0000",
+      "minecraft:birch_forest": "2024-12-15 15:59:54 +0000",
       "minecraft:snowy_beach": "2024-12-15 15:44:37 +0000",
       "minecraft:warm_ocean": "2024-12-15 15:39:01 +0000",
       "minecraft:deep_lukewarm_ocean": "2024-12-15 15:41:17 +0000",
       "minecraft:beach": "2024-12-13 18:01:42 +0000",
+      "minecraft:dark_forest": "2024-12-15 15:58:04 +0000",
       "minecraft:river": "2024-12-13 18:01:29 +0000",
       "minecraft:lukewarm_ocean": "2024-12-13 19:41:37 +0000",
-      "minecraft:wooded_hills": "2024-12-13 19:22:14 +0000"
+      "minecraft:birch_forest_hills": "2024-12-15 16:01:24 +0000",
+      "minecraft:wooded_mountains": "2024-12-15 16:01:58 +0000",
+      "minecraft:wooded_hills": "2024-12-13 19:22:14 +0000",
+      "minecraft:plains": "2024-12-15 15:58:37 +0000"
     },
     "done": false
   },
