@@ -130,3 +130,40 @@
 [05:32:48] [Server thread/INFO]: [AltDeEnma: Gave 16 [Block of Gold] to AltDeEnma]
 [05:34:24] [Server thread/INFO]: AltDeEnma issued server command: /tp -77 76 -24
 [05:34:24] [Server thread/INFO]: [AltDeEnma: Teleported AltDeEnma to -76.5, 76.0, -23.5]
+[05:50:33] [Server thread/INFO]: AltDeEnma issued server command: /backpack
+[05:51:05] [Server thread/INFO]: AltDeEnma issued server command: /backpack
+[05:52:11] [Server thread/INFO]: AltDeEnma issued server command: /backpack
+[05:53:31] [Server thread/INFO]: AltDeEnma issued server command: /backpack
+[05:53:51] [Server thread/INFO]: AltDeEnma issued server command: /backpack
+[05:53:55] [Server thread/INFO]: AltDeEnma issued server command: /backpack
+[05:54:20] [Server thread/INFO]: AltDeEnma issued server command: /backpack
+[05:54:40] [Server thread/INFO]: AltDeEnma issued server command: /backpack
+[05:55:00] [Server thread/INFO]: AltDeEnma issued server command: /backpack
+[05:55:46] [Server thread/INFO]: AltDeEnma issued server command: /backpack
+[05:56:02] [Server thread/INFO]: AltDeEnma issued server command: /backpack
+[05:57:08] [Server thread/INFO]: AltDeEnma lost connection: Disconnected
+[05:57:08] [Server thread/INFO]: AltDeEnma left the game
+[05:57:30] [Server thread/INFO]: Stopping the server
+[05:57:30] [Server thread/INFO]: Stopping server
+[05:57:30] [Server thread/INFO]: [Minepacks] Disabling Minepacks v2.4.31.4-T20240629215752
+[05:57:31] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Shutdown initiated...
+[05:57:31] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Shutdown completed.
+[05:57:31] [Server thread/INFO]: [Minepacks] [31m Minepacks has been disabled. [33m :( [0m
+[05:57:31] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.5.0
+[05:57:31] [Server thread/INFO]: [SimpleTpa] Disabling SimpleTpa v7.4
+[05:57:31] [Server thread/INFO]: [SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9
+[05:57:31] [Server thread/INFO]: [SimpleTpa] Simple Tpa has been disabled on version 7.4
+[05:57:31] [Server thread/INFO]: Saving players
+[05:57:31] [Server thread/INFO]: Saving worlds
+[05:57:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[05:57:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[05:57:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[05:57:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[05:57:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[05:57:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[05:57:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[05:57:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[05:57:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[05:57:31] [Server thread/INFO]: Flushing Chunk IO
+[05:57:31] [Server thread/INFO]: Closing Thread Pool
+[05:57:31] [Server thread/INFO]: Closing Server
