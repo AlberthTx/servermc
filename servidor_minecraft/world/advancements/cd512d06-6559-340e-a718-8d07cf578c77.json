@@ -1,4 +1,10 @@
 {
+  "minecraft:recipes/tools/fishing_rod": {
+    "criteria": {
+      "has_string": "2024-12-15 15:38:29 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/smoker": {
     "criteria": {
       "has_furnace": "2024-12-13 18:52:30 +0000"
@@ -228,6 +234,12 @@
     },
     "done": true
   },
+  "minecraft:nether/obtain_ancient_debris": {
+    "criteria": {
+      "ancient_debris": "2024-12-15 15:18:23 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/chiseled_stone_bricks_stone_from_stonecutting": {
     "criteria": {
       "has_stone": "2024-12-13 19:10:39 +0000"
@@ -261,6 +273,12 @@
   "minecraft:recipes/misc/gold_ingot_from_blasting": {
     "criteria": {
       "has_gold_ore": "2024-12-14 02:42:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_scrap_from_blasting": {
+    "criteria": {
+      "has_ancient_debris": "2024-12-15 15:18:23 +0000"
     },
     "done": true
   },
@@ -545,6 +563,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/bow": {
+    "criteria": {
+      "has_string": "2024-12-15 15:38:29 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/oak_fence_gate": {
     "criteria": {
       "has_planks": "2024-12-13 18:10:26 +0000"
@@ -650,6 +674,12 @@
   "minecraft:story/mine_stone": {
     "criteria": {
       "get_stone": "2024-12-13 18:27:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/target": {
+    "criteria": {
+      "has_redstone": "2024-12-15 15:37:05 +0000"
     },
     "done": true
   },
@@ -887,6 +917,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/white_wool_from_string": {
+    "criteria": {
+      "has_string": "2024-12-15 15:38:29 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/spruce_fence": {
     "criteria": {
       "has_planks": "2024-12-13 19:45:49 +0000"
@@ -916,6 +952,7 @@
       "minecraft:pillager": "2024-12-13 21:29:17 +0000",
       "minecraft:skeleton": "2024-12-13 19:04:00 +0000",
       "minecraft:spider": "2024-12-14 17:42:59 +0000",
+      "minecraft:creeper": "2024-12-15 15:38:05 +0000",
       "minecraft:zombie": "2024-12-13 21:14:12 +0000"
     },
     "done": false
@@ -923,6 +960,12 @@
   "minecraft:recipes/tools/diamond_shovel": {
     "criteria": {
       "has_diamond": "2024-12-13 19:26:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_scrap": {
+    "criteria": {
+      "has_ancient_debris": "2024-12-15 15:18:23 +0000"
     },
     "done": true
   },
@@ -935,6 +978,12 @@
   "minecraft:recipes/building_blocks/birch_wood": {
     "criteria": {
       "has_log": "2024-12-13 19:23:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_block": {
+    "criteria": {
+      "has_redstone": "2024-12-15 15:37:05 +0000"
     },
     "done": true
   },
@@ -1028,6 +1077,12 @@
   "minecraft:recipes/decorations/granite_wall_from_granite_stonecutting": {
     "criteria": {
       "has_granite": "2024-12-13 20:39:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chain": {
+    "criteria": {
+      "has_iron_ingot": "2024-12-15 15:37:08 +0000"
     },
     "done": true
   },
@@ -1187,6 +1242,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/loom": {
+    "criteria": {
+      "has_string": "2024-12-15 15:38:29 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/green_wool": {
     "criteria": {
       "has_white_wool": "2024-12-13 19:20:26 +0000"
@@ -1220,6 +1281,12 @@
   "minecraft:recipes/decorations/light_blue_stained_glass_pane": {
     "criteria": {
       "has_glass": "2024-12-13 20:39:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/iron_block": {
+    "criteria": {
+      "has_iron_ingot": "2024-12-15 15:37:08 +0000"
     },
     "done": true
   },
@@ -1262,6 +1329,12 @@
   "minecraft:recipes/building_blocks/stone_slab": {
     "criteria": {
       "has_stone": "2024-12-13 19:10:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/coal_block": {
+    "criteria": {
+      "has_coal": "2024-12-15 15:32:50 +0000"
     },
     "done": true
   },
@@ -1316,6 +1389,12 @@
   "minecraft:recipes/decorations/yellow_stained_glass_pane": {
     "criteria": {
       "has_glass": "2024-12-13 20:39:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_planks": {
+    "criteria": {
+      "has_logs": "2024-12-15 15:11:40 +0000"
     },
     "done": true
   },
@@ -1382,6 +1461,12 @@
   "minecraft:recipes/decorations/gray_carpet": {
     "criteria": {
       "has_gray_wool": "2024-12-13 19:20:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tripwire_hook": {
+    "criteria": {
+      "has_string": "2024-12-15 15:38:29 +0000"
     },
     "done": true
   },
@@ -1610,6 +1695,9 @@
       "minecraft:mountains": "2024-12-13 19:22:03 +0000",
       "minecraft:taiga": "2024-12-13 19:42:00 +0000",
       "minecraft:taiga_hills": "2024-12-13 19:44:03 +0000",
+      "minecraft:snowy_beach": "2024-12-15 15:44:37 +0000",
+      "minecraft:warm_ocean": "2024-12-15 15:39:01 +0000",
+      "minecraft:deep_lukewarm_ocean": "2024-12-15 15:41:17 +0000",
       "minecraft:beach": "2024-12-13 18:01:42 +0000",
       "minecraft:river": "2024-12-13 18:01:29 +0000",
       "minecraft:lukewarm_ocean": "2024-12-13 19:41:37 +0000",
