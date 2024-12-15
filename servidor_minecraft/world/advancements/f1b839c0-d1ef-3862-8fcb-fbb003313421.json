@@ -1,4 +1,10 @@
 {
+  "minecraft:recipes/decorations/smoker": {
+    "criteria": {
+      "has_furnace": "2024-12-15 01:40:47 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/wooden_axe": {
     "criteria": {
       "has_stick": "2024-12-14 16:01:39 +0000"
@@ -26,6 +32,18 @@
   "minecraft:recipes/building_blocks/magenta_concrete_powder": {
     "criteria": {
       "has_gravel": "2024-12-14 02:51:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_bricks": {
+    "criteria": {
+      "has_stone": "2024-12-15 01:43:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_bricks_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2024-12-15 01:43:44 +0000"
     },
     "done": true
   },
@@ -71,6 +89,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/smooth_stone": {
+    "criteria": {
+      "has_stone": "2024-12-15 01:43:44 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/ladder": {
     "criteria": {
       "has_stick": "2024-12-14 16:01:39 +0000"
@@ -86,6 +110,18 @@
   "minecraft:recipes/building_blocks/brown_concrete_powder": {
     "criteria": {
       "has_gravel": "2024-12-14 02:51:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_slab_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2024-12-15 01:43:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_stone_bricks_stone_from_stonecutting": {
+    "criteria": {
+      "has_stone": "2024-12-15 01:43:44 +0000"
     },
     "done": true
   },
@@ -116,6 +152,18 @@
   "minecraft:recipes/misc/stick": {
     "criteria": {
       "has_planks": "2024-12-14 02:52:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_slab": {
+    "criteria": {
+      "has_stone": "2024-12-15 01:43:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2024-12-15 01:43:44 +0000"
     },
     "done": true
   },
@@ -245,6 +293,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/stone_button": {
+    "criteria": {
+      "has_stone": "2024-12-15 01:43:44 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/crossbow": {
     "criteria": {
       "has_stick": "2024-12-14 16:01:39 +0000"
@@ -323,6 +377,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/stone_stairs_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2024-12-15 01:43:44 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/andesite_stairs_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2024-12-14 02:06:57 +0000"
@@ -377,9 +437,16 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/stonecutter": {
+    "criteria": {
+      "has_stone": "2024-12-15 01:43:44 +0000"
+    },
+    "done": true
+  },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:forest": "2024-12-13 21:42:53 +0000",
+      "minecraft:beach": "2024-12-15 01:39:51 +0000",
       "minecraft:river": "2024-12-14 16:26:13 +0000",
       "minecraft:lukewarm_ocean": "2024-12-15 01:33:59 +0000",
       "minecraft:wooded_hills": "2024-12-13 21:43:47 +0000"
@@ -488,6 +555,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/stone_pressure_plate": {
+    "criteria": {
+      "has_stone": "2024-12-15 01:43:44 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/jungle_boat": {
     "criteria": {
       "in_water": "2024-12-14 16:26:01 +0000"
@@ -500,9 +573,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/stone_brick_walls_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2024-12-15 01:43:44 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/white_concrete_powder": {
     "criteria": {
       "has_gravel": "2024-12-14 02:51:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_stairs_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2024-12-15 01:43:44 +0000"
     },
     "done": true
   },
@@ -546,6 +631,12 @@
   "minecraft:recipes/building_blocks/granite_slab": {
     "criteria": {
       "has_granite": "2024-12-14 02:50:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_stairs": {
+    "criteria": {
+      "has_stone": "2024-12-15 01:43:44 +0000"
     },
     "done": true
   },
