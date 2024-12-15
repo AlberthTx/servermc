@@ -314,7 +314,7 @@
   },
   "minecraft:recipes/building_blocks/emerald_block": {
     "criteria": {
-      "has_at_least_9_emerald": "2024-12-13 20:34:40 +0000"
+      "has_emerald": "2024-12-15 03:47:34 +0000"
     },
     "done": true
   },
@@ -333,6 +333,12 @@
   "minecraft:recipes/building_blocks/polished_granite_from_granite_stonecutting": {
     "criteria": {
       "has_granite": "2024-12-13 18:00:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/sugar_from_sugar_cane": {
+    "criteria": {
+      "has_reeds": "2024-12-13 20:23:00 +0000"
     },
     "done": true
   },
@@ -529,18 +535,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/emerald": {
-    "criteria": {
-      "has_at_least_9_emerald": "2024-12-13 20:34:40 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/composter": {
-    "criteria": {
-      "has_wooden_fences": "2024-12-13 19:00:21 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/purple_concrete_powder": {
     "criteria": {
       "has_gravel": "2024-12-13 20:17:35 +0000"
@@ -571,21 +565,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/sugar": {
-    "criteria": {
-      "has_reeds": "2024-12-13 20:23:00 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/blue_wool": {
     "criteria": {
       "has_white_wool": "2024-12-13 18:08:25 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/gold_block": {
-    "criteria": {
-      "has_at_least_9_gold_ingot": "2024-12-14 03:13:05 +0000"
     },
     "done": true
   },
@@ -646,12 +628,6 @@
   "minecraft:adventure/sleep_in_bed": {
     "criteria": {
       "slept_in_bed": "2024-12-13 19:38:10 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/spruce_planks": {
-    "criteria": {
-      "has_log": "2024-12-13 18:59:05 +0000"
     },
     "done": true
   },
@@ -822,6 +798,7 @@
       "minecraft:pillager": "2024-12-13 21:12:52 +0000",
       "minecraft:skeleton": "2024-12-13 20:10:59 +0000",
       "minecraft:ravager": "2024-12-13 21:14:57 +0000",
+      "minecraft:spider": "2024-12-15 03:50:49 +0000",
       "minecraft:zombie": "2024-12-13 21:21:48 +0000",
       "minecraft:zombie_villager": "2024-12-15 02:15:00 +0000"
     },
@@ -905,18 +882,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/gold_ingot_from_nuggets": {
-    "criteria": {
-      "has_at_least_9_gold_nugget": "2024-12-14 03:14:57 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/lapis_lazuli": {
-    "criteria": {
-      "has_at_least_9_lapis": "2024-12-13 20:12:23 +0000"
-    },
-    "done": true
-  },
   "minecraft:story/mine_diamond": {
     "criteria": {
       "diamond": "2024-12-13 19:07:39 +0000"
@@ -968,12 +933,6 @@
   "minecraft:recipes/decorations/anvil": {
     "criteria": {
       "has_the_recipe": "2024-12-13 20:29:43 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/gold_ingot_from_gold_block": {
-    "criteria": {
-      "has_at_least_9_gold_ingot": "2024-12-14 03:13:05 +0000"
     },
     "done": true
   },
@@ -1103,12 +1062,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/iron_block": {
-    "criteria": {
-      "has_at_least_9_iron_ingot": "2024-12-13 18:56:58 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/light_gray_bed": {
     "criteria": {
       "has_light_gray_wool": "2024-12-13 21:22:34 +0000"
@@ -1147,7 +1100,7 @@
   },
   "minecraft:recipes/building_blocks/coal_block": {
     "criteria": {
-      "has_at_least_9_coal": "2024-12-13 18:09:03 +0000"
+      "has_coal": "2024-12-15 03:46:44 +0000"
     },
     "done": true
   },
@@ -1196,12 +1149,6 @@
   "minecraft:recipes/decorations/gray_banner": {
     "criteria": {
       "has_gray_wool": "2024-12-14 02:30:38 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/oak_planks": {
-    "criteria": {
-      "has_log": "2024-12-13 17:48:39 +0000"
     },
     "done": true
   },
@@ -1325,12 +1272,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/cartography_table": {
-    "criteria": {
-      "has_string": "2024-12-14 02:35:12 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/orange_carpet_from_white_carpet": {
     "criteria": {
       "has_white_carpet": "2024-12-13 21:12:11 +0000"
@@ -1370,12 +1311,6 @@
   "minecraft:recipes/redstone/spruce_pressure_plate": {
     "criteria": {
       "has_planks": "2024-12-13 18:59:32 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/coal": {
-    "criteria": {
-      "has_at_least_9_coal": "2024-12-13 18:09:03 +0000"
     },
     "done": true
   },
@@ -1579,21 +1514,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
-    "criteria": {
-      "has_at_least_9_iron_ingot": "2024-12-13 18:56:58 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/heavy_weighted_pressure_plate": {
     "criteria": {
       "has_iron_ingot": "2024-12-13 18:56:53 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/diamond_block": {
-    "criteria": {
-      "has_at_least_9_diamond": "2024-12-13 19:09:54 +0000"
     },
     "done": true
   },
@@ -1624,12 +1547,6 @@
   "minecraft:recipes/decorations/andesite_wall_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2024-12-13 19:07:27 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/lapis_block": {
-    "criteria": {
-      "has_at_least_9_lapis": "2024-12-13 20:12:23 +0000"
     },
     "done": true
   },
@@ -1666,12 +1583,6 @@
   "minecraft:recipes/food/cooked_beef_from_campfire_cooking": {
     "criteria": {
       "has_beef": "2024-12-13 20:22:29 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/diamond": {
-    "criteria": {
-      "has_at_least_9_diamond": "2024-12-13 19:09:54 +0000"
     },
     "done": true
   },
@@ -1753,5 +1664,5 @@
     },
     "done": true
   },
-  "DataVersion": 1976
+  "DataVersion": 2586
 }

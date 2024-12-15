@@ -364,7 +364,7 @@
   },
   "minecraft:recipes/building_blocks/emerald_block": {
     "criteria": {
-      "has_at_least_9_emerald": "2024-12-13 20:29:18 +0000"
+      "has_emerald": "2024-12-15 03:51:13 +0000"
     },
     "done": true
   },
@@ -383,6 +383,12 @@
   "minecraft:recipes/misc/gold_nugget": {
     "criteria": {
       "has_gold_ingot": "2024-12-13 18:14:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/sugar_from_sugar_cane": {
+    "criteria": {
+      "has_reeds": "2024-12-13 20:25:20 +0000"
     },
     "done": true
   },
@@ -571,21 +577,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/emerald": {
-    "criteria": {
-      "has_at_least_9_emerald": "2024-12-13 20:29:18 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/black_stained_glass_pane": {
     "criteria": {
       "has_glass": "2024-12-13 21:03:07 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/composter": {
-    "criteria": {
-      "has_wooden_fences": "2024-12-13 18:38:54 +0000"
     },
     "done": true
   },
@@ -631,15 +625,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/sugar": {
-    "criteria": {
-      "has_reeds": "2024-12-13 20:25:20 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/blue_wool": {
     "criteria": {
       "has_white_wool": "2024-12-13 17:52:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/gold_block": {
+    "criteria": {
+      "has_gold_ingot": "2024-12-15 03:51:13 +0000"
     },
     "done": true
   },
@@ -724,12 +718,6 @@
   "minecraft:recipes/building_blocks/red_stained_glass": {
     "criteria": {
       "has_glass": "2024-12-13 21:03:07 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/spruce_planks": {
-    "criteria": {
-      "has_log": "2024-12-13 18:16:36 +0000"
     },
     "done": true
   },
@@ -1033,9 +1021,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/lapis_lazuli": {
+  "minecraft:recipes/decorations/chain": {
     "criteria": {
-      "has_at_least_9_lapis": "2024-12-13 20:13:32 +0000"
+      "has_iron_ingot": "2024-12-15 03:51:13 +0000"
     },
     "done": true
   },
@@ -1263,7 +1251,7 @@
   },
   "minecraft:recipes/building_blocks/iron_block": {
     "criteria": {
-      "has_at_least_9_iron_ingot": "2024-12-13 18:28:56 +0000"
+      "has_iron_ingot": "2024-12-15 03:51:13 +0000"
     },
     "done": true
   },
@@ -1305,7 +1293,7 @@
   },
   "minecraft:recipes/building_blocks/coal_block": {
     "criteria": {
-      "has_at_least_9_coal": "2024-12-13 17:51:50 +0000"
+      "has_coal": "2024-12-15 03:51:13 +0000"
     },
     "done": true
   },
@@ -1366,12 +1354,6 @@
   "minecraft:recipes/decorations/yellow_stained_glass_pane": {
     "criteria": {
       "has_glass": "2024-12-13 21:03:07 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/oak_planks": {
-    "criteria": {
-      "has_log": "2024-12-13 17:48:22 +0000"
     },
     "done": true
   },
@@ -1489,12 +1471,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/cartography_table": {
-    "criteria": {
-      "has_string": "2024-12-13 18:44:00 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/orange_carpet_from_white_carpet": {
     "criteria": {
       "has_white_carpet": "2024-12-13 19:08:41 +0000"
@@ -1540,12 +1516,6 @@
   "minecraft:recipes/redstone/spruce_pressure_plate": {
     "criteria": {
       "has_planks": "2024-12-13 18:23:04 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/coal": {
-    "criteria": {
-      "has_at_least_9_coal": "2024-12-13 17:51:50 +0000"
     },
     "done": true
   },
@@ -1768,12 +1738,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
-    "criteria": {
-      "has_at_least_9_iron_ingot": "2024-12-13 18:28:56 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/light_gray_stained_glass": {
     "criteria": {
       "has_glass": "2024-12-13 21:03:07 +0000"
@@ -1788,7 +1752,7 @@
   },
   "minecraft:recipes/building_blocks/diamond_block": {
     "criteria": {
-      "has_at_least_9_diamond": "2024-12-13 19:05:29 +0000"
+      "has_diamond": "2024-12-15 03:51:13 +0000"
     },
     "done": true
   },
@@ -1824,7 +1788,7 @@
   },
   "minecraft:recipes/building_blocks/lapis_block": {
     "criteria": {
-      "has_at_least_9_lapis": "2024-12-13 20:13:32 +0000"
+      "has_lapis": "2024-12-15 03:51:13 +0000"
     },
     "done": true
   },
@@ -1873,12 +1837,6 @@
   "minecraft:recipes/food/cooked_beef_from_campfire_cooking": {
     "criteria": {
       "has_beef": "2024-12-13 17:51:19 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/diamond": {
-    "criteria": {
-      "has_at_least_9_diamond": "2024-12-13 19:05:29 +0000"
     },
     "done": true
   },
@@ -1972,5 +1930,5 @@
     },
     "done": true
   },
-  "DataVersion": 1976
+  "DataVersion": 2586
 }
