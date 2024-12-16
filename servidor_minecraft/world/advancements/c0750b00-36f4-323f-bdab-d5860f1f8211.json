@@ -101,6 +101,12 @@
     },
     "done": true
   },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2024-12-16 20:33:15 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/spruce_fence_gate": {
     "criteria": {
       "has_planks": "2024-12-13 18:10:03 +0000"
@@ -971,6 +977,7 @@
       "minecraft:spider": "2024-12-14 17:17:50 +0000",
       "minecraft:creeper": "2024-12-14 16:10:35 +0000",
       "minecraft:zombified_piglin": "2024-12-15 18:31:56 +0000",
+      "minecraft:enderman": "2024-12-16 20:46:04 +0000",
       "minecraft:zombie": "2024-12-13 18:21:50 +0000",
       "minecraft:zombie_villager": "2024-12-15 18:13:57 +0000"
     },
@@ -979,6 +986,12 @@
   "minecraft:recipes/tools/diamond_shovel": {
     "criteria": {
       "has_diamond": "2024-12-13 18:45:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2024-12-16 20:33:15 +0000"
     },
     "done": true
   },
@@ -1138,6 +1151,12 @@
     },
     "done": true
   },
+  "minecraft:story/follow_ender_eye": {
+    "criteria": {
+      "in_stronghold": "2024-12-16 20:43:29 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/light_blue_stained_glass": {
     "criteria": {
       "has_glass": "2024-12-14 03:41:59 +0000"
@@ -1243,6 +1262,12 @@
   "minecraft:recipes/misc/paper": {
     "criteria": {
       "has_reeds": "2024-12-13 20:54:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2024-12-16 20:43:50 +0000"
     },
     "done": true
   },
@@ -1893,6 +1918,12 @@
     },
     "done": true
   },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2024-12-16 20:43:50 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_granite": {
     "criteria": {
       "has_stone": "2024-12-13 18:36:03 +0000"
@@ -1928,6 +1959,13 @@
       "has_planks": "2024-12-13 18:10:03 +0000"
     },
     "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:soul_sand_valley": "2024-12-16 20:33:16 +0000",
+      "minecraft:nether_wastes": "2024-12-16 20:36:15 +0000"
+    },
+    "done": false
   },
   "minecraft:recipes/decorations/brown_stained_glass_pane": {
     "criteria": {
