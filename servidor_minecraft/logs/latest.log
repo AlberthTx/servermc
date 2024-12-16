@@ -1115,3 +1115,16 @@
 [23:20:13] [Server thread/INFO]: awaaa left the game
 [23:28:31] [Server thread/INFO]: Istroke2lolis lost connection: Disconnected
 [23:28:31] [Server thread/INFO]: Istroke2lolis left the game
+[23:49:01] [User Authenticator #23/INFO]: UUID of player awaaa is f1b839c0-d1ef-3862-8fcb-fbb003313421
+[23:49:01] [Server thread/INFO]: awaaa joined the game
+[23:49:01] [Server thread/INFO]: awaaa[/127.57.93.60:36487] logged in with entity id 92221 at ([world]3264.3951156386356, 48.0, 883.8291419449431)
+[23:49:58] [Server thread/INFO]: Villager EntityVillager['Villager'/92225, uuid='6c331d53-b0f8-4393-ad98-8d7aef3b2162', l='ServerLevel[world]', x=3275.59, y=64.56, z=891.63, cx=204, cz=55, tl=198370, v=true, d=false] died, message: 'Villager was slain by Zombie'
+[23:50:14] [Server thread/INFO]: Villager EntityVillager['Villager'/92226, uuid='b78133db-e994-450d-93a6-ae1af3f93e81', l='ServerLevel[world]', x=3275.31, y=64.66, z=892.38, cx=204, cz=55, tl=198677, v=true, d=false] died, message: 'Villager was slain by Zombie'
+[23:50:22] [Server thread/INFO]: Villager EntityVillager['Villager'/92227, uuid='fea43445-22f4-4933-ba1d-9d45c96fb6fe', l='ServerLevel[world]', x=3275.30, y=64.56, z=891.78, cx=204, cz=55, tl=198863, v=true, d=false] died, message: 'Villager was slain by Zombie Villager'
+[23:50:27] [Server thread/INFO]: Villager EntityVillager['Villager'/92224, uuid='eae6859e-f9c9-43c0-b065-54a92aa9036a', l='ServerLevel[world]', x=3277.51, y=64.00, z=889.60, cx=204, cz=55, tl=198910, v=true, d=false] died, message: 'Villager was slain by Zombie Villager'
+[23:51:14] [User Authenticator #24/INFO]: UUID of player MLGdoritos is 86a7d1c1-db4b-38bb-9943-8f5f94a3a2ef
+[23:51:14] [Server thread/INFO]: MLGdoritos joined the game
+[23:51:14] [Server thread/INFO]: MLGdoritos[/127.57.93.60:45793] logged in with entity id 92648 at ([world]3249.6785032804682, 51.0, 860.4956893327787)
+[23:51:23] [Async Chat Thread - #31/INFO]: <MLGdoritos> y un poco broma y un poco enserio sera blanco de una risa cruel
+[23:51:31] [Async Chat Thread - #31/INFO]: <MLGdoritos> no lo nombren (x8)
+[23:51:34] [Async Chat Thread - #31/INFO]: <MLGdoritos> dea
