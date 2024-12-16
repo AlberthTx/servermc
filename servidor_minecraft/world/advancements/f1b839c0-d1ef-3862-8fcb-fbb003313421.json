@@ -95,6 +95,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/green_dye": {
+    "criteria": {
+      "has_cactus": "2024-12-16 20:45:26 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/campfire": {
     "criteria": {
       "has_coal": "2024-12-14 02:08:01 +0000"
@@ -267,7 +273,8 @@
     "criteria": {
       "cooked_porkchop": "2024-12-16 20:09:33 +0000",
       "porkchop": "2024-12-16 20:08:48 +0000",
-      "bread": "2024-12-15 14:52:48 +0000"
+      "bread": "2024-12-15 14:52:48 +0000",
+      "carrot": "2024-12-16 20:53:38 +0000"
     },
     "done": false
   },
@@ -625,6 +632,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/baked_potato_from_smoking": {
+    "criteria": {
+      "has_potato": "2024-12-16 20:49:20 +0000"
+    },
+    "done": true
+  },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:skeleton": "2024-12-15 14:54:33 +0000",
@@ -654,6 +667,12 @@
   "minecraft:recipes/building_blocks/granite_slab": {
     "criteria": {
       "has_granite": "2024-12-14 02:50:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato": {
+    "criteria": {
+      "has_potato": "2024-12-16 20:49:20 +0000"
     },
     "done": true
   },
@@ -756,6 +775,12 @@
   "minecraft:recipes/food/cooked_porkchop": {
     "criteria": {
       "has_porkchop": "2024-12-16 20:08:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato_from_campfire_cooking": {
+    "criteria": {
+      "has_potato": "2024-12-16 20:49:20 +0000"
     },
     "done": true
   },
@@ -1173,7 +1198,8 @@
       "minecraft:river": "2024-12-14 16:26:13 +0000",
       "minecraft:lukewarm_ocean": "2024-12-15 01:33:59 +0000",
       "minecraft:wooded_hills": "2024-12-13 21:43:47 +0000",
-      "minecraft:savanna": "2024-12-16 20:41:55 +0000"
+      "minecraft:savanna": "2024-12-16 20:41:55 +0000",
+      "minecraft:plains": "2024-12-16 20:51:37 +0000"
     },
     "done": false
   },
@@ -1261,6 +1287,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/cut_sandstone_slab": {
+    "criteria": {
+      "has_cut_sandstone": "2024-12-16 20:47:46 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/stone_brick_walls_from_stone_stonecutting": {
     "criteria": {
       "has_stone": "2024-12-15 01:43:44 +0000"
@@ -1282,6 +1314,12 @@
   "minecraft:recipes/transportation/dark_oak_boat": {
     "criteria": {
       "in_water": "2024-12-14 16:26:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/carrot_on_a_stick": {
+    "criteria": {
+      "has_carrot": "2024-12-16 20:49:20 +0000"
     },
     "done": true
   },
