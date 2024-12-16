@@ -149,6 +149,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/map": {
+    "criteria": {
+      "has_compass": "2024-12-16 00:59:50 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/chest": {
     "criteria": {
       "has_lots_of_items": "2024-12-13 17:50:37 +0000"
@@ -254,9 +260,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2024-12-16 00:57:20 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/emerald_block": {
     "criteria": {
       "has_emerald": "2024-12-15 03:51:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/detector_rail": {
+    "criteria": {
+      "has_rail": "2024-12-16 00:55:12 +0000"
     },
     "done": true
   },
@@ -404,6 +422,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/chest_minecart": {
+    "criteria": {
+      "has_minecart": "2024-12-16 00:55:12 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/diamond_leggings": {
     "criteria": {
       "has_diamond": "2024-12-13 18:14:02 +0000"
@@ -537,9 +561,16 @@
       "minecraft:zombified_piglin": "2024-12-15 23:26:28 +0000",
       "minecraft:piglin": "2024-12-15 04:42:39 +0000",
       "minecraft:enderman": "2024-12-15 05:12:20 +0000",
+      "minecraft:endermite": "2024-12-16 01:39:14 +0000",
       "minecraft:zombie": "2024-12-13 17:50:56 +0000"
     },
     "done": false
+  },
+  "minecraft:recipes/misc/ender_eye": {
+    "criteria": {
+      "has_blaze_powder": "2024-12-16 00:26:34 +0000"
+    },
+    "done": true
   },
   "minecraft:recipes/misc/netherite_scrap": {
     "criteria": {
@@ -655,6 +686,12 @@
     },
     "done": true
   },
+  "minecraft:story/follow_ender_eye": {
+    "criteria": {
+      "in_stronghold": "2024-12-16 00:41:38 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/light_blue_stained_glass": {
     "criteria": {
       "has_glass": "2024-12-13 21:03:07 +0000"
@@ -706,6 +743,18 @@
   "minecraft:recipes/building_blocks/granite_stairs": {
     "criteria": {
       "has_granite": "2024-12-13 21:22:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/blaze_powder": {
+    "criteria": {
+      "has_blaze_rod": "2024-12-16 00:27:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2024-12-16 00:42:20 +0000"
     },
     "done": true
   },
@@ -985,6 +1034,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/magma_cream": {
+    "criteria": {
+      "has_blaze_powder": "2024-12-16 00:26:34 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/stonecutter": {
     "criteria": {
       "has_stone": "2024-12-13 18:25:10 +0000"
@@ -993,13 +1048,21 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:cold_ocean": "2024-12-16 00:35:24 +0000",
+      "minecraft:snowy_mountains": "2024-12-16 00:33:49 +0000",
       "minecraft:forest": "2024-12-13 17:48:14 +0000",
       "minecraft:mountains": "2024-12-13 17:50:00 +0000",
       "minecraft:taiga": "2024-12-13 18:06:05 +0000",
+      "minecraft:deep_cold_ocean": "2024-12-16 00:36:05 +0000",
+      "minecraft:snowy_tundra": "2024-12-16 00:33:11 +0000",
       "minecraft:taiga_hills": "2024-12-13 18:07:11 +0000",
+      "minecraft:frozen_river": "2024-12-16 00:33:10 +0000",
+      "minecraft:snowy_beach": "2024-12-16 00:32:32 +0000",
       "minecraft:beach": "2024-12-13 18:04:51 +0000",
       "minecraft:river": "2024-12-13 17:52:31 +0000",
       "minecraft:lukewarm_ocean": "2024-12-13 17:52:18 +0000",
+      "minecraft:snowy_taiga": "2024-12-16 00:34:11 +0000",
+      "minecraft:wooded_mountains": "2024-12-16 00:37:15 +0000",
       "minecraft:wooded_hills": "2024-12-13 18:05:32 +0000",
       "minecraft:stone_shore": "2024-12-13 17:52:08 +0000",
       "minecraft:plains": "2024-12-14 03:42:51 +0000"
@@ -1120,6 +1183,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/tnt_minecart": {
+    "criteria": {
+      "has_minecart": "2024-12-16 00:55:12 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/lantern": {
     "criteria": {
       "has_iron_ingot": "2024-12-13 18:14:02 +0000"
@@ -1190,6 +1259,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/fire_charge": {
+    "criteria": {
+      "has_blaze_powder": "2024-12-16 00:26:34 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/soul_torch": {
     "criteria": {
       "has_soul_sand": "2024-12-15 04:41:11 +0000"
@@ -1229,6 +1304,12 @@
   "minecraft:recipes/building_blocks/polished_andesite_stairs_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2024-12-13 17:55:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/furnace_minecart": {
+    "criteria": {
+      "has_minecart": "2024-12-16 00:55:12 +0000"
     },
     "done": true
   },
@@ -1286,6 +1367,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/hopper_minecart": {
+    "criteria": {
+      "has_minecart": "2024-12-16 00:55:12 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stone_slab_from_stone_stonecutting": {
     "criteria": {
       "has_stone": "2024-12-13 18:25:10 +0000"
@@ -1307,6 +1394,12 @@
   "minecraft:recipes/decorations/black_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2024-12-15 23:10:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_slab_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-12-16 01:12:13 +0000"
     },
     "done": true
   },
@@ -1420,6 +1513,7 @@
       "golden_apple": "2024-12-15 23:02:51 +0000",
       "rotten_flesh": "2024-12-13 17:57:23 +0000",
       "golden_carrot": "2024-12-14 03:00:49 +0000",
+      "enchanted_golden_apple": "2024-12-16 01:35:41 +0000",
       "carrot": "2024-12-14 03:27:58 +0000"
     },
     "done": false
@@ -1772,6 +1866,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/activator_rail": {
+    "criteria": {
+      "has_rail": "2024-12-16 00:55:12 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/white_stained_glass_pane": {
     "criteria": {
       "has_glass": "2024-12-13 21:03:07 +0000"
@@ -1787,6 +1887,12 @@
   "minecraft:story/enter_the_nether": {
     "criteria": {
       "entered_nether": "2024-12-15 04:31:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_crystal": {
+    "criteria": {
+      "has_ender_eye": "2024-12-16 00:27:58 +0000"
     },
     "done": true
   },
@@ -1817,6 +1923,12 @@
   "minecraft:recipes/decorations/white_carpet": {
     "criteria": {
       "has_white_wool": "2024-12-13 17:52:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ender_chest": {
+    "criteria": {
+      "has_ender_eye": "2024-12-16 00:27:58 +0000"
     },
     "done": true
   },
@@ -1973,6 +2085,18 @@
   "minecraft:recipes/tools/diamond_axe": {
     "criteria": {
       "has_diamond": "2024-12-13 18:14:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_bricks_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-12-16 01:12:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_stairs_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-12-16 01:12:13 +0000"
     },
     "done": true
   },
@@ -2162,6 +2286,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/brewing_stand": {
+    "criteria": {
+      "has_blaze_rod": "2024-12-16 00:27:28 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/leather_chestplate": {
     "criteria": {
       "has_leather": "2024-12-13 17:51:19 +0000"
@@ -2189,6 +2319,12 @@
   "minecraft:recipes/decorations/blue_carpet_from_white_carpet": {
     "criteria": {
       "has_white_carpet": "2024-12-13 19:08:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_blaze_rod": {
+    "criteria": {
+      "blaze_rod": "2024-12-16 00:27:28 +0000"
     },
     "done": true
   },
@@ -2228,6 +2364,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/powered_rail": {
+    "criteria": {
+      "has_rail": "2024-12-16 00:55:12 +0000"
+    },
+    "done": true
+  },
   "minecraft:nether/loot_bastion": {
     "criteria": {
       "loot_bastion_bridge": "2024-12-15 04:57:18 +0000"
@@ -2255,6 +2397,12 @@
   "minecraft:recipes/decorations/stone_brick_walls_from_stone_stonecutting": {
     "criteria": {
       "has_stone": "2024-12-13 18:25:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_bricks": {
+    "criteria": {
+      "has_end_stone": "2024-12-16 01:12:13 +0000"
     },
     "done": true
   },
@@ -2300,6 +2448,18 @@
     },
     "done": true
   },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2024-12-16 00:42:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_stone_brick_wall_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-12-16 01:12:13 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_granite": {
     "criteria": {
       "has_stone": "2024-12-13 21:22:18 +0000"
@@ -2309,6 +2469,12 @@
   "minecraft:recipes/building_blocks/polished_blackstone_brick_slab_from_blackstone_stonecutting": {
     "criteria": {
       "has_blackstone": "2024-12-15 04:46:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/mojang_banner_pattern": {
+    "criteria": {
+      "has_enchanted_golden_apple": "2024-12-16 01:35:35 +0000"
     },
     "done": true
   },
@@ -2333,6 +2499,12 @@
   "minecraft:recipes/redstone/spruce_trapdoor": {
     "criteria": {
       "has_planks": "2024-12-13 18:23:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/rail": {
+    "criteria": {
+      "has_the_recipe": "2024-12-16 00:55:11 +0000"
     },
     "done": true
   },
