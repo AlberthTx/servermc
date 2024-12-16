@@ -290,7 +290,8 @@
       "bread": "2024-12-15 15:19:06 +0000",
       "rotten_flesh": "2024-12-13 21:01:21 +0000",
       "cooked_chicken": "2024-12-13 20:48:12 +0000",
-      "cod": "2024-12-15 17:21:21 +0000"
+      "cod": "2024-12-15 17:21:21 +0000",
+      "carrot": "2024-12-16 22:08:13 +0000"
     },
     "done": false
   },
@@ -713,6 +714,7 @@
       "minecraft:skeleton": "2024-12-13 18:00:13 +0000",
       "minecraft:spider": "2024-12-15 17:21:11 +0000",
       "minecraft:witch": "2024-12-13 21:25:49 +0000",
+      "minecraft:husk": "2024-12-16 22:07:10 +0000",
       "minecraft:zombie": "2024-12-13 20:00:41 +0000",
       "minecraft:drowned": "2024-12-15 17:07:17 +0000"
     },
@@ -1373,6 +1375,12 @@
   "minecraft:recipes/transportation/dark_oak_boat": {
     "criteria": {
       "in_water": "2024-12-13 18:01:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/carrot_on_a_stick": {
+    "criteria": {
+      "has_carrot": "2024-12-16 22:08:11 +0000"
     },
     "done": true
   },
