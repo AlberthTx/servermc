@@ -85,9 +85,15 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:cold_ocean": "2024-12-16 20:15:24 +0000",
       "minecraft:forest": "2024-12-16 19:50:17 +0000",
+      "minecraft:deep_cold_ocean": "2024-12-16 20:16:01 +0000",
+      "minecraft:warm_ocean": "2024-12-16 20:09:36 +0000",
+      "minecraft:deep_lukewarm_ocean": "2024-12-16 20:10:52 +0000",
+      "minecraft:beach": "2024-12-16 20:08:30 +0000",
       "minecraft:river": "2024-12-16 19:51:56 +0000",
-      "minecraft:lukewarm_ocean": "2024-12-16 19:52:00 +0000"
+      "minecraft:lukewarm_ocean": "2024-12-16 19:52:00 +0000",
+      "minecraft:stone_shore": "2024-12-16 20:10:44 +0000"
     },
     "done": false
   },
@@ -112,6 +118,12 @@
   "minecraft:recipes/decorations/campfire": {
     "criteria": {
       "has_stick": "2024-12-16 19:51:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/bread": {
+    "criteria": {
+      "has_wheat": "2024-12-16 20:08:29 +0000"
     },
     "done": true
   },
@@ -241,6 +253,12 @@
     },
     "done": true
   },
+  "minecraft:husbandry/plant_seed": {
+    "criteria": {
+      "wheat": "2024-12-16 20:08:36 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/jungle_boat": {
     "criteria": {
       "in_water": "2024-12-16 19:50:45 +0000"
@@ -274,6 +292,12 @@
   "minecraft:recipes/tools/stone_shovel": {
     "criteria": {
       "has_cobblestone": "2024-12-16 19:52:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_planks": {
+    "criteria": {
+      "has_logs": "2024-12-16 20:08:08 +0000"
     },
     "done": true
   },
@@ -395,6 +419,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/oak_wood": {
+    "criteria": {
+      "has_log": "2024-12-16 20:08:08 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/birch_fence_gate": {
     "criteria": {
       "has_planks": "2024-12-16 19:50:59 +0000"
@@ -464,6 +494,12 @@
   "minecraft:recipes/building_blocks/polished_diorite_from_diorite_stonecutting": {
     "criteria": {
       "has_diorite": "2024-12-16 20:01:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/hay_block": {
+    "criteria": {
+      "has_wheat": "2024-12-16 20:08:29 +0000"
     },
     "done": true
   },
