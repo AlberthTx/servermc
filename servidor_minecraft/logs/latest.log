@@ -4,3 +4,27 @@
 [00:18:22] [Server thread/INFO]: awaaa left the game
 [00:18:22] [Server thread/INFO]: MLGdoritos lost connection: Timed out
 [00:18:22] [Server thread/INFO]: MLGdoritos left the game
+[00:45:47] [Server thread/INFO]: Stopping the server
+[00:45:47] [Server thread/INFO]: Stopping server
+[00:45:47] [Server thread/INFO]: [Minepacks] Disabling Minepacks v2.4.31.4-T20240629215752
+[00:45:48] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Shutdown initiated...
+[00:45:48] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Shutdown completed.
+[00:45:48] [Server thread/INFO]: [Minepacks] [31m Minepacks has been disabled. [33m :( [0m
+[00:45:48] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.5.0
+[00:45:48] [Server thread/INFO]: [SimpleTpa] Disabling SimpleTpa v7.4
+[00:45:48] [Server thread/INFO]: [SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9
+[00:45:48] [Server thread/INFO]: [SimpleTpa] Simple Tpa has been disabled on version 7.4
+[00:45:48] [Server thread/INFO]: Saving players
+[00:45:48] [Server thread/INFO]: Saving worlds
+[00:45:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[00:45:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[00:45:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[00:45:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[00:45:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[00:45:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[00:45:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[00:45:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[00:45:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[00:45:49] [Server thread/INFO]: Flushing Chunk IO
+[00:45:49] [Server thread/INFO]: Closing Thread Pool
+[00:45:49] [Server thread/INFO]: Closing Server
