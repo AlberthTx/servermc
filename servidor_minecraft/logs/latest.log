@@ -87,3 +87,18 @@
 [17:37:20] [Server thread/INFO]: Yupiberth issued server command: /backpack open AltDeEnma
 [17:47:23] [Server thread/INFO]: Scanning for legacy world dragon fight...
 [17:47:23] [Server thread/INFO]: Found that the dragon has been killed in this world already.
+[17:56:26] [User Authenticator #2/INFO]: UUID of player KotaruMa is c0750b00-36f4-323f-bdab-d5860f1f8211
+[17:56:26] [Server thread/INFO]: KotaruMa joined the game
+[17:56:26] [Server thread/INFO]: KotaruMa[/127.240.85.46:45431] logged in with entity id 3645 at ([world]-676.1481960564552, 68.0, -303.36457740418723)
+[17:56:40] [Server thread/INFO]: Yupiberth issued server command: /teleport KotaruMa
+[17:56:40] [Server thread/INFO]: [Yupiberth: Teleported Yupiberth to KotaruMa]
+[17:58:17] [Server thread/INFO]: KotaruMa was slain by Zombie
+[17:58:31] [Server thread/INFO]: KotaruMa was slain by Zombie
+[17:58:51] [Server thread/INFO]: KotaruMa was slain by Zombie
+[17:59:20] [Server thread/INFO]: KotaruMa was slain by Zombie
+[17:59:33] [Server thread/INFO]: KotaruMa was slain by Zombie
+[17:59:47] [Server thread/INFO]: Yupiberth lost connection: Disconnected
+[17:59:47] [Server thread/INFO]: Yupiberth left the game
+[17:59:49] [Server thread/WARN]: KotaruMa was kicked for floating too long!
+[17:59:49] [Server thread/INFO]: KotaruMa lost connection: Flying is not enabled on this server
+[17:59:49] [Server thread/INFO]: KotaruMa left the game
