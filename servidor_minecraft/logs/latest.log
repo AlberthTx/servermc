@@ -85,3 +85,5 @@
 [17:35:29] [Server thread/INFO]: Yupiberth joined the game
 [17:35:29] [Server thread/INFO]: Yupiberth[/127.194.137.192:41483] logged in with entity id 188 at ([world]-695.8006151022158, 56.0, -263.72793691031234)
 [17:37:20] [Server thread/INFO]: Yupiberth issued server command: /backpack open AltDeEnma
+[17:47:23] [Server thread/INFO]: Scanning for legacy world dragon fight...
+[17:47:23] [Server thread/INFO]: Found that the dragon has been killed in this world already.
