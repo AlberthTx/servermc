@@ -102,3 +102,13 @@
 [17:59:49] [Server thread/WARN]: KotaruMa was kicked for floating too long!
 [17:59:49] [Server thread/INFO]: KotaruMa lost connection: Flying is not enabled on this server
 [17:59:49] [Server thread/INFO]: KotaruMa left the game
+[18:03:26] [User Authenticator #3/INFO]: UUID of player awitaa is cd512d06-6559-340e-a718-8d07cf578c77
+[18:03:27] [Server thread/INFO]: awitaa joined the game
+[18:03:27] [Server thread/INFO]: awitaa[/127.57.93.60:39473] logged in with entity id 4320 at ([world]3258.789225639504, 58.0, 884.0614424318218)
+[18:03:30] [Server thread/INFO]: awitaa fell from a high place
+[18:03:38] [Server thread/INFO]: awitaa issued server command: /back
+[18:03:45] [Async Chat Thread - #0/INFO]: <awitaa> Yupi
+[18:04:34] [Async Chat Thread - #0/INFO]: <awitaa> fakumanega
+[18:04:38] [Async Chat Thread - #0/INFO]: <awitaa> fakuma fakumanega
+[18:05:02] [Server thread/INFO]: awitaa lost connection: Disconnected
+[18:05:02] [Server thread/INFO]: awitaa left the game
